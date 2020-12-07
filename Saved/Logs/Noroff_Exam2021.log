@@ -1091,3 +1091,375 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2020.12.07-13.52.37:243][745]AssetCheck: New page: Asset Save: multiple assets
 [2020.12.07-13.52.37:243][745]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
 [2020.12.07-13.52.37:243][745]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.07-13.54.20:973][ 59]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.12.07-13.54.20:996][ 59]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.54.22:833][ 59]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.54.22:833][ 59]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.54.22:900][ 59]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts"'
+[2020.12.07-13.54.22:987][ 59]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset, ...)
+[2020.12.07-13.54.22:987][ 59]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.54.22:987][ 59]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset) Not Locked
+[2020.12.07-13.54.22:987][ 59]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts"'
+[2020.12.07-13.54.23:915][ 59]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts"'
+[2020.12.07-13.54.24:003][ 59]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.54.24:084][ 59]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.12.07-13.54.24:092][ 60]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.54.26:564][207]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.54.26:564][207]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.54.26:676][214]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts"'
+[2020.12.07-13.54.26:790][221]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset, ...)
+[2020.12.07-13.54.26:790][221]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.54.26:790][221]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset) Not Locked
+[2020.12.07-13.54.26:790][221]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts"'
+[2020.12.07-13.54.27:724][274]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts"'
+[2020.12.07-13.54.27:855][279]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.54.32:400][546]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.12.07-13.54.32:428][546]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.54.34:401][546]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.54.34:401][546]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.54.34:478][546]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials"'
+[2020.12.07-13.54.34:576][546]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset, ...)
+[2020.12.07-13.54.34:576][546]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.54.34:576][546]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset) Not Locked
+[2020.12.07-13.54.34:576][546]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials"'
+[2020.12.07-13.54.35:490][546]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials"'
+[2020.12.07-13.54.35:578][546]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.54.35:665][546]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.12.07-13.54.35:671][547]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.54.38:196][696]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.54.38:196][696]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.54.38:284][698]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials"'
+[2020.12.07-13.54.38:391][705]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset, ...)
+[2020.12.07-13.54.38:391][705]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.54.38:391][705]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset) Not Locked
+[2020.12.07-13.54.38:391][705]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials"'
+[2020.12.07-13.54.39:327][761]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials"'
+[2020.12.07-13.54.39:444][764]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.54.41:800][846]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.12.07-13.54.45:898][ 91]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.12.07-13.54.45:923][ 91]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.54.47:941][ 91]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.54.47:941][ 91]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.54.48:029][ 91]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes"'
+[2020.12.07-13.54.48:139][ 91]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset, ...)
+[2020.12.07-13.54.48:139][ 91]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.54.48:139][ 91]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset) Not Locked
+[2020.12.07-13.54.48:139][ 91]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes"'
+[2020.12.07-13.54.49:037][ 91]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes"'
+[2020.12.07-13.54.49:136][ 91]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.54.49:226][ 91]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.12.07-13.54.49:231][ 92]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.54.51:841][248]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.54.51:841][248]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.54.51:939][254]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes"'
+[2020.12.07-13.54.52:057][261]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset, ...)
+[2020.12.07-13.54.52:057][261]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.54.52:057][261]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset) Not Locked
+[2020.12.07-13.54.52:057][261]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes"'
+[2020.12.07-13.54.53:042][320]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes"'
+[2020.12.07-13.54.53:162][327]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.55.02:292][869]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.12.07-13.55.02:313][869]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.55.04:209][869]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.55.04:209][869]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.55.04:275][869]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn"'
+[2020.12.07-13.55.04:374][869]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset, ...)
+[2020.12.07-13.55.04:374][869]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.55.04:374][869]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset) Not Locked
+[2020.12.07-13.55.04:374][869]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn"'
+[2020.12.07-13.55.05:307][869]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn"'
+[2020.12.07-13.55.05:395][869]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.55.05:479][869]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.12.07-13.55.05:489][870]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.55.07:870][ 10]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.55.07:870][ 10]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.55.07:986][ 17]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn"'
+[2020.12.07-13.55.08:112][ 23]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset, ...)
+[2020.12.07-13.55.08:113][ 23]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.55.08:113][ 23]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset) Not Locked
+[2020.12.07-13.55.08:113][ 23]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn"'
+[2020.12.07-13.55.09:090][ 79]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn"'
+[2020.12.07-13.55.09:236][ 87]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.55.14:672][412]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.12.07-13.55.14:691][412]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.55.16:584][412]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.55.16:584][412]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.55.16:650][412]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level"'
+[2020.12.07-13.55.16:749][412]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset, ...)
+[2020.12.07-13.55.16:749][412]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.55.16:749][412]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset) Not Locked
+[2020.12.07-13.55.16:749][412]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level"'
+[2020.12.07-13.55.17:661][412]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level"'
+[2020.12.07-13.55.17:750][412]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.55.17:836][412]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.12.07-13.55.17:841][413]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.55.20:268][559]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.55.20:268][559]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.55.20:368][565]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level"'
+[2020.12.07-13.55.20:464][571]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset, ...)
+[2020.12.07-13.55.20:464][571]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.55.20:464][571]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset) Not Locked
+[2020.12.07-13.55.20:464][571]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level"'
+[2020.12.07-13.55.21:401][627]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level"'
+[2020.12.07-13.55.21:515][634]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.55.29:378][ 95]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.12.07-13.55.29:401][ 95]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.55.31:285][ 95]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.55.31:285][ 95]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.55.31:362][ 95]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures"'
+[2020.12.07-13.55.31:450][ 95]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset, ...)
+[2020.12.07-13.55.31:450][ 95]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.55.31:450][ 95]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset) Not Locked
+[2020.12.07-13.55.31:450][ 95]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures"'
+[2020.12.07-13.55.32:380][ 95]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures"'
+[2020.12.07-13.55.32:479][ 95]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.55.32:556][ 95]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.12.07-13.55.32:562][ 96]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.55.35:019][244]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.55.35:019][244]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.55.35:120][250]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures"'
+[2020.12.07-13.55.35:237][257]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset, ...)
+[2020.12.07-13.55.35:237][257]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.55.35:237][257]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset) Not Locked
+[2020.12.07-13.55.35:237][257]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures"'
+[2020.12.07-13.55.36:177][313]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures"'
+[2020.12.07-13.55.36:277][319]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.55.45:316][802]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.12.07-13.55.48:880][ 15]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.12.07-13.55.48:901][ 15]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.55.50:841][ 15]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.55.50:841][ 15]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.55.50:907][ 15]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps"'
+[2020.12.07-13.55.51:005][ 15]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset, ...)
+[2020.12.07-13.55.51:005][ 15]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.55.51:005][ 15]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset) Not Locked
+[2020.12.07-13.55.51:005][ 15]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps"'
+[2020.12.07-13.55.51:917][ 15]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps"'
+[2020.12.07-13.55.51:994][ 15]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.55.52:085][ 15]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.12.07-13.55.52:091][ 16]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.55.54:579][166]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.55.54:579][166]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.55.54:699][170]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps"'
+[2020.12.07-13.55.54:774][175]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset, ...)
+[2020.12.07-13.55.54:774][175]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.55.54:774][175]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset) Not Locked
+[2020.12.07-13.55.54:774][175]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps"'
+[2020.12.07-13.55.55:723][231]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps"'
+[2020.12.07-13.55.55:840][238]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.56.02:308][620]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.12.07-13.56.02:328][620]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.56.04:222][620]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.56.04:222][620]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.56.04:287][620]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets"'
+[2020.12.07-13.56.04:386][620]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset, ...)
+[2020.12.07-13.56.04:386][620]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.56.04:386][620]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset) Not Locked
+[2020.12.07-13.56.04:386][620]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets"'
+[2020.12.07-13.56.05:295][620]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets"'
+[2020.12.07-13.56.05:383][620]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.56.05:473][620]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.12.07-13.56.05:479][621]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.56.07:926][767]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.56.07:926][767]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.56.08:039][774]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets"'
+[2020.12.07-13.56.08:172][782]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset, ...)
+[2020.12.07-13.56.08:172][782]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.56.08:172][782]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset) Not Locked
+[2020.12.07-13.56.08:172][782]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets"'
+[2020.12.07-13.56.09:156][841]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets"'
+[2020.12.07-13.56.09:251][847]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.56.12:548][990]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.12.07-13.56.15:862][188]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.12.07-13.56.15:883][188]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.56.17:756][188]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.56.17:756][188]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.56.17:833][188]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps"'
+[2020.12.07-13.56.17:921][188]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset, ...)
+[2020.12.07-13.56.17:921][188]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.56.17:921][188]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset) Not Locked
+[2020.12.07-13.56.17:921][188]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps"'
+[2020.12.07-13.56.18:842][188]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps"'
+[2020.12.07-13.56.18:929][188]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.56.19:020][188]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.12.07-13.56.19:026][189]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.56.21:469][336]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.56.21:469][336]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.56.21:569][342]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps"'
+[2020.12.07-13.56.21:684][349]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset, ...)
+[2020.12.07-13.56.21:684][349]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.56.21:684][349]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset) Not Locked
+[2020.12.07-13.56.21:684][349]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps"'
+[2020.12.07-13.56.22:630][406]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps"'
+[2020.12.07-13.56.22:737][412]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.56.27:983][663]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.12.07-13.56.31:369][865]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.12.07-13.56.31:395][865]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.56.33:344][865]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.56.33:344][865]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.56.33:410][865]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations"'
+[2020.12.07-13.56.33:520][865]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset, ...)
+[2020.12.07-13.56.33:520][865]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.56.33:520][865]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset) Not Locked
+[2020.12.07-13.56.33:520][865]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations"'
+[2020.12.07-13.56.34:430][865]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations"'
+[2020.12.07-13.56.34:506][865]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.56.34:597][865]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.12.07-13.56.34:603][866]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.56.36:995][  7]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.56.36:995][  7]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.56.37:093][ 13]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations"'
+[2020.12.07-13.56.37:211][ 18]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset, ...)
+[2020.12.07-13.56.37:211][ 18]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.56.37:211][ 18]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset) Not Locked
+[2020.12.07-13.56.37:211][ 18]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations"'
+[2020.12.07-13.56.38:172][ 68]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations"'
+[2020.12.07-13.56.38:313][ 72]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.56.41:272][ 72]LogSlate: Window 'Message' being destroyed
+[2020.12.07-13.56.41:278][ 72]Message dialog closed, result: Ok, title: Message, text: You must choose a class.
+[2020.12.07-13.56.41:794][ 72]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.12.07-13.56.45:136][272]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.12.07-13.56.45:164][272]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.56.47:081][272]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.56.47:081][272]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.56.47:147][272]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data"'
+[2020.12.07-13.56.47:246][272]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset, ...)
+[2020.12.07-13.56.47:246][272]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.56.47:246][272]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset) Not Locked
+[2020.12.07-13.56.47:246][272]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data"'
+[2020.12.07-13.56.48:188][272]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data"'
+[2020.12.07-13.56.48:276][272]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.56.48:369][272]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.12.07-13.56.48:378][273]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.56.50:820][420]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.56.50:821][420]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.56.50:916][426]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data"'
+[2020.12.07-13.56.51:017][432]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset, ...)
+[2020.12.07-13.56.51:017][432]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.56.51:017][432]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset) Not Locked
+[2020.12.07-13.56.51:017][432]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data"'
+[2020.12.07-13.56.51:970][489]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data"'
+[2020.12.07-13.56.52:082][496]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.56.52:963][548]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.12.07-13.56.52:987][548]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.56.54:980][548]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.56.54:980][548]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.56.55:057][548]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap"'
+[2020.12.07-13.56.55:144][548]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, ...)
+[2020.12.07-13.56.55:144][548]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap) not found but exists => unchanged
+[2020.12.07-13.56.55:144][548]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap) Locked by 'lily-393'
+[2020.12.07-13.56.55:144][548]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap"'
+[2020.12.07-13.56.56:024][548]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap"'
+[2020.12.07-13.56.56:101][548]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.58.04:619][548]LogSlate: Window 'Check Out Assets' being destroyed
+[2020.12.07-13.58.07:533][722]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.12.07-13.58.07:562][722]LogSourceControl: RunCommand: 'git lfs locks'
+[2020.12.07-13.58.09:877][722]LogSourceControl: LockedFile(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, lily-393)
+[2020.12.07-13.58.09:877][722]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.58.09:965][722]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap"'
+[2020.12.07-13.58.10:065][722]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, ...)
+[2020.12.07-13.58.10:065][722]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap) not found but exists => unchanged
+[2020.12.07-13.58.10:065][722]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap) Locked by 'lily-393'
+[2020.12.07-13.58.10:065][722]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap"'
+[2020.12.07-13.58.11:006][722]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap"'
+[2020.12.07-13.58.11:117][722]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.58.12:858][722]LogSlate: Window 'Check Out Assets' being destroyed
+[2020.12.07-13.58.28:751][661]LogSourceControl: IssueAsynchronousCommand(Connect)
+[2020.12.07-13.58.28:757][662]LogSourceControl: RunCommand: 'git version'
+[2020.12.07-13.58.28:877][669]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.58.29:013][677]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content"'
+[2020.12.07-13.58.29:179][687]LogSourceControl: ParseStatusResults: 1) Special case for status of a directory (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/)
+[2020.12.07-13.58.29:179][687]LogSourceControl: RunCommand: 'git ls-files "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/"'
+[2020.12.07-13.58.29:347][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Geometry/Meshes/1M_Cube.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:347][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:347][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Geometry/Meshes/CubeMaterial.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:347][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Geometry/Meshes/TemplateFloor.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:347][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPersonIdle.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:347][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPersonJump_End.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPersonRun.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPersonWalk.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPerson_Jump.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MI_Female_Body.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/M_Male_Body.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Mesh/SK_Mannequin_Female.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Mesh/SK_Mannequin_Female_PhysicsAsset.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Textures/T_Female_Mask.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Textures/T_Female_N.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Textures/T_Male_Mask.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Textures/T_Male_N.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Textures/T_UE4Logo_Mask.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/Mannequin/Character/Textures/T_UE4Logo_N.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPerson/Meshes/Bump_StaticMesh.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPerson/Meshes/LeftArm_StaticMesh.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPerson/Meshes/Linear_Stair_StaticMesh.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPerson/Meshes/RampMaterial.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPerson/Meshes/Ramp_StaticMesh.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:348][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPerson/Meshes/RightArm_StaticMesh.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:349][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Blueprints/BallPlayerController.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:349][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:349][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:349][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap) not found but exists => unchanged
+[2020.12.07-13.58.29:349][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:349][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/ThirdPersonMap.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:349][697]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/ThirdPersonOverview.uasset) not found but exists => unchanged
+[2020.12.07-13.58.29:349][697]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content"'
+[2020.12.07-13.58.30:415][761]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content"'
+[2020.12.07-13.58.30:564][770]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Config"'
+[2020.12.07-13.58.30:698][778]LogSourceControl: ParseStatusResults: 1) Special case for status of a directory (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Config/)
+[2020.12.07-13.58.30:698][778]LogSourceControl: RunCommand: 'git ls-files "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Config/"'
+[2020.12.07-13.58.30:816][785]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Config/DefaultEditor.ini) not found but exists => unchanged
+[2020.12.07-13.58.30:816][785]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Config/DefaultEditorPerProjectUserSettings.ini) not found but exists => unchanged
+[2020.12.07-13.58.30:816][785]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Config/DefaultEngine.ini) not found but exists => unchanged
+[2020.12.07-13.58.30:816][785]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Config/DefaultGame.ini) not found but exists => unchanged
+[2020.12.07-13.58.30:816][785]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Config/DefaultInput.ini) not found but exists => unchanged
+[2020.12.07-13.58.30:816][785]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Config"'
+[2020.12.07-13.58.31:856][847]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Config"'
+[2020.12.07-13.58.32:021][857]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.58.32:173][865]LogSlate: Window 'Source Control Login' being destroyed
+[2020.12.07-13.58.37:249][157]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.12.07-13.58.37:280][157]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.58.37:376][157]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap"'
+[2020.12.07-13.58.37:478][157]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, ...)
+[2020.12.07-13.58.37:478][157]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap) not found but exists => unchanged
+[2020.12.07-13.58.37:478][157]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap"'
+[2020.12.07-13.58.38:395][157]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap"'
+[2020.12.07-13.58.38:498][157]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.58.38:689][157]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.12.07-13.58.38:717][157]LogSavePackage: Moving '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Saved/ThirdPersonExampleMap2C0D46E942F430D1EB35FFB39F9B1237.tmp' to '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.12.07-13.58.38:723][157]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.12.07-13.58.38:749][157]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.58.38:859][157]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset"'
+[2020.12.07-13.58.38:960][157]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset, ...)
+[2020.12.07-13.58.38:960][157]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset) not found but exists => unchanged
+[2020.12.07-13.58.38:960][157]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset"'
+[2020.12.07-13.58.39:902][157]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset"'
+[2020.12.07-13.58.40:003][157]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.58.40:141][157]LogSavePackage: Moving '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Saved/ThirdPersonExampleMap_BuiltData61AD52E14BA68590ADA28F9BDF767E5C.tmp' to '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.07-13.58.40:152][157]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.07-13.58.40:152][157]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.07-13.58.40:152][157]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.07-13.58.40:154][157]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.12.07-13.58.40:157][158]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.58.40:309][167]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps"'
+[2020.12.07-13.58.40:556][182]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, ...)
+[2020.12.07-13.58.40:556][182]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap) = ' M Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' => 4
+[2020.12.07-13.58.40:556][182]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset) = ' M Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset' => 4
+[2020.12.07-13.58.40:556][182]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps"'
+[2020.12.07-13.58.41:540][241]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps"'
+[2020.12.07-13.58.41:694][250]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
