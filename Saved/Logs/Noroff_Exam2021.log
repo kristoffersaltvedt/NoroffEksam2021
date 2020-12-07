@@ -1463,3 +1463,224 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2020.12.07-13.58.40:556][182]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps"'
 [2020.12.07-13.58.41:540][241]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Maps"'
 [2020.12.07-13.58.41:694][250]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.59.26:753][169]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.12.07-13.59.26:783][169]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.59.26:888][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts"'
+[2020.12.07-13.59.26:988][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset, ...)
+[2020.12.07-13.59.26:988][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.59.26:988][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts"'
+[2020.12.07-13.59.27:926][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts"'
+[2020.12.07-13.59.28:028][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials"'
+[2020.12.07-13.59.28:116][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset, ...)
+[2020.12.07-13.59.28:116][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.59.28:116][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials"'
+[2020.12.07-13.59.29:074][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials"'
+[2020.12.07-13.59.29:196][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes"'
+[2020.12.07-13.59.29:295][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset, ...)
+[2020.12.07-13.59.29:295][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.59.29:295][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes"'
+[2020.12.07-13.59.30:239][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes"'
+[2020.12.07-13.59.30:341][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn"'
+[2020.12.07-13.59.30:441][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset, ...)
+[2020.12.07-13.59.30:441][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.59.30:441][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn"'
+[2020.12.07-13.59.31:363][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn"'
+[2020.12.07-13.59.31:463][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level"'
+[2020.12.07-13.59.31:552][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset, ...)
+[2020.12.07-13.59.31:552][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.59.31:552][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level"'
+[2020.12.07-13.59.32:494][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level"'
+[2020.12.07-13.59.32:584][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures"'
+[2020.12.07-13.59.32:684][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset, ...)
+[2020.12.07-13.59.32:684][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.59.32:684][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures"'
+[2020.12.07-13.59.33:652][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures"'
+[2020.12.07-13.59.33:753][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps"'
+[2020.12.07-13.59.33:840][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset, ...)
+[2020.12.07-13.59.33:840][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.59.33:840][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps"'
+[2020.12.07-13.59.34:784][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps"'
+[2020.12.07-13.59.34:873][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets"'
+[2020.12.07-13.59.34:974][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset, ...)
+[2020.12.07-13.59.34:974][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.59.34:974][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets"'
+[2020.12.07-13.59.35:925][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets"'
+[2020.12.07-13.59.36:025][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps"'
+[2020.12.07-13.59.36:126][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset, ...)
+[2020.12.07-13.59.36:126][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.59.36:126][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps"'
+[2020.12.07-13.59.37:071][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps"'
+[2020.12.07-13.59.37:172][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations"'
+[2020.12.07-13.59.37:272][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset, ...)
+[2020.12.07-13.59.37:272][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.59.37:272][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations"'
+[2020.12.07-13.59.38:204][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations"'
+[2020.12.07-13.59.38:303][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data"'
+[2020.12.07-13.59.38:404][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset, ...)
+[2020.12.07-13.59.38:404][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset) not found and does not exists => new/not controled
+[2020.12.07-13.59.38:404][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data"'
+[2020.12.07-13.59.39:349][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data"'
+[2020.12.07-13.59.39:450][169]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.07-13.59.39:617][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PRE/Assets/Fonts/placeholder" FILE="../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset" SILENT=true
+[2020.12.07-13.59.39:624][169]LogSavePackage: Moving '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Saved/placeholder130D54B04A98C76908013AA62E1214F4.tmp' to '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset'
+[2020.12.07-13.59.39:626][169]LogSourceControl: ExecuteSynchronousCommand(MarkForAdd)
+[2020.12.07-13.59.39:648][169]LogSourceControl: RunCommand: 'git add "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset"'
+[2020.12.07-13.59.39:775][169]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.59.39:852][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset"'
+[2020.12.07-13.59.39:963][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset, ...)
+[2020.12.07-13.59.39:963][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset) = 'A  Content/PRE/Assets/Fonts/placeholder.uasset' => 2
+[2020.12.07-13.59.39:963][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset"'
+[2020.12.07-13.59.40:918][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset"'
+[2020.12.07-13.59.41:056][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PRE/Assets/Materials/Placeholder" FILE="../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset" SILENT=true
+[2020.12.07-13.59.41:062][169]LogSavePackage: Moving '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Saved/Placeholder3EF130C74E4FABF76703229C5216EC45.tmp' to '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset'
+[2020.12.07-13.59.41:063][169]LogSourceControl: ExecuteSynchronousCommand(MarkForAdd)
+[2020.12.07-13.59.41:085][169]LogSourceControl: RunCommand: 'git add "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset"'
+[2020.12.07-13.59.41:213][169]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.59.41:313][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset"'
+[2020.12.07-13.59.41:435][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset, ...)
+[2020.12.07-13.59.41:435][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset) = 'A  Content/PRE/Assets/Materials/Placeholder.uasset' => 2
+[2020.12.07-13.59.41:435][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset"'
+[2020.12.07-13.59.42:359][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset"'
+[2020.12.07-13.59.42:495][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PRE/Assets/Meshes/placeholder" FILE="../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset" SILENT=true
+[2020.12.07-13.59.42:501][169]LogSavePackage: Moving '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Saved/placeholder5558A7F146CC2612ED2EF3909EC8FF9F.tmp' to '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset'
+[2020.12.07-13.59.42:503][169]LogSourceControl: ExecuteSynchronousCommand(MarkForAdd)
+[2020.12.07-13.59.42:536][169]LogSourceControl: RunCommand: 'git add "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset"'
+[2020.12.07-13.59.42:665][169]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.59.42:776][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset"'
+[2020.12.07-13.59.42:886][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset, ...)
+[2020.12.07-13.59.42:886][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset) = 'A  Content/PRE/Assets/Meshes/placeholder.uasset' => 2
+[2020.12.07-13.59.42:886][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset"'
+[2020.12.07-13.59.43:816][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset"'
+[2020.12.07-13.59.43:948][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PRE/Assets/Sounds/Pawn/placeholder" FILE="../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset" SILENT=true
+[2020.12.07-13.59.43:950][169]LogSavePackage: Moving '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Saved/placeholderE4189D1A40B87163F3E80981D82D1921.tmp' to '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset'
+[2020.12.07-13.59.43:953][169]LogSourceControl: ExecuteSynchronousCommand(MarkForAdd)
+[2020.12.07-13.59.43:981][169]LogSourceControl: RunCommand: 'git add "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset"'
+[2020.12.07-13.59.44:110][169]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.59.44:198][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset"'
+[2020.12.07-13.59.44:319][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset, ...)
+[2020.12.07-13.59.44:319][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset) = 'A  Content/PRE/Assets/Sounds/Pawn/placeholder.uasset' => 2
+[2020.12.07-13.59.44:319][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset"'
+[2020.12.07-13.59.45:261][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset"'
+[2020.12.07-13.59.45:385][169]LogSavePackage: Moving '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Saved/placeholder3D9CD21943D12737D6959587C03D6CDA.tmp' to '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset'
+[2020.12.07-13.59.45:394][169]LogSourceControl: ExecuteSynchronousCommand(MarkForAdd)
+[2020.12.07-13.59.45:418][169]LogSourceControl: RunCommand: 'git add "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset"'
+[2020.12.07-13.59.45:536][169]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.59.45:637][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset"'
+[2020.12.07-13.59.45:761][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset, ...)
+[2020.12.07-13.59.45:761][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset) = 'A  Content/PRE/Assets/Sounds/Level/placeholder.uasset' => 2
+[2020.12.07-13.59.45:761][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset"'
+[2020.12.07-13.59.46:726][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset"'
+[2020.12.07-13.59.46:876][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PRE/Assets/Textures/placeholder" FILE="../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset" SILENT=true
+[2020.12.07-13.59.46:884][169]LogSavePackage: Moving '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Saved/placeholderB39E7CF242406DDDAACE409BAA059592.tmp' to '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset'
+[2020.12.07-13.59.46:886][169]LogSourceControl: ExecuteSynchronousCommand(MarkForAdd)
+[2020.12.07-13.59.46:909][169]LogSourceControl: RunCommand: 'git add "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset"'
+[2020.12.07-13.59.47:027][169]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.59.47:128][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset"'
+[2020.12.07-13.59.47:239][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset, ...)
+[2020.12.07-13.59.47:239][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset) = 'A  Content/PRE/Assets/Textures/placeholder.uasset' => 2
+[2020.12.07-13.59.47:239][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset"'
+[2020.12.07-13.59.48:216][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset"'
+[2020.12.07-13.59.48:348][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PRE/Blueprints/Maps/placeholder" FILE="../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset" SILENT=true
+[2020.12.07-13.59.48:360][169]LogSavePackage: Moving '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Saved/placeholder7D7549354B0711DDB9316CB00E83E9BC.tmp' to '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset'
+[2020.12.07-13.59.48:361][169]LogSourceControl: ExecuteSynchronousCommand(MarkForAdd)
+[2020.12.07-13.59.48:384][169]LogSourceControl: RunCommand: 'git add "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset"'
+[2020.12.07-13.59.48:501][169]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.59.48:592][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset"'
+[2020.12.07-13.59.48:703][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset, ...)
+[2020.12.07-13.59.48:703][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset) = 'A  Content/PRE/Blueprints/Maps/placeholder.uasset' => 2
+[2020.12.07-13.59.48:703][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset"'
+[2020.12.07-13.59.49:671][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset"'
+[2020.12.07-13.59.49:800][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PRE/Blueprints/Widgets/Placeholder" FILE="../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset" SILENT=true
+[2020.12.07-13.59.49:807][169]LogSavePackage: Moving '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Saved/Placeholder63CB5BCE4A035546D531EEA717706687.tmp' to '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset'
+[2020.12.07-13.59.49:811][169]LogSourceControl: ExecuteSynchronousCommand(MarkForAdd)
+[2020.12.07-13.59.49:843][169]LogSourceControl: RunCommand: 'git add "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset"'
+[2020.12.07-13.59.49:973][169]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.59.50:062][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset"'
+[2020.12.07-13.59.50:184][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset, ...)
+[2020.12.07-13.59.50:184][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset) = 'A  Content/PRE/Blueprints/Widgets/Placeholder.uasset' => 2
+[2020.12.07-13.59.50:184][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset"'
+[2020.12.07-13.59.51:138][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset"'
+[2020.12.07-13.59.51:267][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PRE/Maps/placeholder" FILE="../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset" SILENT=true
+[2020.12.07-13.59.51:276][169]LogSavePackage: Moving '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Saved/placeholder541BDE784BC63DA310EC719C37714B10.tmp' to '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset'
+[2020.12.07-13.59.51:278][169]LogSourceControl: ExecuteSynchronousCommand(MarkForAdd)
+[2020.12.07-13.59.51:305][169]LogSourceControl: RunCommand: 'git add "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset"'
+[2020.12.07-13.59.51:434][169]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.59.51:522][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset"'
+[2020.12.07-13.59.51:632][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset, ...)
+[2020.12.07-13.59.51:632][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset) = 'A  Content/PRE/Maps/placeholder.uasset' => 2
+[2020.12.07-13.59.51:632][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset"'
+[2020.12.07-13.59.52:595][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset"'
+[2020.12.07-13.59.52:714][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PRE/Pawn/Animations/placeholder" FILE="../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset" SILENT=true
+[2020.12.07-13.59.52:726][169]LogSavePackage: Moving '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Saved/placeholder741DAE9E4D0777352A9936B305E4C3B0.tmp' to '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset'
+[2020.12.07-13.59.52:727][169]LogSourceControl: ExecuteSynchronousCommand(MarkForAdd)
+[2020.12.07-13.59.52:749][169]LogSourceControl: RunCommand: 'git add "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset"'
+[2020.12.07-13.59.52:867][169]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.59.52:955][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset"'
+[2020.12.07-13.59.53:054][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset, ...)
+[2020.12.07-13.59.53:054][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset) = 'A  Content/PRE/Pawn/Animations/placeholder.uasset' => 2
+[2020.12.07-13.59.53:054][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset"'
+[2020.12.07-13.59.55:029][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset"'
+[2020.12.07-13.59.55:134][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PRE/Pawn/Data/placeholder" FILE="../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset" SILENT=true
+[2020.12.07-13.59.55:145][169]LogSavePackage: Moving '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Saved/placeholderF6EA1D3F46535F99B7F7B8A9730E41F5.tmp' to '../../../../../../Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset'
+[2020.12.07-13.59.55:147][169]LogSourceControl: ExecuteSynchronousCommand(MarkForAdd)
+[2020.12.07-13.59.55:171][169]LogSourceControl: RunCommand: 'git add "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset"'
+[2020.12.07-13.59.55:291][169]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.59.55:402][169]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset"'
+[2020.12.07-13.59.55:501][169]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset, ...)
+[2020.12.07-13.59.55:501][169]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset) = 'A  Content/PRE/Pawn/Data/placeholder.uasset' => 2
+[2020.12.07-13.59.55:501][169]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset"'
+[2020.12.07-13.59.56:471][169]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset"'
+[2020.12.07-13.59.56:632][169]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.07-13.59.56:632][169]LogContentValidation: Display: Validating Blueprint /Game/PRE/Pawn/Data/placeholder.placeholder
+[2020.12.07-13.59.56:633][169]LogContentValidation: Display: Validating Blueprint /Game/PRE/Pawn/Animations/placeholder.placeholder
+[2020.12.07-13.59.56:633][169]LogContentValidation: Display: Validating Blueprint /Game/PRE/Maps/placeholder.placeholder
+[2020.12.07-13.59.56:633][169]LogContentValidation: Display: Validating WidgetBlueprint /Game/PRE/Blueprints/Widgets/Placeholder.Placeholder
+[2020.12.07-13.59.56:633][169]LogContentValidation: Display: Validating Blueprint /Game/PRE/Blueprints/Maps/placeholder.placeholder
+[2020.12.07-13.59.56:633][169]LogContentValidation: Display: Validating Material /Game/PRE/Assets/Textures/placeholder.placeholder
+[2020.12.07-13.59.56:633][169]LogContentValidation: Display: Validating SoundCue /Game/PRE/Assets/Sounds/Level/placeholder.placeholder
+[2020.12.07-13.59.56:634][169]LogContentValidation: Display: Validating SoundCue /Game/PRE/Assets/Sounds/Pawn/placeholder.placeholder
+[2020.12.07-13.59.56:634][169]LogContentValidation: Display: Validating Blueprint /Game/PRE/Assets/Meshes/placeholder.placeholder
+[2020.12.07-13.59.56:634][169]LogContentValidation: Display: Validating Material /Game/PRE/Assets/Materials/Placeholder.Placeholder
+[2020.12.07-13.59.56:634][169]LogContentValidation: Display: Validating Material /Game/PRE/Assets/Fonts/placeholder.placeholder
+[2020.12.07-13.59.56:642][169]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.12.07-13.59.56:646][170]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.07-13.59.56:805][180]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset"'
+[2020.12.07-13.59.56:959][189]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset, ...)
+[2020.12.07-13.59.56:959][189]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset) = 'A  Content/PRE/Assets/Fonts/placeholder.uasset' => 2
+[2020.12.07-13.59.56:959][189]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset"'
+[2020.12.07-13.59.57:959][249]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset"'
+[2020.12.07-13.59.58:103][258]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset"'
+[2020.12.07-13.59.58:243][266]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset, ...)
+[2020.12.07-13.59.58:243][266]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset) = 'A  Content/PRE/Assets/Materials/Placeholder.uasset' => 2
+[2020.12.07-13.59.58:243][266]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset"'
+[2020.12.07-13.59.59:263][327]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset"'
+[2020.12.07-13.59.59:467][339]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset"'
+[2020.12.07-13.59.59:615][348]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset, ...)
+[2020.12.07-13.59.59:616][348]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset) = 'A  Content/PRE/Assets/Meshes/placeholder.uasset' => 2
+[2020.12.07-13.59.59:616][348]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset"'
+[2020.12.07-14.00.00:820][362]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset"'
+[2020.12.07-14.00.01:154][363]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset"'
+[2020.12.07-14.00.01:154][363]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset, ...)
+[2020.12.07-14.00.01:154][363]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset) = 'A  Content/PRE/Assets/Sounds/Pawn/placeholder.uasset' => 2
+[2020.12.07-14.00.01:154][363]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset"'
+[2020.12.07-14.00.02:156][366]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset"'
+[2020.12.07-14.00.02:156][366]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset"'
+[2020.12.07-14.00.02:487][367]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset, ...)
+[2020.12.07-14.00.02:487][367]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset) = 'A  Content/PRE/Assets/Sounds/Level/placeholder.uasset' => 2
+[2020.12.07-14.00.02:487][367]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset"'
+[2020.12.07-14.00.03:488][370]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset"'
+[2020.12.07-14.00.03:826][371]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset"'
+[2020.12.07-14.00.03:826][371]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset, ...)
+[2020.12.07-14.00.03:826][371]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset) = 'A  Content/PRE/Assets/Textures/placeholder.uasset' => 2
+[2020.12.07-14.00.03:826][371]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset"'
+[2020.12.07-14.00.04:827][374]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset"'
+[2020.12.07-14.00.05:160][375]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset"'
+[2020.12.07-14.00.05:160][375]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset, ...)
+[2020.12.07-14.00.05:160][375]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset) = 'A  Content/PRE/Blueprints/Maps/placeholder.uasset' => 2
+[2020.12.07-14.00.05:160][375]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset"'
+[2020.12.07-14.00.06:160][378]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset"'
+[2020.12.07-14.00.06:160][378]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset"'
+[2020.12.07-14.00.06:160][378]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset, ...)
+[2020.12.07-14.00.06:160][378]LogSourceControl: Status(C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset) = 'A  Content/PRE/Blueprints/Widgets/Placeholder.uasset' => 2
+[2020.12.07-14.00.06:160][378]LogSourceControl: RunCommand: 'git ls-remote origin Lily "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset"'
+[2020.12.07-14.00.07:183][381]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/maria/Documents/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset"'
