@@ -74,3 +74,7 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 Saved/Logs/Noroff_Exam2021.log
+Saved/Autosaves/PackageRestoreData.json
+Saved/Config/Windows/EditorPerProjectUserSettings.ini
+*.log
+*.json
