@@ -1,0 +1,1662 @@
+﻿Log file open, 12/13/20 15:35:13
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: Noroff_Exam2021
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 83 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.284769
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin BlueprintMaterialTextureNodes
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin Landmass
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin ShallowWater
+LogPluginManager: Mounting plugin Water
+LogPluginManager: Mounting plugin Volumetrics
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe -Mode=QueryTargets -Project="C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Noroff_Exam2021.uproject" -Output="C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Intermediate/TargetInfo.json"]
+LogInit: Warning: Incompatible or missing module: Noroff_Exam2021
+LogInit: Warning: Incompatible or missing module: GitSourceControl
+Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Noroff_Exam2021.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021).
+Creating makefile for Noroff_Exam2021Editor (no existing makefile)
+@progress push 5%
+Parsing headers for Noroff_Exam2021Editor
+  Running UnrealHeaderTool "C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Noroff_Exam2021.uproject" "C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Intermediate\Build\Win64\Noroff_Exam2021Editor\Development\Noroff_Exam2021Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\krist\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+Reflection code generated for Noroff_Exam2021Editor in 4.6679419 seconds
+@progress pop
+Building Noroff_Exam2021Editor...
+Using Visual Studio 2019 14.28.29333 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 14 actions with 32 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 7%
+  [1/14] Default.rc2
+  @progress 'Compiling C++ source code...' 14%
+  [2/14] Default.rc2
+  @progress 'Compiling C++ source code...' 21%
+  [3/14] PCH.GitSourceControl.cpp
+  @progress 'Compiling C++ source code...' 29%
+  [4/14] Module.GitSourceControl.cpp
+  @progress 'Compiling C++ source code...' 36%
+  [5/14] UE4Editor-GitSourceControl.lib
+     Creating library C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\UE4Editor-GitSourceControl.lib and object C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\UE4Editor-GitSourceControl.exp
+  @progress 'Compiling C++ source code...' 43%
+  [6/14] UE4Editor-GitSourceControl.dll
+     Creating library C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\UE4Editor-GitSourceControl.suppressed.lib and object C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\UE4Editor-GitSourceControl.suppressed.exp
+  @progress 'Compiling C++ source code...' 50%
+  [7/14] SharedPCH.Engine.ShadowErrors.cpp
+  @progress 'Compiling C++ source code...' 57%
+  [8/14] Noroff_Exam2021.cpp
+  @progress 'Compiling C++ source code...' 64%
+  [9/14] Quaternions_Rotation.cpp
+  @progress 'Compiling C++ source code...' 71%
+  [10/14] Noroff_Exam2021.init.gen.cpp
+  @progress 'Compiling C++ source code...' 79%
+  [11/14] Quaternions_Rotation.gen.cpp
+  @progress 'Compiling C++ source code...' 86%
+  [12/14] UE4Editor-Noroff_Exam2021.lib
+     Creating library C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Intermediate\Build\Win64\UE4Editor\Development\Noroff_Exam2021\UE4Editor-Noroff_Exam2021.lib and object C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Intermediate\Build\Win64\UE4Editor\Development\Noroff_Exam2021\UE4Editor-Noroff_Exam2021.exp
+  @progress 'Compiling C++ source code...' 93%
+  [13/14] UE4Editor-Noroff_Exam2021.dll
+     Creating library C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Intermediate\Build\Win64\UE4Editor\Development\Noroff_Exam2021\UE4Editor-Noroff_Exam2021.suppressed.lib and object C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Intermediate\Build\Win64\UE4Editor\Development\Noroff_Exam2021\UE4Editor-Noroff_Exam2021.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [14/14] Noroff_Exam2021Editor.target
+Total time in Parallel executor: 35.59 seconds
+Total execution time: 45.67 seconds
+LogLuminAPIImpl: Warning: MLSDK not found.  This likely means the MLSDK environment variable is not set.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-14830424
+LogInit: Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD Ryzen Threadripper 2950X 16-Core Processor , GPU: NVIDIA GeForce RTX 2070
+LogInit: Compiled (64-bit): Dec  1 2020 15:13:26
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  -EpicPortal -epicusername=krisskiller -epicuserid=539e3481ce0b4903b8aca34fa3de11c0 -epiclocale=en
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2020.12.13-14.36.13:659][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.12.13-14.36.13:659][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Engine.ini]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Engine.ini]
+[2020.12.13-14.36.13:660][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Engine.ini]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Engine.ini]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2020.12.13-14.36.13:660][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Engine.ini]
+[2020.12.13-14.36.13:660][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Engine.ini]
+[2020.12.13-14.36.13:713][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Scalability.ini]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Scalability.ini]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Scalability.ini]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Scalability.ini]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Scalability.ini]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Scalability.ini]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.13-14.36.13:713][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Scalability.ini]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Scalability.ini]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2020.12.13-14.36.13:714][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.13-14.36.13:714][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.12.13-14.36.13:714][  0]LogHAL: Display: Platform has ~ 128 GB [137303040000 / 137438953472 / 128], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.12.13-14.36.13:714][  0]LogInit: Going up to parent DeviceProfile []
+[2020.12.13-14.36.13:714][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Scalability.ini]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Scalability.ini]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Scalability.ini]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Scalability.ini]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.13-14.36.13:714][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Scalability.ini]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Scalability.ini]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Scalability.ini]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Scalability.ini]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2020.12.13-14.36.13:715][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.12.13-14.36.13:716][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.12.13-14.36.13:716][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.12.13-14.36.13:716][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.12.13-14.36.13:716][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Config/Windows/Engine.ini]
+[2020.12.13-14.36.13:716][  0]LogInit: Computer: DESKTOP-RTNMOK0
+[2020.12.13-14.36.13:716][  0]LogInit: User: krist
+[2020.12.13-14.36.13:716][  0]LogInit: CPU Page size=4096, Cores=16
+[2020.12.13-14.36.13:716][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.13-14.36.13:716][  0]LogMemory: Memory total: Physical=127.9GB (128GB approx)
+[2020.12.13-14.36.13:716][  0]LogMemory: Platform Memory Stats for Windows
+[2020.12.13-14.36.13:716][  0]LogMemory: Process Physical Memory: 157.45 MB used, 157.45 MB peak
+[2020.12.13-14.36.13:716][  0]LogMemory: Process Virtual Memory: 139.90 MB used, 139.90 MB peak
+[2020.12.13-14.36.13:716][  0]LogMemory: Physical Memory: 19705.91 MB used,  111236.47 MB free, 130942.38 MB total
+[2020.12.13-14.36.13:716][  0]LogMemory: Virtual Memory: 134094536.00 MB used,  123188.08 MB free, 134217728.00 MB total
+[2020.12.13-14.36.13:723][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.12.13-14.36.13:783][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.12.13-14.36.13:784][  0]LogInit: Using OS detected language (en-GB).
+[2020.12.13-14.36.13:784][  0]LogInit: Using OS detected locale (en-GB).
+[2020.12.13-14.36.13:795][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.12.13-14.36.14:024][  0]LogInit: Setting process to per monitor DPI aware
+[2020.12.13-14.36.14:037][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2020.12.13-14.36.14:156][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.12.13-14.36.14:157][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.12.13-14.36.14:422][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.13-14.36.14:422][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.12.13-14.36.14:422][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.12.13-14.36.14:422][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.13-14.36.14:563][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2020.12.13-14.36.14:563][  0]LogD3D11RHI:       8031/0/65471 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.12.13-14.36.14:566][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.13-14.36.14:566][  0]LogD3D11RHI:       0/0/65471 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.13-14.36.14:566][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.13-14.36.14:582][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.13-14.36.14:582][  0]LogD3D11RHI:     GPU DeviceId: 0x1f07 (for the marketing name, search the web for "GPU Device Id")
+[2020.12.13-14.36.14:582][  0]LogWindows: EnumDisplayDevices:
+[2020.12.13-14.36.14:582][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2020.12.13-14.36.14:582][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
+[2020.12.13-14.36.14:583][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2020.12.13-14.36.14:583][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2020.12.13-14.36.14:583][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.12.13-14.36.14:583][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2020.12.13-14.36.14:584][  0]LogD3D11RHI:   Driver Version: 460.79 (internal:27.21.14.6079, unified:460.79)
+[2020.12.13-14.36.14:584][  0]LogD3D11RHI:      Driver Date: 12-3-2020
+[2020.12.13-14.36.14:584][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2020.12.13-14.36.14:686][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.12.13-14.36.14:686][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.13-14.36.14:686][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.12.13-14.36.14:703][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061082).
+[2020.12.13-14.36.14:719][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.12.13-14.36.14:721][  0]LogRHI: GeForceNow SDK initialized: 1
+[2020.12.13-14.36.15:130][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.12.13-14.36.15:156][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.12.13-14.36.15:156][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.12.13-14.36.15:156][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.12.13-14.36.15:156][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.12.13-14.36.15:156][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.12.13-14.36.15:156][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.12.13-14.36.15:156][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.12.13-14.36.15:156][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.12.13-14.36.15:156][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.12.13-14.36.15:156][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.12.13-14.36.15:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.12.13-14.36.15:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.12.13-14.36.15:198][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.12.13-14.36.15:209][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.12.13-14.36.15:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.12.13-14.36.15:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.12.13-14.36.15:241][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.12.13-14.36.15:252][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.12.13-14.36.15:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.12.13-14.36.15:293][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.12.13-14.36.15:293][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.12.13-14.36.15:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2020.12.13-14.36.15:314][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2020.12.13-14.36.15:324][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2020.12.13-14.36.15:335][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2020.12.13-14.36.15:353][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.12.13-14.36.15:354][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.12.13-14.36.15:364][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.12.13-14.36.15:375][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.12.13-14.36.15:385][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.12.13-14.36.15:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.12.13-14.36.15:396][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.12.13-14.36.15:405][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.12.13-14.36.15:487][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2020.12.13-14.36.15:487][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Intermediate/Shaders/WorkingDirectory/11348/).
+[2020.12.13-14.36.15:488][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/krist/AppData/Local/Temp/UnrealShaderWorkingDir/042D1F024CC2BEAEF4C770B7C7D4C8A8/'.
+[2020.12.13-14.36.15:488][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.12.13-14.36.15:488][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.12.13-14.36.16:265][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.12.13-14.36.16:324][  0]LogDerivedDataCache: Loaded boot cache 0.06s 86MB C:/Users/krist/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2020.12.13-14.36.16:325][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/krist/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2020.12.13-14.36.16:325][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.12.13-14.36.16:325][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.12.13-14.36.16:325][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.13-14.36.16:325][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.12.13-14.36.16:338][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.12.13-14.36.16:338][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.13-14.36.16:338][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.12.13-14.36.16:368][  0]LogDerivedDataCache: Speed tests for C:/Users/krist/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.03 seconds
+[2020.12.13-14.36.16:368][  0]LogDerivedDataCache: Display: Performance to C:/Users/krist/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.05ms. RandomReadSpeed=775.26MBs, RandomWriteSpeed=33.22MBs. Assigned SpeedClass 'Local'
+[2020.12.13-14.36.16:369][  0]LogDerivedDataCache: Using Local data cache path C:/Users/krist/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.12.13-14.36.16:369][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.12.13-14.36.16:369][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.12.13-14.36.16:415][  0]LogSlate: Using FreeType 2.10.0
+[2020.12.13-14.36.16:415][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.12.13-14.36.16:441][  0]LogAssetRegistry: FAssetRegistry took 0.0037 seconds to start up
+[2020.12.13-14.36.16:802][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.13-14.36.16:802][  0]LogInit: Active device profile: [000001C88978ED00][000001C887A0DA80 49] Windows
+[2020.12.13-14.36.16:802][  0]LogInit: Profiles: [000001C88978ED00][000001C887A0DA80 49] Windows, [000001C889795500][000001C887A11C00 49] WindowsNoEditor, [000001C88978D400][000001C887A140C0 49] WindowsServer, [000001C889796800][000001C887A18240 49] WindowsClient, [000001C88978E600][000001C887A1C3C0 49] IOS, [000001C889795300][000001C887A20540 49] iPadAir, [000001C88978D300][000001C887A246C0 49] iPadAir2, [000001C8896B4300][000001C887A2C980 49] IPadPro, [000001C8896B3F00][000001C887A289C0 49] iPadAir3, [000001C88978F300][000001C887A30B40 49] iPadAir4, [000001C8896B1A00][000001C887A34CC0 49] iPadMini2, [000001C88978FB00][000001C887A38E40 49] iPadMini3, [000001C8896B0D00][000001C887A3CFC0 49] iPadMini4, [000001C88978FF00][000001C887A41140 49] iPadMini5, [000001C889796A00][000001C887A49400 49] iPhone6, [000001C889796900][000001C887A45440 49] iPodTouch6, [000001C8896B1800][000001C887A4D680 49] iPhone7, [000001C8896B1700][000001C887A096C0 49] iPodTouch7, [000001C889794600][000001C887A51800 49] iPhone5S, [000001C8896B2200][000001C887A55940 49] iPhone6Plus, [000001C889796E00][000001C887A5DAC0 49] iPhone6S, [000001C8896B0300][000001C889ABDC40 49] iPhone6SPlus, [000001C889797300][000001C889AC0100 49] iPhone7Plus, [000001C8896B3400][000001C889AC4280 49] iPhoneSE, [000001C889795000][000001C889AC8400 49] iPhone8, [000001C8896B3100][000001C889ACC580 49] iPhone8Plus, [000001C889796F00][000001C889AD0700 49] iPhoneX, [000001C8896B1900][000001C889AD4880 49] iPhoneXS, [000001C889795C00][000001C889AD8A00 49] iPhoneXSMax, [000001C8896B3A00][000001C889ADCB80 49] iPhoneXR, [000001C889794B00][000001C889AE0D00 49] iPhone11, [000001C8896B1500][000001C889AE4E80 49] iPhone11Pro, [000001C889794100][000001C889AE9000 49] iPhone11ProMax, [000001C8896B3600][000001C889AED180 49] iPhoneSE2, [000001C889797200][000001C889AF1300 49] iPhone12Mini, [000001C8896B1100][000001C889AF5480 49] iPhone12, [000001C889796200][000001C889AF9600 49] iPhone12Pro, [000001C8896B0B00][000001C887A59740 49] iPhone12ProMax, [000001C889797400][000001C889AFD880 49] iPadPro105, [000001C8896B0C00][000001C889B019C0 49] iPadPro129, [000001C889795900][000001C889B09B40 49] iPadPro97, [000001C8896B2B00][000001C889B0DCC0 49] iPadPro2_129, [000001C889795D00][000001C889B10180 49] iPad5, [000001C8896B0500][000001C889B14300 49] iPad6, [000001C889797A00][000001C889B18480 49] iPad7, [000001C8896B1D00][000001C889B1C600 49] iPad8, [000001C889796D00][000001C889B20780 49] iPadPro11, [000001C8896B1300][000001C889B24900 49] iPadPro2_11, [000001C889795600][000001C889B28A80 49] iPadPro3_129, [000001C8896B3800][000001C889B2CC00 49] iPadPro4_129, [000001C8896B3B00][000001C889B30D80 49] AppleTV, [000001C8896B4900][000001C889B34F00 49] AppleTV4K, [000001C8896B0E00][000001C889B39080 49] TVOS, [000001C8896B6100][000001C889B3D200 49] Mac, [000001C8896B3900][000001C889B41380 49] MacClient, [000001C8896B5700][000001C889B45500 49] MacNoEditor, [000001C8896B0A00][000001C889B49680 49] MacServer, [000001C88981C700][000001C889B057C0 49] Linux, [000001C8896B2C00][000001C889B4D900 49] LinuxNoEditor, [000001C88981CC00][000001C889B51A40 49] LinuxAArch64NoEditor, [000001C8896B2500][000001C889B59B80 49] LinuxClient, [000001C88981CE00][000001C889B61D00 49] LinuxAArch64Client, [000001C8896B2A00][000001C889B641C0 49] LinuxServer, [000001C889794900][000001C889B68340 49] LinuxAArch64Server, [000001C8896B7800][000001C889B6C4C0 49] Android, [000001C889794D00][000001C889B70640 49] Android_Low, [000001C8896B0900][000001C889B747C0 49] Android_Mid, [000001C889796300][000001C889B78940 49] Android_High, [000001C8896B1400][000001C889B7CAC0 49] Android_Default, [000001C889796400][000001C889B80C40 49] Android_Adreno4xx, [000001C8896B2100][000001C889B84DC0 49] Android_Adreno5xx_Low, [000001C889795700][000001C889B88F40 49] Android_Adreno5xx, [000001C8896B2600][000001C889B8D0C0 49] Android_Adreno6xx, [000001C889794F00][000001C889B91240 49] Android_Adreno6xx_Vulkan, [000001C8896B2900][000001C889B953C0 49] Android_Mali_T6xx, [000001C889795200][000001C889B99540 49] Android_Mali_T7xx, [000001C8896B2400][000001C889B9D6C0 49] Android_Mali_T8xx, [000001C889794A00][000001C889B5D800 49] Android_Mali_G71, [000001C8896B3000][000001C889BA1940 49] Android_Mali_G72, [000001C889796500][000001C889BA5A80 49] Android_Mali_G72_Vulkan, [000001C8896B0700][000001C889BA9BC0 49] Android_Mali_G76, [000001C889797900][000001C889BB1D40 49] Android_Mali_G76_Vulkan, [000001C8896B0600][000001C889BB4200 49] Android_Mali_G77, [000001C889796700][000001C889BB8380 49] Android_Mali_G77_Vulkan, [000001C8896B0400][000001C889BBC500 49] Android_Vulkan_SM5, [000001C889794500][000001C889BC0680 49] Android_PowerVR_G6xxx, [000001C8896B3500][000001C889BC4800 49] Android_PowerVR_GT7xxx, [000001C889795A00][000001C889BC8980 49] Android_PowerVR_GE8xxx, [000001C8896B3700][000001C889BCCB00 49] Android_PowerVR_GM9xxx, [000001C889795E00][000001C889BD0C80 49] Android_PowerVR_GM9xxx_Vulkan, [000001C8896B2700][000001C889BD4E00 49] Android_TegraK1, [000001C889797B00][000001C889BD8F80 49] Android_Unknown_Vulkan, [000001C8896B3E00][000001C889BDD100 49] Lumin, [000001C889794300][000001C889BE1280 49] Lumin_Desktop, [000001C8896B5000][000001C889BE5400 49] HoloLens, 
+[2020.12.13-14.36.16:975][  0]LogAssetRegistry: Error: Package ../../../../../../Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps/KrissTestMap.umap has malformed tag
+[2020.12.13-14.36.16:975][  0]LogAssetRegistry: Error: Package ../../../../../../Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Platform/PlatformParent.uasset has malformed tag
+[2020.12.13-14.36.16:975][  0]LogAssetRegistry: Error: Package ../../../../../../Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Blueprints/UI/PauseMenu.uasset has malformed tag
+[2020.12.13-14.36.16:975][  0]LogAssetRegistry: Error: Package ../../../../../../Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallPlayerCharacter.uasset has malformed tag
+[2020.12.13-14.36.16:975][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.12.13-14.36.16:975][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.12.13-14.36.16:975][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.12.13-14.36.16:975][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.12.13-14.36.16:975][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.12.13-14.36.17:079][  0]LogNetVersion: Noroff_Exam2021 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 3878144773)
+[2020.12.13-14.36.17:717][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2020.12.13-14.36.17:836][  0]LogPackageLocalizationCache: Processed 26 localized package path(s) for 1 prioritized culture(s) in 0.118055 seconds
+[2020.12.13-14.36.17:844][  0]LogUObjectArray: 17491 objects as part of root set at end of initial load.
+[2020.12.13-14.36.17:844][  0]LogUObjectAllocator: 4476048 out of 0 bytes used by permanent object pool.
+[2020.12.13-14.36.17:844][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.12.13-14.36.18:394][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.12.13-14.36.18:404][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.12.13-14.36.18:650][  0]SourceControl: Source control is disabled
+[2020.12.13-14.36.18:650][  0]SourceControl: Source control is disabled
+[2020.12.13-14.36.18:661][  0]SourceControl: Source control is disabled
+[2020.12.13-14.36.18:665][  0]SourceControl: Source control is disabled
+[2020.12.13-14.36.18:675][  0]LogUProjectInfo: Found projects:
+[2020.12.13-14.36.18:691][  0]SourceControl: Source control is disabled
+[2020.12.13-14.36.18:918][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.12.13-14.36.18:947][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.13-14.36.18:947][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.13-14.36.19:021][  0]LogCollectionManager: Loaded 0 collections in 0.003933 seconds
+[2020.12.13-14.36.19:058][  0]LogFileCache: Scanning file cache for directory 'C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/Collections/' took 0.00s
+[2020.12.13-14.36.19:058][  0]LogFileCache: Scanning file cache for directory 'C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Developers/krist/Collections/' took 0.00s
+[2020.12.13-14.36.19:058][  0]LogFileCache: Scanning file cache for directory 'C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Collections/' took 0.00s
+[2020.12.13-14.36.19:058][  0]LogOcInput: OculusInput pre-init called
+[2020.12.13-14.36.19:077][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.12.13-14.36.19:077][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.12.13-14.36.19:143][  0]LogEngine: Initializing Engine...
+[2020.12.13-14.36.19:145][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.13-14.36.19:145][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.12.13-14.36.19:147][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.12.13-14.36.19:275][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.12.13-14.36.19:287][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.12.13-14.36.19:300][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2020.12.13-14.36.19:306][  0]LogAudio: Display: Audio Device Manager Initialized
+[2020.12.13-14.36.19:306][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2020.12.13-14.36.19:306][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.13-14.36.19:306][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.13-14.36.19:306][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.13-14.36.19:306][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.13-14.36.19:306][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.13-14.36.19:306][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.13-14.36.19:306][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.13-14.36.19:306][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.13-14.36.19:306][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.13-14.36.19:306][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.13-14.36.21:706][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.13-14.36.21:706][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.12.13-14.36.21:706][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.12.13-14.36.21:706][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.12.13-14.36.21:706][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.12.13-14.36.21:706][  0]LogAudioMixer: Display: 5: BackRight
+[2020.12.13-14.36.21:706][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.12.13-14.36.21:706][  0]LogAudioMixer: Display: 7: SideRight
+[2020.12.13-14.36.23:543][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.12.13-14.36.23:549][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.13-14.36.23:552][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.13-14.36.23:552][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.13-14.36.23:554][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.13-14.36.23:554][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2020.12.13-14.36.23:554][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2020.12.13-14.36.23:556][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2020.12.13-14.36.23:556][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2020.12.13-14.36.23:556][  0]LogInit: FAudioDevice initialized.
+[2020.12.13-14.36.23:556][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2020.12.13-14.36.23:557][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.12.13-14.36.23:659][  0]LogDerivedDataCache: Saved boot cache 0.10s 86MB C:/Users/krist/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2020.12.13-14.36.23:662][  0]LogInit: Texture streaming: Enabled
+[2020.12.13-14.36.23:705][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.0-14830424+++UE4+Release-4.26
+[2020.12.13-14.36.23:724][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.12.13-14.36.23:724][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.12.13-14.36.23:747][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.12.13-14.36.23:802][  0]LogInit: Transaction tracking system initialized
+[2020.12.13-14.36.23:878][  0]BlueprintLog: New page: Editor Load
+[2020.12.13-14.36.23:990][  0]LocalizationService: Localization service is disabled
+[2020.12.13-14.36.24:024][  0]TimingProfiler: Initialize
+[2020.12.13-14.36.24:024][  0]TimingProfiler: OnSessionChanged
+[2020.12.13-14.36.24:024][  0]LoadingProfiler: Initialize
+[2020.12.13-14.36.24:025][  0]LoadingProfiler: OnSessionChanged
+[2020.12.13-14.36.24:025][  0]NetworkingProfiler: Initialize
+[2020.12.13-14.36.24:025][  0]NetworkingProfiler: OnSessionChanged
+[2020.12.13-14.36.24:025][  0]MemoryProfiler: Initialize
+[2020.12.13-14.36.24:025][  0]MemoryProfiler: OnSessionChanged
+[2020.12.13-14.36.24:234][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2020.12.13-14.36.24:234][  0]LogCook: Display: Mobile HDR setting 1
+[2020.12.13-14.36.24:457][  0]LogFileCache: Scanning file cache for directory 'C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/' took 0.01s
+[2020.12.13-14.36.24:623][  0]SourceControl: Source control is disabled
+[2020.12.13-14.36.24:623][  0]LogUnrealEdMisc: Loading editor; pre map load, took 72.296
+[2020.12.13-14.36.24:623][  0]Cmd: MAP LOAD FILE="../../../../../../Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps/KrissTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.13-14.36.24:674][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.12.13-14.36.29:571][  0]LogSlate: Window 'Message' being destroyed
+[2020.12.13-14.36.29:572][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2020.12.13-14.36.29:577][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2020.12.13-14.36.29:579][  0]Message dialog closed, result: Ok, title: Message, text: Failed to load map!
+../../../../../../Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps/KrissTestMap.umap appears to be an asset file.
+[2020.12.13-14.36.29:580][  0]LightingResults: New page: Lighting Build
+[2020.12.13-14.36.29:581][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.13-14.36.29:581][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.13-14.36.29:582][  0]MapCheck: New page: Map Check
+[2020.12.13-14.36.29:582][  0]LightingResults: New page: Lighting Build
+[2020.12.13-14.36.29:597][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.12.13-14.36.29:603][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.12.13-14.36.29:607][  0]LoadErrors: New page: New Map
+[2020.12.13-14.36.29:611][  0]LogUnrealEdMisc: Total Editor Startup Time, took 77.285
+[2020.12.13-14.36.29:807][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.13-14.36.29:814][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.13-14.36.29:820][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.13-14.36.29:827][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.13-14.36.29:858][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2020.12.13-14.36.29:858][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:858][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2020.12.13-14.36.29:858][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
+[2020.12.13-14.36.29:861][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2020.12.13-14.36.29:861][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:861][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2020.12.13-14.36.29:861][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2020.12.13-14.36.29:862][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2020.12.13-14.36.29:862][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:862][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2020.12.13-14.36.29:862][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
+[2020.12.13-14.36.29:864][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2020.12.13-14.36.29:864][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:864][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2020.12.13-14.36.29:864][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
+[2020.12.13-14.36.29:866][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2020.12.13-14.36.29:866][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:866][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2020.12.13-14.36.29:866][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2020.12.13-14.36.29:867][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2020.12.13-14.36.29:867][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:867][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2020.12.13-14.36.29:867][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2020.12.13-14.36.29:869][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2020.12.13-14.36.29:869][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:869][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2020.12.13-14.36.29:869][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2020.12.13-14.36.29:870][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2020.12.13-14.36.29:870][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:870][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2020.12.13-14.36.29:870][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
+[2020.12.13-14.36.29:872][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2020.12.13-14.36.29:872][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:872][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2020.12.13-14.36.29:872][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2020.12.13-14.36.29:875][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2020.12.13-14.36.29:875][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:875][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2020.12.13-14.36.29:875][  0]LogPakFile: OnPakFileMounted2Time == 0.000040
+[2020.12.13-14.36.29:876][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2020.12.13-14.36.29:876][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:876][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2020.12.13-14.36.29:876][  0]LogPakFile: OnPakFileMounted2Time == 0.000043
+[2020.12.13-14.36.29:878][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2020.12.13-14.36.29:878][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:878][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2020.12.13-14.36.29:878][  0]LogPakFile: OnPakFileMounted2Time == 0.000046
+[2020.12.13-14.36.29:880][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2020.12.13-14.36.29:880][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:880][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2020.12.13-14.36.29:880][  0]LogPakFile: OnPakFileMounted2Time == 0.000048
+[2020.12.13-14.36.29:881][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2020.12.13-14.36.29:881][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:881][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2020.12.13-14.36.29:881][  0]LogPakFile: OnPakFileMounted2Time == 0.000050
+[2020.12.13-14.36.29:883][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2020.12.13-14.36.29:883][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:883][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2020.12.13-14.36.29:883][  0]LogPakFile: OnPakFileMounted2Time == 0.000052
+[2020.12.13-14.36.29:885][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2020.12.13-14.36.29:885][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:885][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2020.12.13-14.36.29:885][  0]LogPakFile: OnPakFileMounted2Time == 0.000053
+[2020.12.13-14.36.29:886][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2020.12.13-14.36.29:886][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:886][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2020.12.13-14.36.29:886][  0]LogPakFile: OnPakFileMounted2Time == 0.000057
+[2020.12.13-14.36.29:888][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2020.12.13-14.36.29:888][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:888][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2020.12.13-14.36.29:888][  0]LogPakFile: OnPakFileMounted2Time == 0.000060
+[2020.12.13-14.36.29:890][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2020.12.13-14.36.29:890][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:890][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2020.12.13-14.36.29:890][  0]LogPakFile: OnPakFileMounted2Time == 0.000065
+[2020.12.13-14.36.29:892][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2020.12.13-14.36.29:892][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:892][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2020.12.13-14.36.29:892][  0]LogPakFile: OnPakFileMounted2Time == 0.000067
+[2020.12.13-14.36.29:894][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2020.12.13-14.36.29:894][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:894][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2020.12.13-14.36.29:894][  0]LogPakFile: OnPakFileMounted2Time == 0.000070
+[2020.12.13-14.36.29:896][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2020.12.13-14.36.29:896][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:896][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2020.12.13-14.36.29:896][  0]LogPakFile: OnPakFileMounted2Time == 0.000073
+[2020.12.13-14.36.29:898][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2020.12.13-14.36.29:898][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:898][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2020.12.13-14.36.29:898][  0]LogPakFile: OnPakFileMounted2Time == 0.000077
+[2020.12.13-14.36.29:900][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2020.12.13-14.36.29:900][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:900][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2020.12.13-14.36.29:900][  0]LogPakFile: OnPakFileMounted2Time == 0.000080
+[2020.12.13-14.36.29:901][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2020.12.13-14.36.29:901][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:901][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2020.12.13-14.36.29:901][  0]LogPakFile: OnPakFileMounted2Time == 0.000085
+[2020.12.13-14.36.29:903][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2020.12.13-14.36.29:903][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2020.12.13-14.36.29:903][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2020.12.13-14.36.29:903][  0]LogPakFile: OnPakFileMounted2Time == 0.000089
+[2020.12.13-14.36.30:056][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0114 seconds. Added 3659 classes and 874 folders.
+[2020.12.13-14.36.30:060][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.12.13-14.36.30:201][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.12.13-14.36.30:208][  0]LogSlate: Took 0.000686 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.12.13-14.36.30:431][  0]LogRenderer: Reallocating scene render targets to support 1940x704 Format 10 NumSamples 1 (Frame:1).
+[2020.12.13-14.36.30:623][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.12.13-14.36.30:623][  0]LogLoad: (Engine Initialization) Total time: 78.30 seconds
+[2020.12.13-14.36.30:623][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.12.13-14.36.30:623][  0]LogInit: First time updating LLM stats...
+[2020.12.13-14.36.30:674][  0]LogAssetRegistry: Asset discovery search completed in 14.2346 seconds
+[2020.12.13-14.36.30:675][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2020.12.13-14.36.30:676][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.12.13-14.36.40:247][100]LogLinker: Warning: The file '../../../../../../Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Blueprints/UI/PauseMenu.uasset' contains unrecognizable data, check that it is of the expected type.
+[2020.12.13-14.36.40:285][100]LogBlueprint: Warning: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] InputAction Event references unknown Action 'DecreaseSpeedKeyboard' for  InputAction DecreaseSpeedKeyboard
+[2020.12.13-14.36.40:285][100]LogBlueprint: Warning: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] InputAction Event references unknown Action 'IncreaseSpeedKeyboard' for  InputAction IncreaseSpeedKeyboard
+[2020.12.13-14.36.40:289][100]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2020.12.13-14.36.40:289][100]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] In use pin  Pause Menu  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2020.12.13-14.36.40:289][100]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] In use pin  Pause Menu  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.12.13-14.36.40:289][100]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] In use pin  Pause Menu  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.12.13-14.36.40:290][100]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] In use pin  Pause Menu  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.12.13-14.36.40:302][100]LogBlueprint: Warning: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerController.uasset: [Compiler] InputAction Event references unknown Action 'IncreaseSpeedKeyboard' for  InputAction IncreaseSpeedKeyboard
+[2020.12.13-14.36.40:303][100]LogBlueprint: Warning: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerController.uasset: [Compiler] InputAction Event references unknown Action 'ResetPossitiontGamePad' for  InputAction ResetPossitiontGamePad
+[2020.12.13-14.36.40:304][100]LogBlueprint: Warning: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerController.uasset: [Compiler] InputAction Event references unknown Action 'ResetPossitionKeyboard' for  InputAction ResetPossitionKeyboard
+[2020.12.13-14.36.40:307][100]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerController.uasset: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2020.12.13-14.36.40:308][100]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerController.uasset: [Compiler] In use pin  Pause Menu  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2020.12.13-14.36.40:308][100]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerController.uasset: [Compiler] In use pin  Pause Menu  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.12.13-14.36.40:308][100]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerController.uasset: [Compiler] In use pin  Pause Menu  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.12.13-14.36.40:308][100]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerController.uasset: [Compiler] In use pin  Pause Menu  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.12.13-14.36.40:346][100]LogSlate: Took 0.000934 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.13-14.36.40:371][100]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PRE/Pawn/Player/BallPlayerBP.BallPlayerBP
+[2020.12.13-14.36.40:641][100]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Experimental\Water\Content\FluidSimulation\Materials\Simulation\M_Fluid_Sim_01.uasset: Failed to load '/Game/BeachScene/Effects/Niagara/RT_Foam': Can't find file.
+[2020.12.13-14.36.40:641][100]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Experimental\Water\Content\FluidSimulation\Materials\Simulation\M_Fluid_Sim_01.uasset: Failed to load '/Game/BeachScene/Effects/Niagara/RT_Foam': Can't find file.
+[2020.12.13-14.36.40:642][100]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Experimental\Water\Content\FluidSimulation\Materials\Simulation\M_Fluid_Sim_01.uasset: Failed to load '/Game/BeachScene/Effects/Niagara/RT_Foam': Can't find file.
+[2020.12.13-14.36.41:173][100]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Experimental\Water\Content\FluidSimulation\Materials\Simulation\M_Fluid_Sim_01.uasset: Failed to load '/Game/BeachScene/Effects/Niagara/RT_Foam': Can't find file.
+[2020.12.13-14.36.41:173][100]LoadErrors: Failed to load /Game/BeachScene/Effects/Niagara/RT_Foam.RT_Foam Referenced by M_Fluid_Sim_01
+[2020.12.13-14.36.41:175][100]LogLinker: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Experimental\Water\Content\FluidSimulation\Materials\Simulation\M_Fluid_Sim_01.uasset: Failed to load '/Game/BeachScene/Effects/Niagara/RT_Foam': Can't find file.
+[2020.12.13-14.36.41:175][100]LoadErrors: Failed to load /Game/BeachScene/Effects/Niagara/RT_Foam.RT_Foam Referenced by MaterialExpressionTextureSample_1
+[2020.12.13-14.36.41:210][100]LogMaterial: Display: Missing cached shader map for material M_Fluid_Sim_01, compiling. 
+[2020.12.13-14.36.41:215][100]LogMaterial: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Experimental\Water\Content\FluidSimulation\Materials\Simulation\M_Fluid_Sim_01.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.12.13-14.36.41:215][100]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.12.13-14.36.41:215][100]LogMaterial: Display: Missing cached shader map for material M_Fluid_Sim_01, compiling. 
+[2020.12.13-14.36.41:217][100]LogMaterial: Warning: [AssetLog] C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Experimental\Water\Content\FluidSimulation\Materials\Simulation\M_Fluid_Sim_01_NoTerrain.uasset: Failed to compile Material Instance with Base M_Fluid_Sim_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2020.12.13-14.36.41:217][100]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.12.13-14.36.41:329][100]LogBlueprintEditor: Perf: 0.9 total seconds to load all 13 blueprint libraries in project. Avoid references to content in blueprint libraries to shorten this time.
+[2020.12.13-14.36.41:329][100]LogBlueprintEditor: Perf: 0.7 seconds loading: /Water/FluidSimulation/Blueprints/Libraries/PhysicsMacros
+[2020.12.13-14.36.41:403][100]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 126 classes and 0 folders.
+[2020.12.13-14.36.42:455][100]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.12.13-14.36.42:542][100]LogSlate: Took 0.000744 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.12.13-14.36.42:580][101]LogSlate: Took 0.000972 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.12.13-14.36.44:904][244]BlueprintLog: New page: Compile BallPlayerBP
+[2020.12.13-14.36.44:915][244]LogBlueprint: Warning: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] InputAction Event references unknown Action 'DecreaseSpeedKeyboard' for  InputAction DecreaseSpeedKeyboard
+[2020.12.13-14.36.44:915][244]LogBlueprint: Warning: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] InputAction Event references unknown Action 'IncreaseSpeedKeyboard' for  InputAction IncreaseSpeedKeyboard
+[2020.12.13-14.36.44:919][244]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2020.12.13-14.36.44:919][244]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] In use pin  Pause Menu  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2020.12.13-14.36.44:919][244]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] In use pin  Pause Menu  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.12.13-14.36.44:919][244]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] In use pin  Pause Menu  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.12.13-14.36.44:920][244]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] In use pin  Pause Menu  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.12.13-14.36.45:001][244]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.12.13-14.36.58:936][528]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.12.13-14.36.58:991][528]LogAssetEditorSubsystem: Opening Asset editor for World /Game/PRE/Maps/MainMenu.MainMenu
+[2020.12.13-14.36.58:992][528]Cmd: MAP LOAD FILE="../../../../../../Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.13-14.36.58:992][528]LightingResults: New page: Lighting Build
+[2020.12.13-14.36.58:992][528]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.12.13-14.36.59:017][528]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.13-14.36.59:018][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.13-14.36.59:018][528]MapCheck: New page: Map Check
+[2020.12.13-14.36.59:018][528]LightingResults: New page: Lighting Build
+[2020.12.13-14.36.59:037][528]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.12.13-14.36.59:038][528]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2020.12.13-14.36.59:117][528]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.13-14.36.59:117][528]LogAIModule: Creating AISystem for world MainMenu
+[2020.12.13-14.36.59:136][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.12.13-14.36.59:139][528]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.13-14.36.59:139][528]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.203ms to complete.
+[2020.12.13-14.36.59:139][528]LogFileHelpers: Loading map 'MainMenu' took 0.147
+[2020.12.13-14.37.02:076][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.12.13-14.37.02:105][860]LogLinker: Warning: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/PRE/Pawn/Player/PlatformActorBP': Can't find file.
+[2020.12.13-14.37.02:106][860]LogLinker: Warning: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/PRE/Pawn/Player/PlatformActorBP': Can't find file.
+[2020.12.13-14.37.02:135][860]LogLinker: Warning: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/PRE/Pawn/Player/PlatformActorBP': Can't find file.
+[2020.12.13-14.37.02:136][860]LogLinker: Warning: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/PRE/Pawn/Player/PlatformActorBP': Can't find file.
+[2020.12.13-14.37.02:136][860]LogLinker: Warning: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/PRE/Pawn/Player/PlatformActorBP': Can't find file.
+[2020.12.13-14.37.02:137][860]LogLinker: Warning: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/PRE/Pawn/Player/PlatformActorBP': Can't find file.
+[2020.12.13-14.37.02:137][860]LogLinker: Warning: Failed to load '/Game/PRE/Pawn/Player/PlatformActorBP': Can't find file.
+[2020.12.13-14.37.02:137][860]LogLinker: Warning: Failed to load '/Game/PRE/Pawn/Player/PlatformActorBP': Can't find file.
+[2020.12.13-14.37.02:138][860]LogLinker: Warning: Failed to load '/Game/PRE/Pawn/Player/PlatformActorBP': Can't find file.
+[2020.12.13-14.37.02:138][860]LogLinker: Warning: Failed to load '/Game/PRE/Pawn/Player/PlatformActorBP': Can't find file.
+[2020.12.13-14.37.02:138][860]LogLinker: Warning: Failed to load '/Game/PRE/Pawn/Player/PlatformActorBP': Can't find file.
+[2020.12.13-14.37.02:138][860]LogLinker: Warning: Failed to load '/Game/PRE/Pawn/Player/PlatformActorBP': Can't find file.
+[2020.12.13-14.37.02:139][860]LogLinker: Warning: Failed to load '/Game/PRE/Pawn/Player/PlatformActorBP': Can't find file.
+[2020.12.13-14.37.02:183][860]LogAssetEditorSubsystem: Opening Asset editor for World /Game/PRE/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.13-14.37.02:183][860]Cmd: MAP LOAD FILE="../../../../../../Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.13-14.37.02:183][860]LightingResults: New page: Lighting Build
+[2020.12.13-14.37.02:183][860]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2020.12.13-14.37.02:184][860]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.12.13-14.37.02:184][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.13-14.37.02:184][860]MapCheck: New page: Map Check
+[2020.12.13-14.37.02:184][860]LightingResults: New page: Lighting Build
+[2020.12.13-14.37.02:201][860]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2020.12.13-14.37.02:205][860]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.12.13-14.37.02:206][860]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonExampleMap'.
+[2020.12.13-14.37.02:276][860]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.13-14.37.02:276][860]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.13-14.37.02:296][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.12.13-14.37.02:298][860]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.13-14.37.02:298][860]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.212ms to complete.
+[2020.12.13-14.37.02:298][860]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.116
+[2020.12.13-14.37.02:316][860]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': PlatformActorBP_C /Game/PRE/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.PlatformActorBP_6
+[2020.12.13-14.37.02:316][860]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': PlatformActorBP_C /Game/PRE/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.PlatformActorBP_6
+[2020.12.13-14.37.02:316][860]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'wer': PlatformActorBP_C /Game/PRE/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.PlatformActorBP_6
+[2020.12.13-14.37.16:511][265]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.12.13-14.37.18:112][445]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.12.13-14.37.21:855][445]LogSlate: Window 'Save Content' being destroyed
+[2020.12.13-14.37.21:940][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.12.13-14.37.21:961][445]LogSavePackage: Moving '../../../../../../Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Saved/KrissTestmapv2C86AE9EE49CCF0A9F285BEA0C8FF360E.tmp' to '../../../../../../Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps/KrissTestmapv2.umap'
+[2020.12.13-14.37.21:964][445]LogFileHelpers: Saving map 'KrissTestmapv2' took 0.045
+[2020.12.13-14.37.22:001][445]LogAssetEditorSubsystem: Opening Asset editor for World /Game/PRE/Maps/KrissTestmapv2.KrissTestmapv2
+[2020.12.13-14.37.22:001][445]Cmd: MAP LOAD FILE="../../../../../../Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps/KrissTestmapv2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.13-14.37.22:001][445]LightingResults: New page: Lighting Build
+[2020.12.13-14.37.22:001][445]LoadErrors: New page: Loading map: KrissTestmapv2.umap
+[2020.12.13-14.37.22:038][445]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.13-14.37.22:039][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.13-14.37.22:039][445]MapCheck: New page: Map Check
+[2020.12.13-14.37.22:039][445]LightingResults: New page: Lighting Build
+[2020.12.13-14.37.22:055][445]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2020.12.13-14.37.22:058][445]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.12.13-14.37.22:060][445]LogAudio: Display: Audio Device (ID: 1) registered with world 'KrissTestmapv2'.
+[2020.12.13-14.37.22:132][445]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.13-14.37.22:132][445]LogAIModule: Creating AISystem for world KrissTestmapv2
+[2020.12.13-14.37.22:152][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.12.13-14.37.22:154][445]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.13-14.37.22:154][445]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.193ms to complete.
+[2020.12.13-14.37.22:154][445]LogFileHelpers: Loading map 'KrissTestmapv2' took 0.153
+[2020.12.13-14.37.22:171][445]AssetCheck: New page: Asset Save: KrissTestmapv2
+[2020.12.13-14.37.22:171][445]LogContentValidation: Display: Validating World /Game/PRE/Maps/KrissTestmapv2.KrissTestmapv2
+[2020.12.13-14.37.27:683][912]LogSourceControl: Git plugin '2.16'
+[2020.12.13-14.37.27:683][912]LogSourceControl: RunCommand: 'git version'
+[2020.12.13-14.37.27:744][912]LogSourceControl: Using 'C:\Program Files\Git\bin\git.exe'
+[2020.12.13-14.37.27:744][912]LogSourceControl: RunCommand: 'git version'
+[2020.12.13-14.37.27:799][912]LogSourceControl: Git version 2.29.2(2)
+[2020.12.13-14.37.27:799][912]LogSourceControl: RunCommand: 'git cat-file -h'
+[2020.12.13-14.37.27:856][912]LogSourceControl: RunCommand: 'git lfs version'
+[2020.12.13-14.37.27:999][912]LogSourceControl: git-lfs/2.12.1 (GitHub; windows amd64; go 1.14.10; git 85b28e06)
+
+[2020.12.13-14.37.27:999][912]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.13-14.37.28:057][912]LogSourceControl: RunCommand: 'git remote get-url origin'
+[2020.12.13-14.37.28:117][912]LogSourceControl: RunCommand: 'git config user.name'
+[2020.12.13-14.37.28:178][912]LogSourceControl: RunCommand: 'git config user.email'
+[2020.12.13-14.37.29:309][ 35]LogSourceControl: IssueAsynchronousCommand(Connect)
+[2020.12.13-14.37.29:315][ 36]LogSourceControl: RunCommand: 'git version'
+[2020.12.13-14.37.29:373][ 43]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.13-14.37.29:432][ 50]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content"'
+[2020.12.13-14.37.29:508][ 59]LogSourceControl: ParseStatusResults: 1) Special case for status of a directory (C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/)
+[2020.12.13-14.37.29:508][ 59]LogSourceControl: RunCommand: 'git ls-files "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/"'
+[2020.12.13-14.37.29:565][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Geometry/Meshes/1M_Cube.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Geometry/Meshes/CubeMaterial.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Geometry/Meshes/TemplateFloor.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPersonIdle.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPersonJump_End.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPersonRun.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPersonWalk.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Animations/ThirdPerson_Jump.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MI_Female_Body.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/M_Male_Body.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Mesh/SK_Mannequin_Female.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Mesh/SK_Mannequin_Female_PhysicsAsset.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Textures/T_Female_Mask.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Textures/T_Female_N.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Textures/T_Male_Mask.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Textures/T_Male_N.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Textures/T_UE4Logo_Mask.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Mannequin/Character/Textures/T_UE4Logo_N.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/Meshes/BallMesh.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Assets/Fonts/placeholder.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Assets/Materials/Placeholder.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Assets/Meshes/placeholder.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Level/placeholder.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:566][ 66]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Assets/Sounds/Pawn/placeholder.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:573][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Assets/Textures/placeholder.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:573][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Blueprints/BallGameMode.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:573][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Data/BallGameInstance.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:573][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Maps/placeholder.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:573][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Platform/Levels/PlatformLevelBp.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:573][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Platform/PlatformParent.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:573][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Platform/PlatformParentBP.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:573][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Blueprints/UI/MainMenu.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:573][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Blueprints/UI/Options.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Blueprints/UI/PauseMenu.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/MainMenu.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Blueprints/Widgets/Placeholder.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps/KrissTestMap.umap) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps/MainMenu.umap) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps/ThirdPersonExampleMap.umap) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Animations/placeholder.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Data/placeholder.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallCameraController.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallGameMode.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallPlayerBP.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallPlayerCharacter.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallPlayerController.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallTypes/BallSwitchEnum.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallTypes/BallTypesDataTables.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallTypes/BallTypesStruc.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/PlatformPivotPointBP.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/RotationPointBP.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/ThirdPerson/Meshes/Bump_StaticMesh.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/ThirdPerson/Meshes/LeftArm_StaticMesh.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/ThirdPerson/Meshes/Linear_Stair_StaticMesh.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/ThirdPerson/Meshes/RampMaterial.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/ThirdPerson/Meshes/Ramp_StaticMesh.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/ThirdPerson/Meshes/RightArm_StaticMesh.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/ThirdPersonBP/ThirdPersonOverview.uasset) not found but exists => unchanged
+[2020.12.13-14.37.29:574][ 67]LogSourceControl: RunCommand: 'git ls-remote origin LilyBranch "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content"'
+[2020.12.13-14.37.30:448][172]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content"'
+[2020.12.13-14.37.30:523][181]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Config"'
+[2020.12.13-14.37.30:590][189]LogSourceControl: ParseStatusResults: 1) Special case for status of a directory (C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Config/)
+[2020.12.13-14.37.30:590][189]LogSourceControl: RunCommand: 'git ls-files "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Config/"'
+[2020.12.13-14.37.30:666][198]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Config/DefaultEditor.ini) not found but exists => unchanged
+[2020.12.13-14.37.30:666][198]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Config/DefaultEditorPerProjectUserSettings.ini) not found but exists => unchanged
+[2020.12.13-14.37.30:666][198]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Config/DefaultEngine.ini) not found but exists => unchanged
+[2020.12.13-14.37.30:666][198]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Config/DefaultGame.ini) not found but exists => unchanged
+[2020.12.13-14.37.30:666][198]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Config/DefaultInput.ini) not found but exists => unchanged
+[2020.12.13-14.37.30:666][198]LogSourceControl: RunCommand: 'git ls-remote origin LilyBranch "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Config"'
+[2020.12.13-14.37.31:515][300]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Config"'
+[2020.12.13-14.37.31:584][308]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.13-14.37.31:660][316]LogSlate: Window 'Source Control Login' being destroyed
+[2020.12.13-14.37.31:694][317]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.12.13-14.37.31:719][318]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.13-14.37.31:777][321]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps"'
+[2020.12.13-14.37.31:843][324]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps/KrissTestmapv2.umap, ...)
+[2020.12.13-14.37.31:843][324]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps/KrissTestmapv2.umap) = '?? Content/PRE/Maps/KrissTestmapv2.umap' => 9
+[2020.12.13-14.37.31:843][324]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps/MainMenu.umap) not found but exists => unchanged
+[2020.12.13-14.37.31:843][324]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps/placeholder.uasset) not found but exists => unchanged
+[2020.12.13-14.37.31:843][324]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps/ThirdPersonExampleMap.umap) not found but exists => unchanged
+[2020.12.13-14.37.31:843][324]LogSourceControl: RunCommand: 'git ls-remote origin LilyBranch "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps"'
+[2020.12.13-14.37.32:652][393]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Maps"'
+[2020.12.13-14.37.32:734][403]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.13-14.37.46:563][966]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.12.13-14.37.46:569][967]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.13-14.37.46:671][978]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player"'
+[2020.12.13-14.37.46:775][989]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallCameraController.uasset, ...)
+[2020.12.13-14.37.46:775][989]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallCameraController.uasset) not found but exists => unchanged
+[2020.12.13-14.37.46:775][989]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallPlayerBP.uasset) not found but exists => unchanged
+[2020.12.13-14.37.46:775][989]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallPlayerController.uasset) not found but exists => unchanged
+[2020.12.13-14.37.46:775][989]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/PlatformPivotPointBP.uasset) not found but exists => unchanged
+[2020.12.13-14.37.46:775][989]LogSourceControl: RunCommand: 'git ls-remote origin LilyBranch "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player"'
+[2020.12.13-14.37.47:652][ 84]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player"'
+[2020.12.13-14.37.47:734][ 92]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.13-14.37.51:066][305]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.12.13-14.37.51:093][306]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.12.13-14.37.51:128][307]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallPlayerBP.uasset"'
+[2020.12.13-14.37.51:211][312]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallPlayerBP.uasset, ...)
+[2020.12.13-14.37.51:211][312]LogSourceControl: Status(C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallPlayerBP.uasset) not found but exists => unchanged
+[2020.12.13-14.37.51:211][312]LogSourceControl: RunCommand: 'git ls-remote origin LilyBranch "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallPlayerBP.uasset"'
+[2020.12.13-14.37.52:044][376]BlueprintLog: New page: Compile BallPlayerBP
+[2020.12.13-14.37.52:057][376]LogSourceControl: RunCommand: 'git log --pretty= --name-only HEAD..HEAD@{upstream} "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Content/PRE/Pawn/Player/BallPlayerBP.uasset"'
+[2020.12.13-14.37.52:057][376]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2020.12.13-14.37.52:057][376]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] In use pin  Pause Menu  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2020.12.13-14.37.52:058][376]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] In use pin  Pause Menu  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.12.13-14.37.52:058][376]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] In use pin  Pause Menu  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.12.13-14.37.52:058][376]LogBlueprint: Error: [AssetLog] C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Content\PRE\Pawn\Player\BallPlayerBP.uasset: [Compiler] In use pin  Pause Menu  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2020.12.13-14.37.52:102][376]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.12.13-14.37.52:211][377]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.12.13-14.38.02:781][156]LogEditorTransaction: Undo Break Pin Links
+[2020.12.13-14.38.21:540][884]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.12.13-14.38.23:022][884]LogSlate: Window 'Save Content' being destroyed
+[2020.12.13-14.38.23:045][884]LogSlate: Window 'BallPlayerBP' being destroyed
+[2020.12.13-14.38.23:062][884]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.12.13-14.38.23:063][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.13-14.38.23:144][884]LogSlate: Window 'Noroff_Exam2021 - Unreal Editor' being destroyed
+[2020.12.13-14.38.23:152][884]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2020.12.13-14.38.23:291][885]Cmd: QUIT_EDITOR
+[2020.12.13-14.38.23:291][885]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.12.13-14.38.23:298][885]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.12.13-14.38.23:303][885]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2020.12.13-14.38.23:303][885]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2020.12.13-14.38.23:303][885]LogAudio: Display: Audio Device unregistered from world 'KrissTestmapv2'.
+[2020.12.13-14.38.23:303][885]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2020.12.13-14.38.23:304][885]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2020.12.13-14.38.23:355][885]LogAudio: Display: Audio Device Manager Shutdown
+[2020.12.13-14.38.23:370][885]LogExit: Preparing to exit.
+[2020.12.13-14.38.23:626][885]LogDeviceProfile: Device profile begin destroy: [000001C88978ED00] Windows
+[2020.12.13-14.38.23:626][885]LogDeviceProfile: Device profile begin destroy: [000001C88978EC00] Default__DeviceProfile
+[2020.12.13-14.38.23:626][885]LogDeviceProfile: Device profile begin destroy: [000001C889795500] WindowsNoEditor
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C88978D400] WindowsServer
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889796800] WindowsClient
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C88978E600] IOS
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889795300] iPadAir
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C88978D300] iPadAir2
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B4300] IPadPro
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B3F00] iPadAir3
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C88978F300] iPadAir4
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B1A00] iPadMini2
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C88978FB00] iPadMini3
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B0D00] iPadMini4
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C88978FF00] iPadMini5
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889796A00] iPhone6
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889796900] iPodTouch6
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B1800] iPhone7
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B1700] iPodTouch7
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889794600] iPhone5S
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B2200] iPhone6Plus
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889796E00] iPhone6S
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B0300] iPhone6SPlus
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889797300] iPhone7Plus
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B3400] iPhoneSE
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889795000] iPhone8
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B3100] iPhone8Plus
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889796F00] iPhoneX
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B1900] iPhoneXS
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889795C00] iPhoneXSMax
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B3A00] iPhoneXR
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889794B00] iPhone11
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B1500] iPhone11Pro
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889794100] iPhone11ProMax
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B3600] iPhoneSE2
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889797200] iPhone12Mini
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B1100] iPhone12
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889796200] iPhone12Pro
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B0B00] iPhone12ProMax
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889797400] iPadPro105
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B0C00] iPadPro129
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889795900] iPadPro97
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B2B00] iPadPro2_129
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889795D00] iPad5
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B0500] iPad6
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889797A00] iPad7
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B1D00] iPad8
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889796D00] iPadPro11
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B1300] iPadPro2_11
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889795600] iPadPro3_129
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B3800] iPadPro4_129
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B3B00] AppleTV
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B4900] AppleTV4K
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B0E00] TVOS
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B6100] Mac
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B3900] MacClient
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B5700] MacNoEditor
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B0A00] MacServer
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C88981C700] Linux
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B2C00] LinuxNoEditor
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C88981CC00] LinuxAArch64NoEditor
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B2500] LinuxClient
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C88981CE00] LinuxAArch64Client
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B2A00] LinuxServer
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889794900] LinuxAArch64Server
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B7800] Android
+[2020.12.13-14.38.23:627][885]LogDeviceProfile: Device profile begin destroy: [000001C889794D00] Android_Low
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B0900] Android_Mid
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C889796300] Android_High
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B1400] Android_Default
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C889796400] Android_Adreno4xx
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B2100] Android_Adreno5xx_Low
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C889795700] Android_Adreno5xx
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B2600] Android_Adreno6xx
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C889794F00] Android_Adreno6xx_Vulkan
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B2900] Android_Mali_T6xx
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C889795200] Android_Mali_T7xx
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B2400] Android_Mali_T8xx
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C889794A00] Android_Mali_G71
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B3000] Android_Mali_G72
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C889796500] Android_Mali_G72_Vulkan
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B0700] Android_Mali_G76
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C889797900] Android_Mali_G76_Vulkan
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B0600] Android_Mali_G77
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C889796700] Android_Mali_G77_Vulkan
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B0400] Android_Vulkan_SM5
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C889794500] Android_PowerVR_G6xxx
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B3500] Android_PowerVR_GT7xxx
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C889795A00] Android_PowerVR_GE8xxx
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B3700] Android_PowerVR_GM9xxx
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C889795E00] Android_PowerVR_GM9xxx_Vulkan
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B2700] Android_TegraK1
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C889797B00] Android_Unknown_Vulkan
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B3E00] Lumin
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C889794300] Lumin_Desktop
+[2020.12.13-14.38.23:628][885]LogDeviceProfile: Device profile begin destroy: [000001C8896B5000] HoloLens
+[2020.12.13-14.38.23:660][885]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.12.13-14.38.23:730][885]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.12.13-14.38.23:756][885]LogExit: Editor shut down
+[2020.12.13-14.38.23:756][885]LogExit: Transaction tracking system shut down
+[2020.12.13-14.38.24:078][885]LogExit: Object subsystem successfully closed.
+[2020.12.13-14.38.24:149][885]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.12.13-14.38.24:215][885]LogModuleManager: Shutting down and abandoning module BlueprintGraph (830)
+[2020.12.13-14.38.24:215][885]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (828)
+[2020.12.13-14.38.24:215][885]LogModuleManager: Shutting down and abandoning module SceneOutliner (826)
+[2020.12.13-14.38.24:215][885]LogModuleManager: Shutting down and abandoning module AddContentDialog (824)
+[2020.12.13-14.38.24:215][885]LogModuleManager: Shutting down and abandoning module WidgetCarousel (823)
+[2020.12.13-14.38.24:215][885]LogModuleManager: Shutting down and abandoning module EditorWidgets (820)
+[2020.12.13-14.38.24:215][885]LogModuleManager: Shutting down and abandoning module StatsViewer (818)
+[2020.12.13-14.38.24:215][885]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (816)
+[2020.12.13-14.38.24:215][885]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (814)
+[2020.12.13-14.38.24:215][885]LogModuleManager: Shutting down and abandoning module AutomationWorker (812)
+[2020.12.13-14.38.24:215][885]LogModuleManager: Shutting down and abandoning module SteamVREditor (810)
+[2020.12.13-14.38.24:215][885]LogModuleManager: Shutting down and abandoning module OculusMR (808)
+[2020.12.13-14.38.24:215][885]LogModuleManager: Shutting down and abandoning module GooglePADEditor (806)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (804)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module WaterEditor (802)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module PlanarCut (800)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module CharacterAI (798)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (796)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (794)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (792)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (790)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (788)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (786)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (784)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (782)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (780)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module WebMMedia (778)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (776)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module SequenceRecorder (775)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (772)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (770)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (768)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (766)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (764)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (762)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (760)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (758)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (756)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (754)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module TextureAlignMode (752)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module BspMode (750)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module GeometryMode (748)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (746)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module SmartSnapping (744)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module SessionServices (742)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module MeshPaint (740)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (738)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module FoliageEdit (736)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module LandscapeEditor (734)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module MeshPaintMode (732)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (730)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module ActorPickerMode (728)
+[2020.12.13-14.38.24:216][885]LogModuleManager: Shutting down and abandoning module PlacementMode (726)
+[2020.12.13-14.38.24:217][885]LogModuleManager: Shutting down and abandoning module ViewportSnapping (724)
+[2020.12.13-14.38.24:217][885]LogModuleManager: Shutting down and abandoning module ViewportInteraction (722)
+[2020.12.13-14.38.24:217][885]LogModuleManager: Shutting down and abandoning module ClothPainter (720)
+[2020.12.13-14.38.24:217][885]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (719)
+[2020.12.13-14.38.24:217][885]LogModuleManager: Shutting down and abandoning module LogVisualizer (716)
+[2020.12.13-14.38.24:217][885]LogModuleManager: Shutting down and abandoning module IntroTutorials (714)
+[2020.12.13-14.38.24:217][885]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (713)
+[2020.12.13-14.38.24:217][885]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (710)
+[2020.12.13-14.38.24:217][885]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (708)
+[2020.12.13-14.38.24:217][885]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (706)
+[2020.12.13-14.38.24:217][885]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (705)
+[2020.12.13-14.38.25:099][885]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (702)
+[2020.12.13-14.38.25:099][885]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (700)
+[2020.12.13-14.38.25:099][885]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (698)
+[2020.12.13-14.38.25:099][885]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (696)
+[2020.12.13-14.38.25:099][885]LogModuleManager: Shutting down and abandoning module TraceInsights (694)
+[2020.12.13-14.38.25:099][885]MemoryProfiler: Shutdown
+[2020.12.13-14.38.25:099][885]NetworkingProfiler: Shutdown
+[2020.12.13-14.38.25:099][885]LoadingProfiler: Shutdown
+[2020.12.13-14.38.25:099][885]TimingProfiler: Shutdown
+[2020.12.13-14.38.25:101][885]LogModuleManager: Shutting down and abandoning module TraceServices (693)
+[2020.12.13-14.38.25:101][885]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (690)
+[2020.12.13-14.38.25:101][885]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (688)
+[2020.12.13-14.38.25:101][885]LogModuleManager: Shutting down and abandoning module InputBindingEditor (686)
+[2020.12.13-14.38.25:101][885]LogModuleManager: Shutting down and abandoning module MergeActors (684)
+[2020.12.13-14.38.25:101][885]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (682)
+[2020.12.13-14.38.25:101][885]LogModuleManager: Shutting down and abandoning module LocalizationService (681)
+[2020.12.13-14.38.25:101][885]LogModuleManager: Shutting down and abandoning module HardwareTargeting (678)
+[2020.12.13-14.38.25:102][885]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (676)
+[2020.12.13-14.38.25:102][885]LogModuleManager: Shutting down and abandoning module UndoHistory (674)
+[2020.12.13-14.38.25:102][885]LogModuleManager: Shutting down and abandoning module XmlParser (672)
+[2020.12.13-14.38.25:102][885]LogModuleManager: Shutting down and abandoning module Blutility (670)
+[2020.12.13-14.38.25:102][885]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (668)
+[2020.12.13-14.38.25:102][885]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (667)
+[2020.12.13-14.38.25:102][885]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (664)
+[2020.12.13-14.38.25:102][885]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (663)
+[2020.12.13-14.38.25:102][885]LogModuleManager: Shutting down and abandoning module SettingsEditor (660)
+[2020.12.13-14.38.25:102][885]LogModuleManager: Shutting down and abandoning module ProjectLauncher (658)
+[2020.12.13-14.38.25:102][885]LogModuleManager: Shutting down and abandoning module SessionFrontend (656)
+[2020.12.13-14.38.25:102][885]LogModuleManager: Shutting down and abandoning module ProfilerClient (654)
+[2020.12.13-14.38.25:102][885]LogModuleManager: Shutting down and abandoning module DeviceManager (652)
+[2020.12.13-14.38.25:102][885]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (651)
+[2020.12.13-14.38.25:134][885]LogModuleManager: Shutting down and abandoning module AutomationController (648)
+[2020.12.13-14.38.25:134][885]LogModuleManager: Shutting down and abandoning module AutomationWindow (646)
+[2020.12.13-14.38.25:134][885]LogModuleManager: Shutting down and abandoning module Layers (644)
+[2020.12.13-14.38.25:134][885]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (642)
+[2020.12.13-14.38.25:134][885]LogModuleManager: Shutting down and abandoning module DetailCustomizations (640)
+[2020.12.13-14.38.25:134][885]LogModuleManager: Shutting down and abandoning module PackagesDialog (638)
+[2020.12.13-14.38.25:134][885]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (636)
+[2020.12.13-14.38.25:134][885]LogModuleManager: Shutting down and abandoning module Persona (634)
+[2020.12.13-14.38.25:134][885]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (633)
+[2020.12.13-14.38.25:134][885]LogModuleManager: Shutting down and abandoning module AnimGraph (631)
+[2020.12.13-14.38.25:134][885]LogModuleManager: Shutting down and abandoning module Kismet (628)
+[2020.12.13-14.38.25:143][885]LogModuleManager: Shutting down and abandoning module KismetWidgets (627)
+[2020.12.13-14.38.25:143][885]LogModuleManager: Shutting down and abandoning module GraphEditor (624)
+[2020.12.13-14.38.25:143][885]LogModuleManager: Shutting down and abandoning module StructViewer (622)
+[2020.12.13-14.38.25:143][885]LogModuleManager: Shutting down and abandoning module ClassViewer (620)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module Toolbox (618)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module ModuleUI (616)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module OutputLog (614)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module GammaUI (612)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module Documentation (610)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module LiveCoding (608)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module LevelSequence (606)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (604)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module MovieScene (602)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (600)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module LauncherPlatform (598)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module AnalyticsET (596)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module PortalServices (594)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module PortalRpc (592)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module MessagingRpc (590)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (588)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module AudioMixerCore (587)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module AIModule (584)
+[2020.12.13-14.38.25:145][885]LogModuleManager: Shutting down and abandoning module GameplayDebugger (583)
+[2020.12.13-14.38.25:146][885]LogModuleManager: Shutting down and abandoning module AITestSuite (581)
+[2020.12.13-14.38.25:146][885]LogModuleManager: Shutting down and abandoning module NavigationSystem (579)
+[2020.12.13-14.38.25:146][885]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (576)
+[2020.12.13-14.38.25:156][885]LogModuleManager: Shutting down and abandoning module ProfilerService (574)
+[2020.12.13-14.38.25:379][885]LogModuleManager: Shutting down and abandoning module TaskGraph (572)
+[2020.12.13-14.38.25:379][885]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (570)
+[2020.12.13-14.38.25:379][885]LogModuleManager: Shutting down and abandoning module OculusEditor (568)
+[2020.12.13-14.38.25:379][885]LogModuleManager: Shutting down and abandoning module OculusInput (566)
+[2020.12.13-14.38.25:379][885]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (564)
+[2020.12.13-14.38.25:379][885]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (562)
+[2020.12.13-14.38.25:379][885]LogModuleManager: Shutting down and abandoning module CollectionManager (561)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module SynthesisEditor (558)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module Synthesis (556)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (554)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (552)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (550)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module ScreenshotTools (548)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module GooglePAD (546)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module EditableMesh (544)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (542)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (540)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module AudioCapture (538)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (537)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module AssetTags (534)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module CableComponent (532)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (530)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module AppleImageUtils (528)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module AndroidPermission (526)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (524)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (522)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (520)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (519)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (516)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (514)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module MotoSynth (512)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module LandmassEditor (510)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module Landmass (508)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (506)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (504)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (502)
+[2020.12.13-14.38.25:380][885]LogModuleManager: Shutting down and abandoning module MeshConversion (500)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module DynamicMesh (498)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (496)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module GeometricObjects (494)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module FractureEditor (492)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (490)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (488)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module ChaosNiagara (486)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (485)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (482)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module AutomationUtils (480)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module AlembicImporter (478)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module AlembicLibrary (477)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module GeometryCache (476)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (475)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module BackChannel (470)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module TemplateSequence (468)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module MediaCompositing (466)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module ImgMedia (464)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (462)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (460)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (458)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (456)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module UObjectPlugin (454)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (452)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (450)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (448)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module PluginUtils (446)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module GitSourceControl (444)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module SourceControl (443)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (440)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (438)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (436)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (434)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (432)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (430)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (428)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (426)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (424)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (422)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (420)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module PluginBrowser (418)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (416)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (414)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module CryptoKeys (412)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module CurveEditorTools (410)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (408)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (406)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (404)
+[2020.12.13-14.38.25:381][885]LogModuleManager: Shutting down and abandoning module Paper2DEditor (402)
+[2020.12.13-14.38.25:382][885]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (400)
+[2020.12.13-14.38.25:382][885]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (398)
+[2020.12.13-14.38.25:382][885]LogModuleManager: Shutting down and abandoning module Noroff_Exam2021 (396)
+[2020.12.13-14.38.25:382][885]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (394)
+[2020.12.13-14.38.25:382][885]LogModuleManager: Shutting down and abandoning module SoundFields (392)
+[2020.12.13-14.38.25:382][885]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (390)
+[2020.12.13-14.38.25:382][885]LogModuleManager: Shutting down and abandoning module SignificanceManager (388)
+[2020.12.13-14.38.25:382][885]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (386)
+[2020.12.13-14.38.25:382][885]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (382)
+[2020.12.13-14.38.25:382][885]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (380)
+[2020.12.13-14.38.25:382][885]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (378)
+[2020.12.13-14.38.25:382][885]LogModuleManager: Shutting down and abandoning module ActorSequence (376)
+[2020.12.13-14.38.25:382][885]LogModuleManager: Shutting down and abandoning module TcpMessaging (374)
+[2020.12.13-14.38.25:482][885]LogModuleManager: Shutting down and abandoning module UdpMessaging (372)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (370)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module AnimationSharing (368)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (366)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (364)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (362)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (360)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (358)
+[2020.12.13-14.38.25:583][885]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (356)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (354)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (352)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (350)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module MagicLeapController (348)
+[2020.12.13-14.38.25:583][885]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (346)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module MagicLeapAR (344)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module AugmentedReality (343)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (340)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module Niagara (338)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module SignalProcessing (337)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module NiagaraEditor (335)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module NiagaraCore (332)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (330)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (328)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module FacialAnimation (326)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module DataValidation (324)
+[2020.12.13-14.38.25:583][885]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (322)
+[2020.12.13-14.38.25:584][885]LogModuleManager: Shutting down and abandoning module LevelEditor (321)
+[2020.12.13-14.38.25:584][885]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (320)
+[2020.12.13-14.38.25:584][885]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (318)
+[2020.12.13-14.38.25:584][885]LogModuleManager: Shutting down and abandoning module MainFrame (316)
+[2020.12.13-14.38.25:584][885]LogModuleManager: Shutting down and abandoning module HotReload (315)
+[2020.12.13-14.38.25:585][885]LogModuleManager: Shutting down and abandoning module ToolMenus (311)
+[2020.12.13-14.38.25:585][885]LogModuleManager: Shutting down and abandoning module ContentBrowser (309)
+[2020.12.13-14.38.25:585][885]LogModuleManager: Shutting down and abandoning module ContentBrowserData (308)
+[2020.12.13-14.38.25:585][885]LogModuleManager: Shutting down and abandoning module TreeMap (305)
+[2020.12.13-14.38.25:585][885]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (302)
+[2020.12.13-14.38.25:585][885]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (300)
+[2020.12.13-14.38.25:585][885]LogModuleManager: Shutting down and abandoning module Paper2D (298)
+[2020.12.13-14.38.25:585][885]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (296)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (294)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module BlueprintMaterialTextureNodes (292)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (290)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module PacketHandler (288)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (286)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (284)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module MediaAssets (282)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module Overlay (280)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module OverlayEditor (279)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module VREditor (276)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module StringTableEditor (274)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (272)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (270)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module FunctionalTesting (268)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (266)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (265)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module UMG (262)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module UMGEditor (261)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module MessageLog (259)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module SlateReflector (254)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module Slate (252)
+[2020.12.13-14.38.25:586][885]LogModuleManager: Shutting down and abandoning module SlateCore (250)
+[2020.12.13-14.38.25:587][885]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (248)
+[2020.12.13-14.38.25:587][885]LogModuleManager: Shutting down and abandoning module UnrealEd (246)
+[2020.12.13-14.38.25:587][885]LogModuleManager: Shutting down and abandoning module MRMesh (244)
+[2020.12.13-14.38.25:587][885]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (242)
+[2020.12.13-14.38.25:587][885]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (240)
+[2020.12.13-14.38.25:588][885]LogModuleManager: Shutting down and abandoning module XAudio2 (238)
+[2020.12.13-14.38.25:588][885]LogModuleManager: Shutting down and abandoning module Networking (236)
+[2020.12.13-14.38.25:588][885]LogModuleManager: Shutting down and abandoning module Core (234)
+[2020.12.13-14.38.25:588][885]LogModuleManager: Shutting down and abandoning module MovieSceneTools (232)
+[2020.12.13-14.38.25:588][885]LogModuleManager: Shutting down and abandoning module CurveEditor (231)
+[2020.12.13-14.38.25:588][885]LogModuleManager: Shutting down and abandoning module Sequencer (229)
+[2020.12.13-14.38.25:588][885]LogModuleManager: Shutting down and abandoning module EditorStyle (228)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module KismetCompiler (224)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module MeshBuilder (222)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module MeshUtilities (220)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (219)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (218)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (217)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (215)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (213)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (211)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module MaterialBaking (207)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (202)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module DerivedDataCache (200)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module TargetPlatform (198)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (197)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (195)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (193)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (191)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (189)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (187)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (185)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (183)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (181)
+[2020.12.13-14.38.25:589][885]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (179)
+[2020.12.13-14.38.25:590][885]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (177)
+[2020.12.13-14.38.25:590][885]LogModuleManager: Shutting down and abandoning module ImageWrapper (176)
+[2020.12.13-14.38.25:590][885]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (173)
+[2020.12.13-14.38.25:590][885]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (171)
+[2020.12.13-14.38.25:590][885]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (169)
+[2020.12.13-14.38.25:590][885]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (167)
+[2020.12.13-14.38.25:590][885]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (165)
+[2020.12.13-14.38.25:590][885]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (163)
+[2020.12.13-14.38.25:590][885]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (161)
+[2020.12.13-14.38.25:590][885]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (159)
+[2020.12.13-14.38.25:590][885]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (157)
+[2020.12.13-14.38.25:590][885]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (155)
+[2020.12.13-14.38.25:590][885]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (153)
+[2020.12.13-14.38.25:590][885]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (151)
+[2020.12.13-14.38.25:591][885]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (149)
+[2020.12.13-14.38.25:591][885]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (147)
+[2020.12.13-14.38.25:591][885]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (145)
+[2020.12.13-14.38.25:591][885]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (143)
+[2020.12.13-14.38.25:591][885]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (141)
+[2020.12.13-14.38.25:591][885]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (139)
+[2020.12.13-14.38.25:591][885]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (137)
+[2020.12.13-14.38.25:591][885]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (135)
+[2020.12.13-14.38.25:591][885]LogModuleManager: Shutting down and abandoning module Messaging (133)
+[2020.12.13-14.38.25:591][885]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (131)
+[2020.12.13-14.38.25:592][885]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (129)
+[2020.12.13-14.38.25:595][885]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (127)
+[2020.12.13-14.38.25:595][885]LogModuleManager: Shutting down and abandoning module InputCore (124)
+[2020.12.13-14.38.25:595][885]LogModuleManager: Shutting down and abandoning module Settings (122)
+[2020.12.13-14.38.25:595][885]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (120)
+[2020.12.13-14.38.25:595][885]LogModuleManager: Shutting down and abandoning module PhysXCooking (118)
+[2020.12.13-14.38.25:595][885]LogModuleManager: Shutting down and abandoning module Chaos (116)
+[2020.12.13-14.38.25:595][885]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (114)
+[2020.12.13-14.38.25:595][885]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (113)
+[2020.12.13-14.38.25:595][885]LogModuleManager: Shutting down and abandoning module AVEncoder (112)
+[2020.12.13-14.38.25:596][885]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (108)
+[2020.12.13-14.38.25:596][885]LogModuleManager: Shutting down and abandoning module SteamVRInput (106)
+[2020.12.13-14.38.25:596][885]LogModuleManager: Shutting down and abandoning module SteamVR (104)
+[2020.12.13-14.38.25:596][885]LogHMD: Freeing OpenVRDLLHandle.
+[2020.12.13-14.38.25:596][885]LogModuleManager: Shutting down and abandoning module OculusHMD (102)
+[2020.12.13-14.38.25:596][885]LogModuleManager: Shutting down and abandoning module ChunkDownloader (100)
+[2020.12.13-14.38.25:596][885]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (98)
+[2020.12.13-14.38.25:596][885]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (96)
+[2020.12.13-14.38.25:596][885]LogModuleManager: Shutting down and abandoning module Volumetrics (94)
+[2020.12.13-14.38.25:596][885]LogModuleManager: Shutting down and abandoning module Water (92)
+[2020.12.13-14.38.25:596][885]LogModuleManager: Shutting down and abandoning module ChaosCloth (90)
+[2020.12.13-14.38.25:596][885]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (88)
+[2020.12.13-14.38.25:596][885]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (84)
+[2020.12.13-14.38.25:597][885]LogModuleManager: Shutting down and abandoning module XMPP (79)
+[2020.12.13-14.38.25:597][885]LogModuleManager: Shutting down and abandoning module WebSockets (78)
+[2020.12.13-14.38.25:631][885]LogModuleManager: Shutting down and abandoning module HTTP (75)
+[2020.12.13-14.38.25:631][885]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.12.13-14.38.25:631][885]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF9F83D83-4F79-9F44-5202-8AB07611B6C5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.0-14830424%2B%2B%2BUE4%2BRelease-4.26&UserID=47ded0704e236069005b80a625082203%7C539e3481ce0b4903b8aca34fa3de11c0%7C4c391067-1247-4bae-b7c5-0100d4087c43&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2020.12.13-14.38.25:631][885]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2020.12.13-14.38.25:646][885]LogModuleManager: Shutting down and abandoning module SSL (74)
+[2020.12.13-14.38.25:647][885]LogModuleManager: Shutting down and abandoning module WmfMedia (70)
+[2020.12.13-14.38.25:650][885]LogModuleManager: Shutting down and abandoning module Media (69)
+[2020.12.13-14.38.25:651][885]LogModuleManager: Shutting down and abandoning module MediaInfo (68)
+[2020.12.13-14.38.25:651][885]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (64)
+[2020.12.13-14.38.25:651][885]LogModuleManager: Shutting down and abandoning module MLSDK (62)
+[2020.12.13-14.38.25:651][885]LogModuleManager: Shutting down and abandoning module MagicLeap (60)
+[2020.12.13-14.38.25:651][885]LogModuleManager: Shutting down and abandoning module VariantManagerContent (58)
+[2020.12.13-14.38.25:651][885]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.12.13-14.38.25:651][885]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.12.13-14.38.25:651][885]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2020.12.13-14.38.25:652][885]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2020.12.13-14.38.25:652][885]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2020.12.13-14.38.25:652][885]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (46)
+[2020.12.13-14.38.25:652][885]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (44)
+[2020.12.13-14.38.25:652][885]LogModuleManager: Shutting down and abandoning module PlatformCrypto (42)
+[2020.12.13-14.38.25:652][885]LogModuleManager: Shutting down and abandoning module XGEController (40)
+[2020.12.13-14.38.25:652][885]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.12.13-14.38.25:652][885]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2020.12.13-14.38.25:653][885]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2020.12.13-14.38.25:653][885]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.12.13-14.38.25:653][885]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.12.13-14.38.25:653][885]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.12.13-14.38.25:653][885]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.12.13-14.38.25:653][885]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.12.13-14.38.25:653][885]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.12.13-14.38.25:654][885]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.12.13-14.38.25:654][885]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.12.13-14.38.25:654][885]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.12.13-14.38.25:654][885]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.12.13-14.38.25:654][885]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.12.13-14.38.25:654][885]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.12.13-14.38.25:654][885]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.12.13-14.38.25:654][885]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.12.13-14.38.25:654][885]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.12.13-14.38.25:654][885]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.12.13-14.38.25:654][885]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.12.13-14.38.25:656][885]LogD3D11RHI: Shutdown
+[2020.12.13-14.38.25:656][885]LogD3D11RHI: CleanupD3DDevice
+[2020.12.13-14.38.25:699][885]LogExit: Exiting.
+[2020.12.13-14.38.25:712][885]Log file closed, 12/13/20 15:38:25
