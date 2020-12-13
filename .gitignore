@@ -141,4 +141,3 @@ Saved/
 # Cache files for the editor to use
 DerivedDataCache/
 *.log
-Intermediate/Build/Win64/Noroff_Exam2021Editor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp
