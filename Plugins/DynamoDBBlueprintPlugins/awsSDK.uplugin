@@ -1,0 +1,54 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.8.37",
+	"FriendlyName": "DynamoDB Client SDK",
+	"Description": "DynamoDB Client plugin",
+	"Category": "Other",
+	"CreatedBy": "Siqi.Wu",
+	"CreatedByURL": "",
+	"DocsURL": "http://docs.aws.amazon.com/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/b903cc31184946199203da801cc4a7b3",
+	"SupportURL": "",
+	"EngineVersion": "4.26.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "AWSCore",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android",
+				"IOS"
+			]
+		},
+		{
+			"Name": "DynamoDB",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android",
+				"IOS"
+			]
+		},
+		{
+			"Name": "DynamoDBStreams",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android",
+				"IOS"
+			]
+		}
+	]
+}
