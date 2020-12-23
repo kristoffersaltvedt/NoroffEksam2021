@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-GitSourceControl.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\PCH.GitSourceControl.h.obj"
+"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\Module.GitSourceControl.cpp.obj"
+"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\Default.rc2.res"
+/OUT:"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\UE4Editor-GitSourceControl.lib"
+/INCLUDE:IMPLEMENT_MODULE_GitSourceControl
