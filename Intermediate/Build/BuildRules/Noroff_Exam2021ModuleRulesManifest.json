@@ -1,9 +1,20 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffEksam2021\\Source\\Noroff_Exam2021\\Noroff_Exam2021.Build.cs",
-		"C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffEksam2021\\Plugins\\SRombauts-UE4GitPlugin-2c11042\\Source\\GitSourceControl\\GitSourceControl.Build.cs",
-		"C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffEksam2021\\Source\\Noroff_Exam2021.Target.cs",
-		"C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffEksam2021\\Source\\Noroff_Exam2021Editor.Target.cs"
+		"C:\\Users\\Kristoffer\\Documents\\GitHub\\NoroffExam2021\\Source\\Noroff_Exam2021\\Noroff_Exam2021.Build.cs",
+<<<<<<< HEAD
+		"C:\\Users\\Kristoffer\\Documents\\GitHub\\NoroffExam2021\\Source\\ThirdParty\\ADO\\ADO.Build.cs",
+		"C:\\Users\\Kristoffer\\Documents\\GitHub\\NoroffExam2021\\Source\\ThirdParty\\AMD\\AMD_AGS\\AMD_AGS.Build.cs",
+		"C:\\Users\\Kristoffer\\Documents\\GitHub\\NoroffExam2021\\Source\\ThirdParty\\Android\\cxa_demangle\\cxademangle.Build.cs",
+		"C:\\Users\\Kristoffer\\Documents\\GitHub\\NoroffExam2021\\Source\\ThirdParty\\Android\\detex\\detex.Build.cs",
+		"C:\\Users\\Kristoffer\\Documents\\GitHub\\NoroffExam2021\\Source\\ThirdParty\\Android\\libunwind\\libunwind.Build.cs",
+		"C:\\Users\\Kristoffer\\Documents\\GitHub\\NoroffExam2021\\Source\\ThirdParty\\asio\\Asio.Build.cs",
+=======
+>>>>>>> bdcc540b6bc5c2054fd9322492e18a4c1d38a020
+		"C:\\Users\\Kristoffer\\Documents\\GitHub\\NoroffExam2021\\Plugins\\AwsDynamoDB\\Source\\ThirdParty\\AwsDynamoDBLibrary.Build.cs",
+		"C:\\Users\\Kristoffer\\Documents\\GitHub\\NoroffExam2021\\Plugins\\AwsDynamoDB\\Source\\AwsDynamoDB\\AwsDynamoDB.Build.cs",
+		"C:\\Users\\Kristoffer\\Documents\\GitHub\\NoroffExam2021\\Plugins\\SRombauts-UE4GitPlugin-2c11042\\Source\\GitSourceControl\\GitSourceControl.Build.cs",
+		"C:\\Users\\Kristoffer\\Documents\\GitHub\\NoroffExam2021\\Source\\Noroff_Exam2021.Target.cs",
+		"C:\\Users\\Kristoffer\\Documents\\GitHub\\NoroffExam2021\\Source\\Noroff_Exam2021Editor.Target.cs"
 	],
 	"EngineVersion": "4.26.0"
 }
