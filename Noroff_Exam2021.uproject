@@ -25,6 +25,21 @@
 		{
 			"Name": "Volumetrics",
 			"Enabled": true
+		},
+		{
+			"Name": "MySQL",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/4a497572d1014beab577112d5a37c813"
+		},
+		{
+			"Name": "awsSDK",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/b903cc31184946199203da801cc4a7b3"
+		},
+		{
+			"Name": "AwsDynamoDB",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/dd9b364c404b4ca49c851bbcf63e75ec"
 		}
 	]
 }
