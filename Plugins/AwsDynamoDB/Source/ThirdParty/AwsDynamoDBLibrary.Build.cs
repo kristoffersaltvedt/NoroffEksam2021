@@ -95,16 +95,37 @@ public class AwsDynamoDBLibrary : ModuleRules
                 RuntimeDependencies.Add(Path.Combine(finalLibDir, "libaws-cpp-sdk-core.so"));
                 RuntimeDependencies.Add(Path.Combine(finalLibDir, "libaws-cpp-sdk-dynamodb.so"));
                 RuntimeDependencies.Add(Path.Combine(finalLibDir, "libaws-cpp-sdk-dynamodbstreams.so"));
+
+                RuntimeDependencies.Add(ModuleDirectory + "/cacert.pem");
             }
             else if (Target.Platform == UnrealTargetPlatform.Mac)
             {
+                string finalLibDir = Path.Combine(libDir, "Mac");
+
+                PublicAdditionalLibraries.Add(Path.Combine(finalLibDir, "libaws-c-common.dylib"));
+                PublicAdditionalLibraries.Add(Path.Combine(finalLibDir, "libaws-c-event-stream.dylib"));
+                PublicAdditionalLibraries.Add(Path.Combine(finalLibDir, "libaws-checksums.dylib"));
+                PublicAdditionalLibraries.Add(Path.Combine(finalLibDir, "libaws-cpp-sdk-core.dylib"));
+                PublicAdditionalLibraries.Add(Path.Combine(finalLibDir, "libaws-cpp-sdk-dynamodb.dylib"));
+                PublicAdditionalLibraries.Add(Path.Combine(finalLibDir, "libaws-cpp-sdk-dynamodbstreams.dylib"));
+
+                RuntimeDependencies.Add(Path.Combine(finalLibDir, "libaws-c-common.dylib"));
+                RuntimeDependencies.Add(Path.Combine(finalLibDir, "libaws-c-common.0unstable.dylib"));
+                RuntimeDependencies.Add(Path.Combine(finalLibDir, "libaws-c-event-stream.0unstable.dylib"));
+                RuntimeDependencies.Add(Path.Combine(finalLibDir, "libaws-c-event-stream.dylib"));
+                RuntimeDependencies.Add(Path.Combine(finalLibDir, "libaws-checksums.dylib"));
+                RuntimeDependencies.Add(Path.Combine(finalLibDir, "libaws-cpp-sdk-core.dylib"));
+                RuntimeDependencies.Add(Path.Combine(finalLibDir, "libaws-cpp-sdk-dynamodb.dylib"));
+                RuntimeDependencies.Add(Path.Combine(finalLibDir, "libaws-cpp-sdk-dynamodbstreams.dylib"));
+
+                RuntimeDependencies.Add(ModuleDirectory + "/cacert.pem");
             }
             else if (Target.Platform == UnrealTargetPlatform.IOS)
             {
             }
             else if (Target.Platform == UnrealTargetPlatform.Android)
             {
-                PublicDefinitions.Add("__ANDROID__");
+                PublicDefinitions.Add("_GLIBCXX_FULLY_DYNAMIC_STRING");
 
                 string armDir = Path.Combine(libDir, "Android", "armeabi-v7a");
                 string arm64Dir = Path.Combine(libDir, "Android", "arm64-v8a");
@@ -123,7 +144,9 @@ public class AwsDynamoDBLibrary : ModuleRules
                 PublicAdditionalLibraries.Add(Path.Combine(arm64Dir, "libaws-cpp-sdk-dynamodb.so"));
                 PublicAdditionalLibraries.Add(Path.Combine(arm64Dir, "libaws-cpp-sdk-dynamodbstreams.so"));
 
-                AdditionalPropertiesForReceipt.Add(new ReceiptProperty("AndroidPlugin", Path.Combine(modDir, "LibAwsDynamoDB_APL.xml")));
+                AdditionalPropertiesForReceipt.Add("AndroidPlugin", Path.Combine(modDir, "LibAwsDynamoDB_APL.xml"));
+
+                RuntimeDependencies.Add(ModuleDirectory + "/cacert.pem");
 
                 PublicIncludePathModuleNames.AddRange(new string[] { "Launch" });
             }

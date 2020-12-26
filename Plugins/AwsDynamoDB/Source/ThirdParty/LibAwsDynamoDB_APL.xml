@@ -41,6 +41,8 @@
       <log text="Copying libaws-cpp-sdk-dynamodbstreams.so"/>
       <copyFile src="$S(PluginDir)/AwsDynamoDBLibrary/Lib/Android/arm64-v8a/libaws-cpp-sdk-dynamodbstreams.so" dst="$S(BuildDir)/libs/arm64-v8a/libaws-cpp-sdk-dynamodbstreams.so" />
     </isArch>
+    <log text="Copying cacert.pem"/>
+    <copyFile src="$S(PluginDir)/cacert.pem" dst="$S(BuildDir)/cacert.pem" />
   </resourceCopies>
 
   <proguardAdditions>

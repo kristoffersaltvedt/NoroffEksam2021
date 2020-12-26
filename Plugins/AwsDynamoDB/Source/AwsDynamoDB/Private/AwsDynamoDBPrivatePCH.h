@@ -11,6 +11,7 @@
 #include "Modules/ModuleManager.h"
 #include "GenericPlatform/GenericPlatformOutputDevices.h"
 #include "Engine/World.h"
+#include <Misc/App.h>
 
 #if !DISABLE_DYNAMODB
 #if PLATFORM_WINDOWS
