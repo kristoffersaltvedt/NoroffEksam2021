@@ -48,8 +48,6 @@ SourceArt/**/.png
 SourceArt//.tga
 
 # Binary Files
-Binaries/
-Plugins//Binaries/
 
 # Builds
 Build/
@@ -118,9 +116,6 @@ DerivedDataCache/
 SourceArt/**/.png
 SourceArt//.tga
 
-# Binary Files
-Binaries/
-Plugins//Binaries/
 
 # Builds
 Build/
@@ -141,4 +136,5 @@ Saved/
 
 # Cache files for the editor to use
 DerivedDataCache/
+
 Intermediate/CachedAssetRegistry.bin
