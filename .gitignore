@@ -3,6 +3,8 @@
 .VC.db
 .VC.opendb
 
+\Build
+
 # Executables
 *.exe
 *.out
