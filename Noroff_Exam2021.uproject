@@ -40,6 +40,11 @@
 			"Name": "AwsDynamoDB",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/dd9b364c404b4ca49c851bbcf63e75ec"
+		},
+		{
+			"Name": "AsyncLoadingScreen",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/01f39767dc6b4290877f38365787cbf8"
 		}
 	]
 }

@@ -117,6 +117,14 @@ void FAwsDynamoDBModule::StartupModule()
 	m_Stream = "libaws-c-event-stream";
 	m_Core = "libaws-cpp-sdk-core";
 	m_DynamoDB = "libaws-cpp-sdk-dynamodb";
+#elif PLATFORM_MAC
+	LibraryPath = FPaths::Combine(*BaseDir, TEXT("Lib/Mac"));
+
+	m_Common = "libaws-c-common";
+	m_Checksums = "libaws-checksums";
+	m_Stream = "libaws-c-event-stream";
+	m_Core = "libaws-cpp-sdk-core";
+	m_DynamoDB = "libaws-cpp-sdk-dynamodb";
 #elif PLATFORM_ANDROID
 	LibraryPath = FPaths::Combine(*BaseDir, TEXT("Lib/Android/armeabi-v7a"));
 
@@ -219,6 +227,9 @@ bool FAwsDynamoDBModule::LoadDependency(const FString& path, const FString& file
 #endif
 #if PLATFORM_LINUX
 	m_FinalPath = FString::Printf(TEXT("%s/%s.so"), *path, *fileName);
+#endif
+#if PLATFORM_MAC
+	m_FinalPath = FString::Printf(TEXT("%s/%s.dylib"), *path, *fileName);
 #endif
 
 	handle = FPlatformProcess::GetDllHandle(*m_FinalPath);
