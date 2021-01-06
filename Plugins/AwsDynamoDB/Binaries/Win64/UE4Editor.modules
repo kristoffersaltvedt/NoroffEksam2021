@@ -1,0 +1,7 @@
+{
+	"BuildId": "14830424",
+	"Modules": 
+	{
+		"AwsDynamoDB": "UE4Editor-AwsDynamoDB.dll"
+	}
+}
