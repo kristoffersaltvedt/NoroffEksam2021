@@ -49,9 +49,6 @@ DerivedDataCache/
 
 SourceArt//.tga
 
-Intermediate/CachedAssetRegistry.bin
-Intermediate/
-
 plugins/SRombauts-UE4GitPlugin-2c11042
 *.log
 Binaries/Win64/Noroff_Exam2021.pdb
