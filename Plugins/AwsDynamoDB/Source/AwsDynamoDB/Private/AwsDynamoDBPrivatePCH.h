@@ -33,10 +33,12 @@ extern JavaVM* GJavaVM;
 
 THIRD_PARTY_INCLUDES_START
 #include <aws/core/Aws.h>
+#include <aws/core/Globals.h>
 #include <aws/core/utils/logging/AWSLogging.h>
 #include <aws/core/utils/logging/ConsoleLogSystem.h>
 #include <aws/core/utils/logging/DefaultLogSystem.h>
 #include <aws/core/utils/logging/FormattedLogSystem.h>
+#include <aws/core/utils/threading/Executor.h>
 #include <aws/core/client/DefaultRetryStrategy.h>
 #include <aws/core/auth/AWSCredentials.h>
 #include <aws/core/auth/AWSCredentialsProvider.h>

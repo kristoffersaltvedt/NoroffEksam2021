@@ -11,6 +11,7 @@
 #include <aws/core/client/AWSClient.h>
 #include <aws/core/utils/memory/stl/AWSString.h>
 #include <aws/core/utils/json/JsonSerializer.h>
+#include <aws/dynamodb/model/BatchExecuteStatementResult.h>
 #include <aws/dynamodb/model/BatchGetItemResult.h>
 #include <aws/dynamodb/model/BatchWriteItemResult.h>
 #include <aws/dynamodb/model/CreateBackupResult.h>
@@ -23,15 +24,23 @@
 #include <aws/dynamodb/model/DescribeContinuousBackupsResult.h>
 #include <aws/dynamodb/model/DescribeContributorInsightsResult.h>
 #include <aws/dynamodb/model/DescribeEndpointsResult.h>
+#include <aws/dynamodb/model/DescribeExportResult.h>
 #include <aws/dynamodb/model/DescribeGlobalTableResult.h>
 #include <aws/dynamodb/model/DescribeGlobalTableSettingsResult.h>
+#include <aws/dynamodb/model/DescribeKinesisStreamingDestinationResult.h>
 #include <aws/dynamodb/model/DescribeLimitsResult.h>
 #include <aws/dynamodb/model/DescribeTableResult.h>
 #include <aws/dynamodb/model/DescribeTableReplicaAutoScalingResult.h>
 #include <aws/dynamodb/model/DescribeTimeToLiveResult.h>
+#include <aws/dynamodb/model/DisableKinesisStreamingDestinationResult.h>
+#include <aws/dynamodb/model/EnableKinesisStreamingDestinationResult.h>
+#include <aws/dynamodb/model/ExecuteStatementResult.h>
+#include <aws/dynamodb/model/ExecuteTransactionResult.h>
+#include <aws/dynamodb/model/ExportTableToPointInTimeResult.h>
 #include <aws/dynamodb/model/GetItemResult.h>
 #include <aws/dynamodb/model/ListBackupsResult.h>
 #include <aws/dynamodb/model/ListContributorInsightsResult.h>
+#include <aws/dynamodb/model/ListExportsResult.h>
 #include <aws/dynamodb/model/ListGlobalTablesResult.h>
 #include <aws/dynamodb/model/ListTablesResult.h>
 #include <aws/dynamodb/model/ListTagsOfResourceResult.h>
@@ -91,6 +100,7 @@ namespace DynamoDB
 
 namespace Model
 {
+        class BatchExecuteStatementRequest;
         class BatchGetItemRequest;
         class BatchWriteItemRequest;
         class CreateBackupRequest;
@@ -103,15 +113,23 @@ namespace Model
         class DescribeContinuousBackupsRequest;
         class DescribeContributorInsightsRequest;
         class DescribeEndpointsRequest;
+        class DescribeExportRequest;
         class DescribeGlobalTableRequest;
         class DescribeGlobalTableSettingsRequest;
+        class DescribeKinesisStreamingDestinationRequest;
         class DescribeLimitsRequest;
         class DescribeTableRequest;
         class DescribeTableReplicaAutoScalingRequest;
         class DescribeTimeToLiveRequest;
+        class DisableKinesisStreamingDestinationRequest;
+        class EnableKinesisStreamingDestinationRequest;
+        class ExecuteStatementRequest;
+        class ExecuteTransactionRequest;
+        class ExportTableToPointInTimeRequest;
         class GetItemRequest;
         class ListBackupsRequest;
         class ListContributorInsightsRequest;
+        class ListExportsRequest;
         class ListGlobalTablesRequest;
         class ListTablesRequest;
         class ListTagsOfResourceRequest;
@@ -133,6 +151,7 @@ namespace Model
         class UpdateTableReplicaAutoScalingRequest;
         class UpdateTimeToLiveRequest;
 
+        typedef Aws::Utils::Outcome<BatchExecuteStatementResult, DynamoDBError> BatchExecuteStatementOutcome;
         typedef Aws::Utils::Outcome<BatchGetItemResult, DynamoDBError> BatchGetItemOutcome;
         typedef Aws::Utils::Outcome<BatchWriteItemResult, DynamoDBError> BatchWriteItemOutcome;
         typedef Aws::Utils::Outcome<CreateBackupResult, DynamoDBError> CreateBackupOutcome;
@@ -145,15 +164,23 @@ namespace Model
         typedef Aws::Utils::Outcome<DescribeContinuousBackupsResult, DynamoDBError> DescribeContinuousBackupsOutcome;
         typedef Aws::Utils::Outcome<DescribeContributorInsightsResult, DynamoDBError> DescribeContributorInsightsOutcome;
         typedef Aws::Utils::Outcome<DescribeEndpointsResult, DynamoDBError> DescribeEndpointsOutcome;
+        typedef Aws::Utils::Outcome<DescribeExportResult, DynamoDBError> DescribeExportOutcome;
         typedef Aws::Utils::Outcome<DescribeGlobalTableResult, DynamoDBError> DescribeGlobalTableOutcome;
         typedef Aws::Utils::Outcome<DescribeGlobalTableSettingsResult, DynamoDBError> DescribeGlobalTableSettingsOutcome;
+        typedef Aws::Utils::Outcome<DescribeKinesisStreamingDestinationResult, DynamoDBError> DescribeKinesisStreamingDestinationOutcome;
         typedef Aws::Utils::Outcome<DescribeLimitsResult, DynamoDBError> DescribeLimitsOutcome;
         typedef Aws::Utils::Outcome<DescribeTableResult, DynamoDBError> DescribeTableOutcome;
         typedef Aws::Utils::Outcome<DescribeTableReplicaAutoScalingResult, DynamoDBError> DescribeTableReplicaAutoScalingOutcome;
         typedef Aws::Utils::Outcome<DescribeTimeToLiveResult, DynamoDBError> DescribeTimeToLiveOutcome;
+        typedef Aws::Utils::Outcome<DisableKinesisStreamingDestinationResult, DynamoDBError> DisableKinesisStreamingDestinationOutcome;
+        typedef Aws::Utils::Outcome<EnableKinesisStreamingDestinationResult, DynamoDBError> EnableKinesisStreamingDestinationOutcome;
+        typedef Aws::Utils::Outcome<ExecuteStatementResult, DynamoDBError> ExecuteStatementOutcome;
+        typedef Aws::Utils::Outcome<ExecuteTransactionResult, DynamoDBError> ExecuteTransactionOutcome;
+        typedef Aws::Utils::Outcome<ExportTableToPointInTimeResult, DynamoDBError> ExportTableToPointInTimeOutcome;
         typedef Aws::Utils::Outcome<GetItemResult, DynamoDBError> GetItemOutcome;
         typedef Aws::Utils::Outcome<ListBackupsResult, DynamoDBError> ListBackupsOutcome;
         typedef Aws::Utils::Outcome<ListContributorInsightsResult, DynamoDBError> ListContributorInsightsOutcome;
+        typedef Aws::Utils::Outcome<ListExportsResult, DynamoDBError> ListExportsOutcome;
         typedef Aws::Utils::Outcome<ListGlobalTablesResult, DynamoDBError> ListGlobalTablesOutcome;
         typedef Aws::Utils::Outcome<ListTablesResult, DynamoDBError> ListTablesOutcome;
         typedef Aws::Utils::Outcome<ListTagsOfResourceResult, DynamoDBError> ListTagsOfResourceOutcome;
@@ -175,6 +202,7 @@ namespace Model
         typedef Aws::Utils::Outcome<UpdateTableReplicaAutoScalingResult, DynamoDBError> UpdateTableReplicaAutoScalingOutcome;
         typedef Aws::Utils::Outcome<UpdateTimeToLiveResult, DynamoDBError> UpdateTimeToLiveOutcome;
 
+        typedef std::future<BatchExecuteStatementOutcome> BatchExecuteStatementOutcomeCallable;
         typedef std::future<BatchGetItemOutcome> BatchGetItemOutcomeCallable;
         typedef std::future<BatchWriteItemOutcome> BatchWriteItemOutcomeCallable;
         typedef std::future<CreateBackupOutcome> CreateBackupOutcomeCallable;
@@ -187,15 +215,23 @@ namespace Model
         typedef std::future<DescribeContinuousBackupsOutcome> DescribeContinuousBackupsOutcomeCallable;
         typedef std::future<DescribeContributorInsightsOutcome> DescribeContributorInsightsOutcomeCallable;
         typedef std::future<DescribeEndpointsOutcome> DescribeEndpointsOutcomeCallable;
+        typedef std::future<DescribeExportOutcome> DescribeExportOutcomeCallable;
         typedef std::future<DescribeGlobalTableOutcome> DescribeGlobalTableOutcomeCallable;
         typedef std::future<DescribeGlobalTableSettingsOutcome> DescribeGlobalTableSettingsOutcomeCallable;
+        typedef std::future<DescribeKinesisStreamingDestinationOutcome> DescribeKinesisStreamingDestinationOutcomeCallable;
         typedef std::future<DescribeLimitsOutcome> DescribeLimitsOutcomeCallable;
         typedef std::future<DescribeTableOutcome> DescribeTableOutcomeCallable;
         typedef std::future<DescribeTableReplicaAutoScalingOutcome> DescribeTableReplicaAutoScalingOutcomeCallable;
         typedef std::future<DescribeTimeToLiveOutcome> DescribeTimeToLiveOutcomeCallable;
+        typedef std::future<DisableKinesisStreamingDestinationOutcome> DisableKinesisStreamingDestinationOutcomeCallable;
+        typedef std::future<EnableKinesisStreamingDestinationOutcome> EnableKinesisStreamingDestinationOutcomeCallable;
+        typedef std::future<ExecuteStatementOutcome> ExecuteStatementOutcomeCallable;
+        typedef std::future<ExecuteTransactionOutcome> ExecuteTransactionOutcomeCallable;
+        typedef std::future<ExportTableToPointInTimeOutcome> ExportTableToPointInTimeOutcomeCallable;
         typedef std::future<GetItemOutcome> GetItemOutcomeCallable;
         typedef std::future<ListBackupsOutcome> ListBackupsOutcomeCallable;
         typedef std::future<ListContributorInsightsOutcome> ListContributorInsightsOutcomeCallable;
+        typedef std::future<ListExportsOutcome> ListExportsOutcomeCallable;
         typedef std::future<ListGlobalTablesOutcome> ListGlobalTablesOutcomeCallable;
         typedef std::future<ListTablesOutcome> ListTablesOutcomeCallable;
         typedef std::future<ListTagsOfResourceOutcome> ListTagsOfResourceOutcomeCallable;
@@ -220,6 +256,7 @@ namespace Model
 
   class DynamoDBClient;
 
+    typedef std::function<void(const DynamoDBClient*, const Model::BatchExecuteStatementRequest&, const Model::BatchExecuteStatementOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > BatchExecuteStatementResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::BatchGetItemRequest&, const Model::BatchGetItemOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > BatchGetItemResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::BatchWriteItemRequest&, const Model::BatchWriteItemOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > BatchWriteItemResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::CreateBackupRequest&, const Model::CreateBackupOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > CreateBackupResponseReceivedHandler;
@@ -232,15 +269,23 @@ namespace Model
     typedef std::function<void(const DynamoDBClient*, const Model::DescribeContinuousBackupsRequest&, const Model::DescribeContinuousBackupsOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > DescribeContinuousBackupsResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::DescribeContributorInsightsRequest&, const Model::DescribeContributorInsightsOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > DescribeContributorInsightsResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::DescribeEndpointsRequest&, const Model::DescribeEndpointsOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > DescribeEndpointsResponseReceivedHandler;
+    typedef std::function<void(const DynamoDBClient*, const Model::DescribeExportRequest&, const Model::DescribeExportOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > DescribeExportResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::DescribeGlobalTableRequest&, const Model::DescribeGlobalTableOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > DescribeGlobalTableResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::DescribeGlobalTableSettingsRequest&, const Model::DescribeGlobalTableSettingsOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > DescribeGlobalTableSettingsResponseReceivedHandler;
+    typedef std::function<void(const DynamoDBClient*, const Model::DescribeKinesisStreamingDestinationRequest&, const Model::DescribeKinesisStreamingDestinationOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > DescribeKinesisStreamingDestinationResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::DescribeLimitsRequest&, const Model::DescribeLimitsOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > DescribeLimitsResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::DescribeTableRequest&, const Model::DescribeTableOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > DescribeTableResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::DescribeTableReplicaAutoScalingRequest&, const Model::DescribeTableReplicaAutoScalingOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > DescribeTableReplicaAutoScalingResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::DescribeTimeToLiveRequest&, const Model::DescribeTimeToLiveOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > DescribeTimeToLiveResponseReceivedHandler;
+    typedef std::function<void(const DynamoDBClient*, const Model::DisableKinesisStreamingDestinationRequest&, const Model::DisableKinesisStreamingDestinationOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > DisableKinesisStreamingDestinationResponseReceivedHandler;
+    typedef std::function<void(const DynamoDBClient*, const Model::EnableKinesisStreamingDestinationRequest&, const Model::EnableKinesisStreamingDestinationOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > EnableKinesisStreamingDestinationResponseReceivedHandler;
+    typedef std::function<void(const DynamoDBClient*, const Model::ExecuteStatementRequest&, const Model::ExecuteStatementOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > ExecuteStatementResponseReceivedHandler;
+    typedef std::function<void(const DynamoDBClient*, const Model::ExecuteTransactionRequest&, const Model::ExecuteTransactionOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > ExecuteTransactionResponseReceivedHandler;
+    typedef std::function<void(const DynamoDBClient*, const Model::ExportTableToPointInTimeRequest&, const Model::ExportTableToPointInTimeOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > ExportTableToPointInTimeResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::GetItemRequest&, const Model::GetItemOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > GetItemResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::ListBackupsRequest&, const Model::ListBackupsOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > ListBackupsResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::ListContributorInsightsRequest&, const Model::ListContributorInsightsOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > ListContributorInsightsResponseReceivedHandler;
+    typedef std::function<void(const DynamoDBClient*, const Model::ListExportsRequest&, const Model::ListExportsOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > ListExportsResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::ListGlobalTablesRequest&, const Model::ListGlobalTablesOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > ListGlobalTablesResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::ListTablesRequest&, const Model::ListTablesOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > ListTablesResponseReceivedHandler;
     typedef std::function<void(const DynamoDBClient*, const Model::ListTagsOfResourceRequest&, const Model::ListTagsOfResourceOutcome&, const std::shared_ptr<const Aws::Client::AsyncCallerContext>&) > ListTagsOfResourceResponseReceivedHandler;
@@ -306,6 +351,34 @@ namespace Model
 
         virtual ~DynamoDBClient();
 
+
+        /**
+         * <p> This operation allows you to perform batch reads and writes on data stored
+         * in DynamoDB, using PartiQL. </p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/BatchExecuteStatement">AWS
+         * API Reference</a></p>
+         */
+        virtual Model::BatchExecuteStatementOutcome BatchExecuteStatement(const Model::BatchExecuteStatementRequest& request) const;
+
+        /**
+         * <p> This operation allows you to perform batch reads and writes on data stored
+         * in DynamoDB, using PartiQL. </p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/BatchExecuteStatement">AWS
+         * API Reference</a></p>
+         *
+         * returns a future to the operation so that it can be executed in parallel to other requests.
+         */
+        virtual Model::BatchExecuteStatementOutcomeCallable BatchExecuteStatementCallable(const Model::BatchExecuteStatementRequest& request) const;
+
+        /**
+         * <p> This operation allows you to perform batch reads and writes on data stored
+         * in DynamoDB, using PartiQL. </p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/BatchExecuteStatement">AWS
+         * API Reference</a></p>
+         *
+         * Queues the request into a thread executor and triggers associated callback when operation has finished.
+         */
+        virtual void BatchExecuteStatementAsync(const Model::BatchExecuteStatementRequest& request, const BatchExecuteStatementResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context = nullptr) const;
 
         /**
          * <p>The <code>BatchGetItem</code> operation returns the attributes of one or more
@@ -1196,6 +1269,31 @@ namespace Model
         virtual void DescribeEndpointsAsync(const Model::DescribeEndpointsRequest& request, const DescribeEndpointsResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context = nullptr) const;
 
         /**
+         * <p>Describes an existing table export.</p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/DescribeExport">AWS
+         * API Reference</a></p>
+         */
+        virtual Model::DescribeExportOutcome DescribeExport(const Model::DescribeExportRequest& request) const;
+
+        /**
+         * <p>Describes an existing table export.</p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/DescribeExport">AWS
+         * API Reference</a></p>
+         *
+         * returns a future to the operation so that it can be executed in parallel to other requests.
+         */
+        virtual Model::DescribeExportOutcomeCallable DescribeExportCallable(const Model::DescribeExportRequest& request) const;
+
+        /**
+         * <p>Describes an existing table export.</p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/DescribeExport">AWS
+         * API Reference</a></p>
+         *
+         * Queues the request into a thread executor and triggers associated callback when operation has finished.
+         */
+        virtual void DescribeExportAsync(const Model::DescribeExportRequest& request, const DescribeExportResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context = nullptr) const;
+
+        /**
          * <p>Returns information about the specified global table.</p>  <p>This
          * operation only applies to <a
          * href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/globaltables.V1.html">Version
@@ -1276,23 +1374,51 @@ namespace Model
         virtual void DescribeGlobalTableSettingsAsync(const Model::DescribeGlobalTableSettingsRequest& request, const DescribeGlobalTableSettingsResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context = nullptr) const;
 
         /**
-         * <p>Returns the current provisioned-capacity limits for your AWS account in a
+         * <p>Returns information about the status of Kinesis streaming.</p><p><h3>See
+         * Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/DescribeKinesisStreamingDestination">AWS
+         * API Reference</a></p>
+         */
+        virtual Model::DescribeKinesisStreamingDestinationOutcome DescribeKinesisStreamingDestination(const Model::DescribeKinesisStreamingDestinationRequest& request) const;
+
+        /**
+         * <p>Returns information about the status of Kinesis streaming.</p><p><h3>See
+         * Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/DescribeKinesisStreamingDestination">AWS
+         * API Reference</a></p>
+         *
+         * returns a future to the operation so that it can be executed in parallel to other requests.
+         */
+        virtual Model::DescribeKinesisStreamingDestinationOutcomeCallable DescribeKinesisStreamingDestinationCallable(const Model::DescribeKinesisStreamingDestinationRequest& request) const;
+
+        /**
+         * <p>Returns information about the status of Kinesis streaming.</p><p><h3>See
+         * Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/DescribeKinesisStreamingDestination">AWS
+         * API Reference</a></p>
+         *
+         * Queues the request into a thread executor and triggers associated callback when operation has finished.
+         */
+        virtual void DescribeKinesisStreamingDestinationAsync(const Model::DescribeKinesisStreamingDestinationRequest& request, const DescribeKinesisStreamingDestinationResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context = nullptr) const;
+
+        /**
+         * <p>Returns the current provisioned-capacity quotas for your AWS account in a
          * Region, both for the Region as a whole and for any one DynamoDB table that you
          * create there.</p> <p>When you establish an AWS account, the account has initial
-         * limits on the maximum read capacity units and write capacity units that you can
+         * quotas on the maximum read capacity units and write capacity units that you can
          * provision across all of your DynamoDB tables in a given Region. Also, there are
-         * per-table limits that apply when you create a table there. For more information,
+         * per-table quotas that apply when you create a table there. For more information,
          * see <a
-         * href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html">Limits</a>
-         * page in the <i>Amazon DynamoDB Developer Guide</i>.</p> <p>Although you can
-         * increase these limits by filing a case at <a
+         * href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html">Service,
+         * Account, and Table Quotas</a> page in the <i>Amazon DynamoDB Developer
+         * Guide</i>.</p> <p>Although you can increase these quotas by filing a case at <a
          * href="https://console.aws.amazon.com/support/home#/">AWS Support Center</a>,
          * obtaining the increase is not instantaneous. The <code>DescribeLimits</code>
          * action lets you write code to compare the capacity you are currently using to
-         * those limits imposed by your account so that you have enough time to apply for
-         * an increase before you hit a limit.</p> <p>For example, you could use one of the
+         * those quotas imposed by your account so that you have enough time to apply for
+         * an increase before you hit a quota.</p> <p>For example, you could use one of the
          * AWS SDKs to do the following:</p> <ol> <li> <p>Call <code>DescribeLimits</code>
-         * for a particular Region to obtain your current account limits on provisioned
+         * for a particular Region to obtain your current account quotas on provisioned
          * capacity there.</p> </li> <li> <p>Create a variable to hold the aggregate read
          * capacity units provisioned for all your tables in that Region, and one to hold
          * the aggregate write capacity units. Zero them both.</p> </li> <li> <p>Call
@@ -1304,16 +1430,16 @@ namespace Model
          * itself to your variables.</p> </li> <li> <p>If the table has one or more global
          * secondary indexes (GSIs), loop over these GSIs and add their provisioned
          * capacity values to your variables as well.</p> </li> </ul> </li> <li> <p>Report
-         * the account limits for that Region returned by <code>DescribeLimits</code>,
+         * the account quotas for that Region returned by <code>DescribeLimits</code>,
          * along with the total current provisioned capacity levels you have
          * calculated.</p> </li> </ol> <p>This will let you see whether you are getting
-         * close to your account-level limits.</p> <p>The per-table limits apply only when
+         * close to your account-level quotas.</p> <p>The per-table quotas apply only when
          * you are creating a new table. They restrict the sum of the provisioned capacity
          * of the new table itself and all its global secondary indexes.</p> <p>For
          * existing tables and their GSIs, DynamoDB doesn't let you increase provisioned
-         * capacity extremely rapidly. But the only upper limit that applies is that the
+         * capacity extremely rapidly, but the only quota that applies is that the
          * aggregate provisioned capacity over all your tables and GSIs cannot exceed
-         * either of the per-account limits.</p>  <p> <code>DescribeLimits</code>
+         * either of the per-account quotas.</p>  <p> <code>DescribeLimits</code>
          * should only be called periodically. You can expect throttling errors if you call
          * it more than once in a minute.</p>  <p>The <code>DescribeLimits</code>
          * Request element has no content.</p><p><h3>See Also:</h3>   <a
@@ -1323,23 +1449,23 @@ namespace Model
         virtual Model::DescribeLimitsOutcome DescribeLimits(const Model::DescribeLimitsRequest& request) const;
 
         /**
-         * <p>Returns the current provisioned-capacity limits for your AWS account in a
+         * <p>Returns the current provisioned-capacity quotas for your AWS account in a
          * Region, both for the Region as a whole and for any one DynamoDB table that you
          * create there.</p> <p>When you establish an AWS account, the account has initial
-         * limits on the maximum read capacity units and write capacity units that you can
+         * quotas on the maximum read capacity units and write capacity units that you can
          * provision across all of your DynamoDB tables in a given Region. Also, there are
-         * per-table limits that apply when you create a table there. For more information,
+         * per-table quotas that apply when you create a table there. For more information,
          * see <a
-         * href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html">Limits</a>
-         * page in the <i>Amazon DynamoDB Developer Guide</i>.</p> <p>Although you can
-         * increase these limits by filing a case at <a
+         * href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html">Service,
+         * Account, and Table Quotas</a> page in the <i>Amazon DynamoDB Developer
+         * Guide</i>.</p> <p>Although you can increase these quotas by filing a case at <a
          * href="https://console.aws.amazon.com/support/home#/">AWS Support Center</a>,
          * obtaining the increase is not instantaneous. The <code>DescribeLimits</code>
          * action lets you write code to compare the capacity you are currently using to
-         * those limits imposed by your account so that you have enough time to apply for
-         * an increase before you hit a limit.</p> <p>For example, you could use one of the
+         * those quotas imposed by your account so that you have enough time to apply for
+         * an increase before you hit a quota.</p> <p>For example, you could use one of the
          * AWS SDKs to do the following:</p> <ol> <li> <p>Call <code>DescribeLimits</code>
-         * for a particular Region to obtain your current account limits on provisioned
+         * for a particular Region to obtain your current account quotas on provisioned
          * capacity there.</p> </li> <li> <p>Create a variable to hold the aggregate read
          * capacity units provisioned for all your tables in that Region, and one to hold
          * the aggregate write capacity units. Zero them both.</p> </li> <li> <p>Call
@@ -1351,16 +1477,16 @@ namespace Model
          * itself to your variables.</p> </li> <li> <p>If the table has one or more global
          * secondary indexes (GSIs), loop over these GSIs and add their provisioned
          * capacity values to your variables as well.</p> </li> </ul> </li> <li> <p>Report
-         * the account limits for that Region returned by <code>DescribeLimits</code>,
+         * the account quotas for that Region returned by <code>DescribeLimits</code>,
          * along with the total current provisioned capacity levels you have
          * calculated.</p> </li> </ol> <p>This will let you see whether you are getting
-         * close to your account-level limits.</p> <p>The per-table limits apply only when
+         * close to your account-level quotas.</p> <p>The per-table quotas apply only when
          * you are creating a new table. They restrict the sum of the provisioned capacity
          * of the new table itself and all its global secondary indexes.</p> <p>For
          * existing tables and their GSIs, DynamoDB doesn't let you increase provisioned
-         * capacity extremely rapidly. But the only upper limit that applies is that the
+         * capacity extremely rapidly, but the only quota that applies is that the
          * aggregate provisioned capacity over all your tables and GSIs cannot exceed
-         * either of the per-account limits.</p>  <p> <code>DescribeLimits</code>
+         * either of the per-account quotas.</p>  <p> <code>DescribeLimits</code>
          * should only be called periodically. You can expect throttling errors if you call
          * it more than once in a minute.</p>  <p>The <code>DescribeLimits</code>
          * Request element has no content.</p><p><h3>See Also:</h3>   <a
@@ -1372,23 +1498,23 @@ namespace Model
         virtual Model::DescribeLimitsOutcomeCallable DescribeLimitsCallable(const Model::DescribeLimitsRequest& request) const;
 
         /**
-         * <p>Returns the current provisioned-capacity limits for your AWS account in a
+         * <p>Returns the current provisioned-capacity quotas for your AWS account in a
          * Region, both for the Region as a whole and for any one DynamoDB table that you
          * create there.</p> <p>When you establish an AWS account, the account has initial
-         * limits on the maximum read capacity units and write capacity units that you can
+         * quotas on the maximum read capacity units and write capacity units that you can
          * provision across all of your DynamoDB tables in a given Region. Also, there are
-         * per-table limits that apply when you create a table there. For more information,
+         * per-table quotas that apply when you create a table there. For more information,
          * see <a
-         * href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html">Limits</a>
-         * page in the <i>Amazon DynamoDB Developer Guide</i>.</p> <p>Although you can
-         * increase these limits by filing a case at <a
+         * href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html">Service,
+         * Account, and Table Quotas</a> page in the <i>Amazon DynamoDB Developer
+         * Guide</i>.</p> <p>Although you can increase these quotas by filing a case at <a
          * href="https://console.aws.amazon.com/support/home#/">AWS Support Center</a>,
          * obtaining the increase is not instantaneous. The <code>DescribeLimits</code>
          * action lets you write code to compare the capacity you are currently using to
-         * those limits imposed by your account so that you have enough time to apply for
-         * an increase before you hit a limit.</p> <p>For example, you could use one of the
+         * those quotas imposed by your account so that you have enough time to apply for
+         * an increase before you hit a quota.</p> <p>For example, you could use one of the
          * AWS SDKs to do the following:</p> <ol> <li> <p>Call <code>DescribeLimits</code>
-         * for a particular Region to obtain your current account limits on provisioned
+         * for a particular Region to obtain your current account quotas on provisioned
          * capacity there.</p> </li> <li> <p>Create a variable to hold the aggregate read
          * capacity units provisioned for all your tables in that Region, and one to hold
          * the aggregate write capacity units. Zero them both.</p> </li> <li> <p>Call
@@ -1400,16 +1526,16 @@ namespace Model
          * itself to your variables.</p> </li> <li> <p>If the table has one or more global
          * secondary indexes (GSIs), loop over these GSIs and add their provisioned
          * capacity values to your variables as well.</p> </li> </ul> </li> <li> <p>Report
-         * the account limits for that Region returned by <code>DescribeLimits</code>,
+         * the account quotas for that Region returned by <code>DescribeLimits</code>,
          * along with the total current provisioned capacity levels you have
          * calculated.</p> </li> </ol> <p>This will let you see whether you are getting
-         * close to your account-level limits.</p> <p>The per-table limits apply only when
+         * close to your account-level quotas.</p> <p>The per-table quotas apply only when
          * you are creating a new table. They restrict the sum of the provisioned capacity
          * of the new table itself and all its global secondary indexes.</p> <p>For
          * existing tables and their GSIs, DynamoDB doesn't let you increase provisioned
-         * capacity extremely rapidly. But the only upper limit that applies is that the
+         * capacity extremely rapidly, but the only quota that applies is that the
          * aggregate provisioned capacity over all your tables and GSIs cannot exceed
-         * either of the per-account limits.</p>  <p> <code>DescribeLimits</code>
+         * either of the per-account quotas.</p>  <p> <code>DescribeLimits</code>
          * should only be called periodically. You can expect throttling errors if you call
          * it more than once in a minute.</p>  <p>The <code>DescribeLimits</code>
          * Request element has no content.</p><p><h3>See Also:</h3>   <a
@@ -1532,6 +1658,155 @@ namespace Model
         virtual void DescribeTimeToLiveAsync(const Model::DescribeTimeToLiveRequest& request, const DescribeTimeToLiveResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context = nullptr) const;
 
         /**
+         * <p>Stops replication from the DynamoDB table to the Kinesis data stream. This is
+         * done without deleting either of the resources.</p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/DisableKinesisStreamingDestination">AWS
+         * API Reference</a></p>
+         */
+        virtual Model::DisableKinesisStreamingDestinationOutcome DisableKinesisStreamingDestination(const Model::DisableKinesisStreamingDestinationRequest& request) const;
+
+        /**
+         * <p>Stops replication from the DynamoDB table to the Kinesis data stream. This is
+         * done without deleting either of the resources.</p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/DisableKinesisStreamingDestination">AWS
+         * API Reference</a></p>
+         *
+         * returns a future to the operation so that it can be executed in parallel to other requests.
+         */
+        virtual Model::DisableKinesisStreamingDestinationOutcomeCallable DisableKinesisStreamingDestinationCallable(const Model::DisableKinesisStreamingDestinationRequest& request) const;
+
+        /**
+         * <p>Stops replication from the DynamoDB table to the Kinesis data stream. This is
+         * done without deleting either of the resources.</p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/DisableKinesisStreamingDestination">AWS
+         * API Reference</a></p>
+         *
+         * Queues the request into a thread executor and triggers associated callback when operation has finished.
+         */
+        virtual void DisableKinesisStreamingDestinationAsync(const Model::DisableKinesisStreamingDestinationRequest& request, const DisableKinesisStreamingDestinationResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context = nullptr) const;
+
+        /**
+         * <p>Starts table data replication to the specified Kinesis data stream at a
+         * timestamp chosen during the enable workflow. If this operation doesn't return
+         * results immediately, use DescribeKinesisStreamingDestination to check if
+         * streaming to the Kinesis data stream is ACTIVE.</p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/EnableKinesisStreamingDestination">AWS
+         * API Reference</a></p>
+         */
+        virtual Model::EnableKinesisStreamingDestinationOutcome EnableKinesisStreamingDestination(const Model::EnableKinesisStreamingDestinationRequest& request) const;
+
+        /**
+         * <p>Starts table data replication to the specified Kinesis data stream at a
+         * timestamp chosen during the enable workflow. If this operation doesn't return
+         * results immediately, use DescribeKinesisStreamingDestination to check if
+         * streaming to the Kinesis data stream is ACTIVE.</p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/EnableKinesisStreamingDestination">AWS
+         * API Reference</a></p>
+         *
+         * returns a future to the operation so that it can be executed in parallel to other requests.
+         */
+        virtual Model::EnableKinesisStreamingDestinationOutcomeCallable EnableKinesisStreamingDestinationCallable(const Model::EnableKinesisStreamingDestinationRequest& request) const;
+
+        /**
+         * <p>Starts table data replication to the specified Kinesis data stream at a
+         * timestamp chosen during the enable workflow. If this operation doesn't return
+         * results immediately, use DescribeKinesisStreamingDestination to check if
+         * streaming to the Kinesis data stream is ACTIVE.</p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/EnableKinesisStreamingDestination">AWS
+         * API Reference</a></p>
+         *
+         * Queues the request into a thread executor and triggers associated callback when operation has finished.
+         */
+        virtual void EnableKinesisStreamingDestinationAsync(const Model::EnableKinesisStreamingDestinationRequest& request, const EnableKinesisStreamingDestinationResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context = nullptr) const;
+
+        /**
+         * <p> This operation allows you to perform reads and singleton writes on data
+         * stored in DynamoDB, using PartiQL. </p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/ExecuteStatement">AWS
+         * API Reference</a></p>
+         */
+        virtual Model::ExecuteStatementOutcome ExecuteStatement(const Model::ExecuteStatementRequest& request) const;
+
+        /**
+         * <p> This operation allows you to perform reads and singleton writes on data
+         * stored in DynamoDB, using PartiQL. </p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/ExecuteStatement">AWS
+         * API Reference</a></p>
+         *
+         * returns a future to the operation so that it can be executed in parallel to other requests.
+         */
+        virtual Model::ExecuteStatementOutcomeCallable ExecuteStatementCallable(const Model::ExecuteStatementRequest& request) const;
+
+        /**
+         * <p> This operation allows you to perform reads and singleton writes on data
+         * stored in DynamoDB, using PartiQL. </p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/ExecuteStatement">AWS
+         * API Reference</a></p>
+         *
+         * Queues the request into a thread executor and triggers associated callback when operation has finished.
+         */
+        virtual void ExecuteStatementAsync(const Model::ExecuteStatementRequest& request, const ExecuteStatementResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context = nullptr) const;
+
+        /**
+         * <p> This operation allows you to perform transactional reads or writes on data
+         * stored in DynamoDB, using PartiQL. </p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/ExecuteTransaction">AWS
+         * API Reference</a></p>
+         */
+        virtual Model::ExecuteTransactionOutcome ExecuteTransaction(const Model::ExecuteTransactionRequest& request) const;
+
+        /**
+         * <p> This operation allows you to perform transactional reads or writes on data
+         * stored in DynamoDB, using PartiQL. </p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/ExecuteTransaction">AWS
+         * API Reference</a></p>
+         *
+         * returns a future to the operation so that it can be executed in parallel to other requests.
+         */
+        virtual Model::ExecuteTransactionOutcomeCallable ExecuteTransactionCallable(const Model::ExecuteTransactionRequest& request) const;
+
+        /**
+         * <p> This operation allows you to perform transactional reads or writes on data
+         * stored in DynamoDB, using PartiQL. </p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/ExecuteTransaction">AWS
+         * API Reference</a></p>
+         *
+         * Queues the request into a thread executor and triggers associated callback when operation has finished.
+         */
+        virtual void ExecuteTransactionAsync(const Model::ExecuteTransactionRequest& request, const ExecuteTransactionResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context = nullptr) const;
+
+        /**
+         * <p>Exports table data to an S3 bucket. The table must have point in time
+         * recovery enabled, and you can export data from any time within the point in time
+         * recovery window.</p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/ExportTableToPointInTime">AWS
+         * API Reference</a></p>
+         */
+        virtual Model::ExportTableToPointInTimeOutcome ExportTableToPointInTime(const Model::ExportTableToPointInTimeRequest& request) const;
+
+        /**
+         * <p>Exports table data to an S3 bucket. The table must have point in time
+         * recovery enabled, and you can export data from any time within the point in time
+         * recovery window.</p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/ExportTableToPointInTime">AWS
+         * API Reference</a></p>
+         *
+         * returns a future to the operation so that it can be executed in parallel to other requests.
+         */
+        virtual Model::ExportTableToPointInTimeOutcomeCallable ExportTableToPointInTimeCallable(const Model::ExportTableToPointInTimeRequest& request) const;
+
+        /**
+         * <p>Exports table data to an S3 bucket. The table must have point in time
+         * recovery enabled, and you can export data from any time within the point in time
+         * recovery window.</p><p><h3>See Also:</h3>   <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/ExportTableToPointInTime">AWS
+         * API Reference</a></p>
+         *
+         * Queues the request into a thread executor and triggers associated callback when operation has finished.
+         */
+        virtual void ExportTableToPointInTimeAsync(const Model::ExportTableToPointInTimeRequest& request, const ExportTableToPointInTimeResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context = nullptr) const;
+
+        /**
          * <p>The <code>GetItem</code> operation returns a set of attributes for the item
          * with the given primary key. If there is no matching item, <code>GetItem</code>
          * does not return any data and there will be no <code>Item</code> element in the
@@ -1581,11 +1856,11 @@ namespace Model
          * <p>List backups associated with an AWS account. To list backups for a given
          * table, specify <code>TableName</code>. <code>ListBackups</code> returns a
          * paginated list of results with at most 1 MB worth of items in a page. You can
-         * also specify a limit for the maximum number of entries to be returned in a page.
-         * </p> <p>In the request, start time is inclusive, but end time is exclusive. Note
-         * that these limits are for the time at which the original backup was
-         * requested.</p> <p>You can call <code>ListBackups</code> a maximum of five times
-         * per second.</p><p><h3>See Also:</h3>   <a
+         * also specify a maximum number of entries to be returned in a page. </p> <p>In
+         * the request, start time is inclusive, but end time is exclusive. Note that these
+         * boundaries are for the time at which the original backup was requested.</p>
+         * <p>You can call <code>ListBackups</code> a maximum of five times per
+         * second.</p><p><h3>See Also:</h3>   <a
          * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/ListBackups">AWS
          * API Reference</a></p>
          */
@@ -1595,11 +1870,11 @@ namespace Model
          * <p>List backups associated with an AWS account. To list backups for a given
          * table, specify <code>TableName</code>. <code>ListBackups</code> returns a
          * paginated list of results with at most 1 MB worth of items in a page. You can
-         * also specify a limit for the maximum number of entries to be returned in a page.
-         * </p> <p>In the request, start time is inclusive, but end time is exclusive. Note
-         * that these limits are for the time at which the original backup was
-         * requested.</p> <p>You can call <code>ListBackups</code> a maximum of five times
-         * per second.</p><p><h3>See Also:</h3>   <a
+         * also specify a maximum number of entries to be returned in a page. </p> <p>In
+         * the request, start time is inclusive, but end time is exclusive. Note that these
+         * boundaries are for the time at which the original backup was requested.</p>
+         * <p>You can call <code>ListBackups</code> a maximum of five times per
+         * second.</p><p><h3>See Also:</h3>   <a
          * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/ListBackups">AWS
          * API Reference</a></p>
          *
@@ -1611,11 +1886,11 @@ namespace Model
          * <p>List backups associated with an AWS account. To list backups for a given
          * table, specify <code>TableName</code>. <code>ListBackups</code> returns a
          * paginated list of results with at most 1 MB worth of items in a page. You can
-         * also specify a limit for the maximum number of entries to be returned in a page.
-         * </p> <p>In the request, start time is inclusive, but end time is exclusive. Note
-         * that these limits are for the time at which the original backup was
-         * requested.</p> <p>You can call <code>ListBackups</code> a maximum of five times
-         * per second.</p><p><h3>See Also:</h3>   <a
+         * also specify a maximum number of entries to be returned in a page. </p> <p>In
+         * the request, start time is inclusive, but end time is exclusive. Note that these
+         * boundaries are for the time at which the original backup was requested.</p>
+         * <p>You can call <code>ListBackups</code> a maximum of five times per
+         * second.</p><p><h3>See Also:</h3>   <a
          * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/ListBackups">AWS
          * API Reference</a></p>
          *
@@ -1650,6 +1925,34 @@ namespace Model
          * Queues the request into a thread executor and triggers associated callback when operation has finished.
          */
         virtual void ListContributorInsightsAsync(const Model::ListContributorInsightsRequest& request, const ListContributorInsightsResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context = nullptr) const;
+
+        /**
+         * <p>Lists completed exports within the past 90 days.</p><p><h3>See Also:</h3>  
+         * <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/ListExports">AWS
+         * API Reference</a></p>
+         */
+        virtual Model::ListExportsOutcome ListExports(const Model::ListExportsRequest& request) const;
+
+        /**
+         * <p>Lists completed exports within the past 90 days.</p><p><h3>See Also:</h3>  
+         * <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/ListExports">AWS
+         * API Reference</a></p>
+         *
+         * returns a future to the operation so that it can be executed in parallel to other requests.
+         */
+        virtual Model::ListExportsOutcomeCallable ListExportsCallable(const Model::ListExportsRequest& request) const;
+
+        /**
+         * <p>Lists completed exports within the past 90 days.</p><p><h3>See Also:</h3>  
+         * <a
+         * href="http://docs.aws.amazon.com/goto/WebAPI/dynamodb-2012-08-10/ListExports">AWS
+         * API Reference</a></p>
+         *
+         * Queues the request into a thread executor and triggers associated callback when operation has finished.
+         */
+        virtual void ListExportsAsync(const Model::ListExportsRequest& request, const ListExportsResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context = nullptr) const;
 
         /**
          * <p>Lists all global tables that have a replica in the specified Region.</p>
@@ -2983,6 +3286,7 @@ namespace Model
       void OverrideEndpoint(const Aws::String& endpoint);
     private:
       void init(const Aws::Client::ClientConfiguration& clientConfiguration);
+        void BatchExecuteStatementAsyncHelper(const Model::BatchExecuteStatementRequest& request, const BatchExecuteStatementResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void BatchGetItemAsyncHelper(const Model::BatchGetItemRequest& request, const BatchGetItemResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void BatchWriteItemAsyncHelper(const Model::BatchWriteItemRequest& request, const BatchWriteItemResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void CreateBackupAsyncHelper(const Model::CreateBackupRequest& request, const CreateBackupResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
@@ -2995,15 +3299,23 @@ namespace Model
         void DescribeContinuousBackupsAsyncHelper(const Model::DescribeContinuousBackupsRequest& request, const DescribeContinuousBackupsResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void DescribeContributorInsightsAsyncHelper(const Model::DescribeContributorInsightsRequest& request, const DescribeContributorInsightsResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void DescribeEndpointsAsyncHelper(const Model::DescribeEndpointsRequest& request, const DescribeEndpointsResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
+        void DescribeExportAsyncHelper(const Model::DescribeExportRequest& request, const DescribeExportResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void DescribeGlobalTableAsyncHelper(const Model::DescribeGlobalTableRequest& request, const DescribeGlobalTableResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void DescribeGlobalTableSettingsAsyncHelper(const Model::DescribeGlobalTableSettingsRequest& request, const DescribeGlobalTableSettingsResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
+        void DescribeKinesisStreamingDestinationAsyncHelper(const Model::DescribeKinesisStreamingDestinationRequest& request, const DescribeKinesisStreamingDestinationResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void DescribeLimitsAsyncHelper(const Model::DescribeLimitsRequest& request, const DescribeLimitsResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void DescribeTableAsyncHelper(const Model::DescribeTableRequest& request, const DescribeTableResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void DescribeTableReplicaAutoScalingAsyncHelper(const Model::DescribeTableReplicaAutoScalingRequest& request, const DescribeTableReplicaAutoScalingResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void DescribeTimeToLiveAsyncHelper(const Model::DescribeTimeToLiveRequest& request, const DescribeTimeToLiveResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
+        void DisableKinesisStreamingDestinationAsyncHelper(const Model::DisableKinesisStreamingDestinationRequest& request, const DisableKinesisStreamingDestinationResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
+        void EnableKinesisStreamingDestinationAsyncHelper(const Model::EnableKinesisStreamingDestinationRequest& request, const EnableKinesisStreamingDestinationResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
+        void ExecuteStatementAsyncHelper(const Model::ExecuteStatementRequest& request, const ExecuteStatementResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
+        void ExecuteTransactionAsyncHelper(const Model::ExecuteTransactionRequest& request, const ExecuteTransactionResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
+        void ExportTableToPointInTimeAsyncHelper(const Model::ExportTableToPointInTimeRequest& request, const ExportTableToPointInTimeResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void GetItemAsyncHelper(const Model::GetItemRequest& request, const GetItemResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void ListBackupsAsyncHelper(const Model::ListBackupsRequest& request, const ListBackupsResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void ListContributorInsightsAsyncHelper(const Model::ListContributorInsightsRequest& request, const ListContributorInsightsResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
+        void ListExportsAsyncHelper(const Model::ListExportsRequest& request, const ListExportsResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void ListGlobalTablesAsyncHelper(const Model::ListGlobalTablesRequest& request, const ListGlobalTablesResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void ListTablesAsyncHelper(const Model::ListTablesRequest& request, const ListTablesResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
         void ListTagsOfResourceAsyncHelper(const Model::ListTagsOfResourceRequest& request, const ListTagsOfResourceResponseReceivedHandler& handler, const std::shared_ptr<const Aws::Client::AsyncCallerContext>& context) const;
