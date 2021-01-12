@@ -20,9 +20,7 @@ namespace Model
     CREATION_FAILED,
     UPDATING,
     DELETING,
-    ACTIVE,
-    REGION_DISABLED,
-    INACCESSIBLE_ENCRYPTION_CREDENTIALS
+    ACTIVE
   };
 
 namespace ReplicaStatusMapper

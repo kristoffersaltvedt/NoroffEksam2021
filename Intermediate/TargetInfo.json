@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Noroff_Exam2021",
-			"Path": "C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffExam2021\\Source\\Noroff_Exam2021.Target.cs",
+			"Path": "C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffEksam2021\\Source\\Noroff_Exam2021.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "Noroff_Exam2021Editor",
-			"Path": "C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffExam2021\\Source\\Noroff_Exam2021Editor.Target.cs",
+			"Path": "C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffEksam2021\\Source\\Noroff_Exam2021Editor.Target.cs",
 			"Type": "Editor"
 		}
 	]

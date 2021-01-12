@@ -162,12 +162,7 @@ namespace Aws
             void EnableRequestProcessing();
 
             inline virtual const char* GetServiceClientName() const { return m_serviceName.c_str(); }
-            /**
-             * service client name is part of userAgent.
-             * We need to update userAgent after setting this name if it's not pre-set by customer.
-             * Note: this API should only be called in your extended class constructors.
-             */
-            virtual void SetServiceClientName(const Aws::String& name);
+            inline virtual void SetServiceClientName(const Aws::String& name) { m_serviceName = name; }
 
         protected:
             /**
@@ -304,8 +299,7 @@ namespace Aws
             std::shared_ptr<RetryStrategy> m_retryStrategy;
             std::shared_ptr<Aws::Utils::RateLimits::RateLimiterInterface> m_writeRateLimiter;
             std::shared_ptr<Aws::Utils::RateLimits::RateLimiterInterface> m_readRateLimiter;
-            Aws::String m_userAgent;
-            bool m_customizedUserAgent;
+            mutable Aws::String m_userAgent;
             std::shared_ptr<Aws::Utils::Crypto::Hash> m_hash;
             long m_requestTimeoutMs;
             bool m_enableClockSkewAdjustment;

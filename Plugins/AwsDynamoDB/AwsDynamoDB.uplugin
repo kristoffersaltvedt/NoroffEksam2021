@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.1.1",
+	"VersionName": "1.1.0",
 	"FriendlyName": "AWSCore::DynamoDB",
 	"Description": "AWS DynamoDB",
 	"Category": "eelDev Plugins",
@@ -22,8 +22,7 @@
 				"Win64",
 				"Linux",
 				"Android",
-				"Mac",
-				"IOS"
+				"Mac"
 			]
 		}
 	]

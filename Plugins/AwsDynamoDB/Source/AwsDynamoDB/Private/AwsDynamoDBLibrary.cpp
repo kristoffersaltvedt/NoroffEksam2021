@@ -23,35 +23,28 @@ void UDynamoDBClientObject::Activate()
 	FString CertificatePath;
 
 #if PLATFORM_ANDROID
-	if (m_ClientConfiguration.CaFile.Len() == 0)
+	if (ClientConfiguration.CaFile.Len() == 0)
 	{
 		extern FString GFilePathBase;
 		CertificatePath = GFilePathBase + FString("/UE4Game/") + FApp::GetProjectName() + "/" + FApp::GetProjectName() + FString("/Plugins/AwsDynamoDB/Source/ThirdParty");
-		m_ClientConfiguration.CaFile = TCHAR_TO_UTF8(*FString::Printf(TEXT("%s/cacert.pem"), *CertificatePath));
+		ClientConfiguration.CaFile = TCHAR_TO_UTF8(*FString::Printf(TEXT("%s/cacert.pem"), *CertificatePath));
 	}
 #endif
 
-#if PLATFORM_LINUX || PLATFORM_WINDOWS || PLATFORM_IOS
-	if (m_ClientConfiguration.CaFile.Len() == 0)
+#if PLATFORM_LINUX || PLATFORM_WINDOWS
+	if (ClientConfiguration.CaFile.Len() == 0)
 	{
-		FString FileName = FString("AwsDynamoDB/Source/ThirdParty/cacert.pem");
-
-#if PLATFORM_IOS
-		FileName = FileName.ToLower();
-#endif
-		CertificatePath = FString::Printf(TEXT("%s%s"), *IFileManager::Get().ConvertToAbsolutePathForExternalAppForRead(*FPaths::ProjectPluginsDir()), *FileName);
-
-		m_ClientConfiguration.CaFile = CertificatePath;
-	}
+		CertificatePath = FString::Printf(TEXT("%sAwsDynamoDB/Source/ThirdParty/cacert.pem"), *IFileManager::Get().ConvertToAbsolutePathForExternalAppForRead(*FPaths::ProjectPluginsDir()));
+		ClientConfiguration.CaFile = TCHAR_TO_UTF8(*CertificatePath);
+}
 #endif
 
-	LogVerbose("Using Certificate: %s", *m_ClientConfiguration.CaFile);
+	LogVerbose("Using Certificate: %s", *ClientConfiguration.CaFile);
 
-	Aws::Client::ClientConfiguration* ClientConfiguration = new Aws::Client::ClientConfiguration(m_ClientConfiguration);
-	ClientConfiguration->executor = Aws::MakeShared<Aws::Utils::Threading::PooledThreadExecutor>("DynamoDB", 10);
-	Aws::Auth::AWSCredentials* Credentials = new Aws::Auth::AWSCredentials(m_Credentials);
+	Aws::Client::ClientConfiguration* m_ClientConfig = new Aws::Client::ClientConfiguration(ClientConfiguration);
+	Aws::Auth::AWSCredentials* m_Credentials = new Aws::Auth::AWSCredentials(Credentials);
 
-	AwsCoreDynamoDBClient = new Aws::DynamoDB::DynamoDBClient(*Credentials, *ClientConfiguration);
+	AwsCoreDynamoDBClient = new Aws::DynamoDB::DynamoDBClient(*m_Credentials, *m_ClientConfig);
 #endif
 }
 
@@ -61,8 +54,8 @@ UDynamoDBClientObject* UDynamoDBClientObject::CreateDynamoDbObject(FAwsDynamoDBC
 
 	UDynamoDBClientObject* Proxy = NewObject<UDynamoDBClientObject>();
 	Proxy->AddToRoot();
-	Proxy->m_Credentials = credentials;
-	Proxy->m_ClientConfiguration = clientConfiguration;
+	Proxy->Credentials = credentials;
+	Proxy->ClientConfiguration = clientConfiguration;
 
 	s_DynamoDBObjects.Add(Proxy);
 

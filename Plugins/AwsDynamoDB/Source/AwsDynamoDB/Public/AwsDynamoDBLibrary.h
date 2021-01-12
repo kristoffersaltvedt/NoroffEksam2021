@@ -19,8 +19,8 @@ protected:
 #if !DISABLE_DYNAMODB
 	Aws::DynamoDB::DynamoDBClient* AwsCoreDynamoDBClient;
 #endif
-	FAwsDynamoDBCredentials m_Credentials;
-	FAwsDynamoDBClientConfiguration m_ClientConfiguration;
+	FAwsDynamoDBCredentials Credentials;
+	FAwsDynamoDBClientConfiguration ClientConfiguration;
 public:
 	void Activate();
 #if !DISABLE_DYNAMODB

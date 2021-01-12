@@ -1,16 +1,16 @@
-C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlCommand.cpp
-C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlCommand.h
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlCommand.cpp
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlCommand.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/IQueuedWork.h
-C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlModule.h
-C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlSettings.h
-C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlProvider.h
-C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\IGitSourceControlWorker.h
-C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlState.h
-C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlRevision.h
-C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlMenu.h
-C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlMenu.cpp
-C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlOperations.h
-C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlUtils.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlModule.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlSettings.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlProvider.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\IGitSourceControlWorker.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlState.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlRevision.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlMenu.h
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlMenu.cpp
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlOperations.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlUtils.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\SourceControl\Public\SourceControlOperations.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\SourceControl\Public\SourceControlOperationBase.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\LevelEditor\Public\LevelEditor.h
@@ -670,10 +670,10 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UOb
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\FileHelpers.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/MessageLog.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/TokenizedMessage.h
-C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlModule.cpp
-C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlOperations.cpp
-C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlProvider.cpp
-C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\SGitSourceControlSettings.h
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlModule.cpp
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlOperations.cpp
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlProvider.cpp
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\SGitSourceControlSettings.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\SourceControl\Public\ScopedSourceControlProgress.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\SourceControl\Public\SourceControlHelpers.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl\SourceControlHelpers.generated.h
@@ -687,15 +687,15 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Json\Public\Policies/J
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Projects\Public\CustomBuildSteps.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Projects\Public\LocalizationDescriptor.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Projects\Public\PluginReferenceDescriptor.h
-C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlRevision.cpp
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlRevision.cpp
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/FileManager.h
-C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlSettings.cpp
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlSettings.cpp
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/ConfigCacheIni.h
-C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlState.cpp
-C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlUtils.cpp
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlState.cpp
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlUtils.cpp
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformFilemanager.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/FileHelper.h
-C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/SGitSourceControlSettings.cpp
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/SGitSourceControlSettings.cpp
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Widgets/Input/SButton.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Widgets/Input/SEditableTextBox.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Widgets/Input/SEditableText.h

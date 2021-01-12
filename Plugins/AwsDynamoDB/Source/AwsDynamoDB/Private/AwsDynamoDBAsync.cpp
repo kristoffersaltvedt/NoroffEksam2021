@@ -10,12 +10,12 @@ UDynamoBatchGetItem* UDynamoBatchGetItem::BatchGetItem(UObject* worldContextObje
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoBatchGetItem>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoBatchGetItem>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 }
 
 void UDynamoBatchGetItem::Activate()
@@ -82,12 +82,12 @@ UDynamoBatchWriteItem* UDynamoBatchWriteItem::BatchWriteItem(UObject* worldConte
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoBatchWriteItem>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoBatchWriteItem>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 }
 
 void UDynamoBatchWriteItem::Activate()
@@ -132,12 +132,12 @@ UDynamoCreateBackup* UDynamoCreateBackup::CreateBackup(UObject* worldContextObje
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoCreateBackup>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoCreateBackup>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -171,12 +171,12 @@ UDynamoCreateGlobalTable* UDynamoCreateGlobalTable::CreateGlobalTable(UObject* w
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoCreateGlobalTable>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoCreateGlobalTable>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -210,12 +210,12 @@ UDynamoCreateTable* UDynamoCreateTable::CreateTable(UObject* worldContextObject,
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoCreateTable>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoCreateTable>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -267,12 +267,12 @@ UDynamoDeleteBackup* UDynamoDeleteBackup::DeleteBackup(UObject* worldContextObje
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoDeleteBackup>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoDeleteBackup>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -303,12 +303,12 @@ UDynamoDeleteItem* UDynamoDeleteItem::DeleteItem(UObject* worldContextObject, UD
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoDeleteItem>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoDeleteItem>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 }
 
 void UDynamoDeleteItem::Activate()
@@ -361,12 +361,12 @@ UDynamoDeleteTable* UDynamoDeleteTable::DeleteTable(UObject* worldContextObject,
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoDeleteTable>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoDeleteTable>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -397,12 +397,12 @@ UDynamoDescribeBackup* UDynamoDescribeBackup::DescribeBackup(UObject* worldConte
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoDescribeBackup>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoDescribeBackup>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -433,12 +433,12 @@ UDynamoDescribeContinuousBackups* UDynamoDescribeContinuousBackups::DescribeCont
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoDescribeContinuousBackups>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoDescribeContinuousBackups>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -469,12 +469,12 @@ UDynamoDescribeContributorInsights* UDynamoDescribeContributorInsights::Describe
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoDescribeContributorInsights>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoDescribeContributorInsights>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -508,12 +508,12 @@ UDynamoDescribeEndpoints* UDynamoDescribeEndpoints::DescribeEndpoints(UObject* w
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoDescribeEndpoints>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoDescribeEndpoints>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -541,12 +541,12 @@ UDynamoDescribeGlobalTable* UDynamoDescribeGlobalTable::DescribeGlobalTable(UObj
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoDescribeGlobalTable>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoDescribeGlobalTable>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 }
 
 void UDynamoDescribeGlobalTable::Activate()
@@ -576,12 +576,12 @@ UDynamoDescribeGlobalTableSettings* UDynamoDescribeGlobalTableSettings::Describe
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoDescribeGlobalTableSettings>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoDescribeGlobalTableSettings>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -612,12 +612,12 @@ UDynamoDescribeLimits* UDynamoDescribeLimits::DescribeLimits(UObject* worldConte
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoDescribeLimits>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoDescribeLimits>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -645,12 +645,12 @@ UDynamoDescribeTable* UDynamoDescribeTable::DescribeTable(UObject* worldContextO
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoDescribeTable>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoDescribeTable>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -681,12 +681,12 @@ UDynamoDescribeTableReplicaAutoScaling* UDynamoDescribeTableReplicaAutoScaling::
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoDescribeTableReplicaAutoScaling>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoDescribeTableReplicaAutoScaling>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -717,12 +717,12 @@ UDynamoDescribeTimeToLive* UDynamoDescribeTimeToLive::DescribeTimeToLive(UObject
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoDescribeTimeToLive>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoDescribeTimeToLive>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -753,12 +753,12 @@ UDynamoGetItem* UDynamoGetItem::GetItem(UObject* worldContextObject, UDynamoDBCl
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoGetItem>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoGetItem>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -806,12 +806,12 @@ UDynamoListBackups* UDynamoListBackups::ListBackups(UObject* worldContextObject,
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoListBackups>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoListBackups>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -854,12 +854,12 @@ UDynamoListContributorInsights* UDynamoListContributorInsights::ListContributorI
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoListContributorInsights>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoListContributorInsights>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -896,12 +896,12 @@ UDynamoListGlobalTables* UDynamoListGlobalTables::ListGlobalTables(UObject* worl
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoListGlobalTables>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoListGlobalTables>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -938,12 +938,12 @@ UDynamoListTables* UDynamoListTables::ListTables(UObject* worldContextObject, UD
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoListTables>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoListTables>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -977,12 +977,12 @@ UDynamoListTagsOfResource* UDynamoListTagsOfResource::ListTagsOfResource(UObject
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoListTagsOfResource>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoListTagsOfResource>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -1016,12 +1016,12 @@ UDynamoPutItem* UDynamoPutItem::PutItem(UObject* worldContextObject, UDynamoDBCl
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoPutItem>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoPutItem>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 }
 
 void UDynamoPutItem::Activate()
@@ -1078,12 +1078,12 @@ UDynamoQuery* UDynamoQuery::Query(UObject* worldContextObject, UDynamoDBClientOb
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoQuery>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoQuery>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 }
 
 void UDynamoQuery::Activate()
@@ -1159,12 +1159,12 @@ UDynamoRestoreTableFromBackup* UDynamoRestoreTableFromBackup::RestoreTableFromBa
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoRestoreTableFromBackup>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoRestoreTableFromBackup>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -1210,12 +1210,12 @@ UDynamoRestoreTableToPointInTime* UDynamoRestoreTableToPointInTime::RestoreTable
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoRestoreTableToPointInTime>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoRestoreTableToPointInTime>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 }
 
 void UDynamoRestoreTableToPointInTime::Activate()
@@ -1266,12 +1266,12 @@ UDynamoScan* UDynamoScan::Scan(UObject* worldContextObject, UDynamoDBClientObjec
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoScan>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoScan>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -1346,12 +1346,12 @@ UDynamoTagResource* UDynamoTagResource::TagResource(UObject* worldContextObject,
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoTagResource>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoTagResource>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -1385,12 +1385,12 @@ UDynamoTransactGetItems* UDynamoTransactGetItems::TransactGetItems(UObject* worl
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoTransactGetItems>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoTransactGetItems>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 }
 
 void UDynamoTransactGetItems::Activate()
@@ -1423,12 +1423,12 @@ UDynamoTransactWriteItems* UDynamoTransactWriteItems::TransactWriteItems(UObject
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoTransactWriteItems>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoTransactWriteItems>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -1468,12 +1468,12 @@ UDynamoUntagResource* UDynamoUntagResource::UntagResource(UObject* worldContextO
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoUntagResource>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoUntagResource>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 }
 
 void UDynamoUntagResource::Activate()
@@ -1506,12 +1506,12 @@ UDynamoUpdateContinuousBackups* UDynamoUpdateContinuousBackups::UpdateContinuous
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoUpdateContinuousBackups>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoUpdateContinuousBackups>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -1544,12 +1544,12 @@ UDynamoUpdateContributorInsights* UDynamoUpdateContributorInsights::UpdateContri
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoUpdateContributorInsights>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoUpdateContributorInsights>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -1586,12 +1586,12 @@ UDynamoUpdateGlobalTable* UDynamoUpdateGlobalTable::UpdateGlobalTable(UObject* w
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoUpdateGlobalTable>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoUpdateGlobalTable>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 }
 
 void UDynamoUpdateGlobalTable::Activate()
@@ -1624,12 +1624,12 @@ UDynamoUpdateGlobalTableSettings* UDynamoUpdateGlobalTableSettings::UpdateGlobal
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoUpdateGlobalTableSettings>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoUpdateGlobalTableSettings>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 }
 
 void UDynamoUpdateGlobalTableSettings::Activate()
@@ -1671,12 +1671,12 @@ UDynamoUpdateItem* UDynamoUpdateItem::UpdateItem(UObject* worldContextObject, UD
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoUpdateItem>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoUpdateItem>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 }
 
 void UDynamoUpdateItem::Activate()
@@ -1739,12 +1739,12 @@ UDynamoUpdateTable* UDynamoUpdateTable::UpdateTable(UObject* worldContextObject,
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoUpdateTable>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoUpdateTable>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 }
 
 void UDynamoUpdateTable::Activate()
@@ -1791,12 +1791,12 @@ UDynamoUpdateTableReplicaAutoScaling* UDynamoUpdateTableReplicaAutoScaling::Upda
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoUpdateTableReplicaAutoScaling>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoUpdateTableReplicaAutoScaling>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 
@@ -1835,12 +1835,12 @@ UDynamoUpdateTimeToLive* UDynamoUpdateTimeToLive::UpdateTimeToLive(UObject* worl
 {
 	LogVerbose("");
 
-	auto Platform = NewObject<UDynamoUpdateTimeToLive>();
-	Platform->AddToRoot();
-	Platform->DynamoDBObject = dynamoDBObject;
-	Platform->RequestData = request;
+	auto m_Platform = NewObject<UDynamoUpdateTimeToLive>();
+	m_Platform->AddToRoot();
+	m_Platform->DynamoDBObject = dynamoDBObject;
+	m_Platform->RequestData = request;
 
-	return Platform;
+	return m_Platform;
 
 }
 

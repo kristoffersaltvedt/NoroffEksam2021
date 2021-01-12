@@ -15,18 +15,21 @@ public class AwsDynamoDBLibrary : ModuleRules
         bLegacyPublicIncludePaths = false;
         PublicDefinitions.Add("USE_IMPORT_EXPORT");
 
+        bool IsServer = false;
         bool bDisablePlugin = false;
 
-        if (Target.Version.MinorVersion < 25)
+        if (IsServer)
+        {
+            bDisablePlugin = true;
+        }
+        else
         {
             if (Target.Platform == UnrealTargetPlatform.Android)
             {
-                bDisablePlugin = true;
-            }
-
-            if (Target.Platform == UnrealTargetPlatform.IOS)
-            {
-                bDisablePlugin = true;
+                if (Target.Version.MinorVersion < 25)
+                {
+                    bDisablePlugin = true;
+                }
             }
         }
 
@@ -119,28 +122,20 @@ public class AwsDynamoDBLibrary : ModuleRules
             }
             else if (Target.Platform == UnrealTargetPlatform.IOS)
             {
-                string finalLibDir = Path.Combine(libDir, "IOS");
-
-                PublicFrameworks.Add("Foundation");
-                PublicFrameworks.Add("Security");
-
-                PublicDefinitions.Add("FORCE_ANSI_ALLOCATOR=1");
-
-                PublicAdditionalLibraries.Add(Path.Combine(finalLibDir, "libcurl.a"));
-                PublicAdditionalLibraries.Add(Path.Combine(finalLibDir, "libaws-c-common.a"));
-                PublicAdditionalLibraries.Add(Path.Combine(finalLibDir, "libaws-c-event-stream.a"));
-                PublicAdditionalLibraries.Add(Path.Combine(finalLibDir, "libaws-checksums.a"));
-                PublicAdditionalLibraries.Add(Path.Combine(finalLibDir, "libaws-cpp-sdk-core.a"));
-                PublicAdditionalLibraries.Add(Path.Combine(finalLibDir, "libaws-cpp-sdk-dynamodb.a"));
-                PublicAdditionalLibraries.Add(Path.Combine(finalLibDir, "libaws-cpp-sdk-dynamodbstreams.a"));
-
-                RuntimeDependencies.Add(ModuleDirectory + "/cacert.pem");
             }
             else if (Target.Platform == UnrealTargetPlatform.Android)
             {
                 PublicDefinitions.Add("_GLIBCXX_FULLY_DYNAMIC_STRING");
 
+                string armDir = Path.Combine(libDir, "Android", "armeabi-v7a");
                 string arm64Dir = Path.Combine(libDir, "Android", "arm64-v8a");
+
+                PublicAdditionalLibraries.Add(Path.Combine(armDir, "libaws-c-common.so"));
+                PublicAdditionalLibraries.Add(Path.Combine(armDir, "libaws-c-event-stream.so"));
+                PublicAdditionalLibraries.Add(Path.Combine(armDir, "libaws-checksums.so"));
+                PublicAdditionalLibraries.Add(Path.Combine(armDir, "libaws-cpp-sdk-core.so"));
+                PublicAdditionalLibraries.Add(Path.Combine(armDir, "libaws-cpp-sdk-dynamodb.so"));
+                PublicAdditionalLibraries.Add(Path.Combine(armDir, "libaws-cpp-sdk-dynamodbstreams.so"));
 
                 PublicAdditionalLibraries.Add(Path.Combine(arm64Dir, "libaws-c-common.so"));
                 PublicAdditionalLibraries.Add(Path.Combine(arm64Dir, "libaws-c-event-stream.so"));

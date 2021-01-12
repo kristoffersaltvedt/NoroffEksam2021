@@ -19,8 +19,6 @@ IMPLEMENT_MODULE(FAwsDynamoDBModule, AwsDynamoDB);
 DEFINE_LOG_CATEGORY(LogAwsDynamoDB);
 
 #if !DISABLE_DYNAMODB
-static Aws::SDKOptions s_Options;
-
 class FDynamoDBMemoryManager : public Aws::Utils::Memory::MemorySystemInterface
 {
 public:
@@ -87,17 +85,17 @@ void FAwsDynamoDBModule::StartupModule()
 #if !DISABLE_DYNAMODB
 	LogVerbose("Loading AwsDynamoDB Module");
 
-	TSharedPtr<IPlugin> PluginPtr = IPluginManager::Get().FindPlugin("AwsDynamoDB");
+	TSharedPtr<IPlugin> m_PluginPtr = IPluginManager::Get().FindPlugin("AwsDynamoDB");
 
-	FString PluginVersion;
+	FString m_PluginVersion;
 
-	if (PluginPtr)
+	if (m_PluginPtr)
 	{
-		PluginVersion = PluginPtr->GetDescriptor().VersionName;
+		m_PluginVersion = m_PluginPtr->GetDescriptor().VersionName;
 	}
 
 	UE_LOG(LogTemp, Log, TEXT("--------------------------------------------------------------------------------"));
-	UE_LOG(LogTemp, Log, TEXT("Using AwsCore::DynamoDB Version: %s"), *PluginVersion);
+	UE_LOG(LogTemp, Log, TEXT("Using AwsCore::DynamoDB Version: %s"), *m_PluginVersion);
 	UE_LOG(LogTemp, Log, TEXT("--------------------------------------------------------------------------------"));
 
 	FString BaseDir = IPluginManager::Get().FindPlugin("AwsDynamoDB")->GetBaseDir() + "/Source/ThirdParty/AwsDynamoDBLibrary/";
@@ -127,68 +125,68 @@ void FAwsDynamoDBModule::StartupModule()
 	m_Stream = "libaws-c-event-stream";
 	m_Core = "libaws-cpp-sdk-core";
 	m_DynamoDB = "libaws-cpp-sdk-dynamodb";
-#elif PLATFORM_IOS
-	LibraryPath.Empty();
 #elif PLATFORM_ANDROID
-	LibraryPath = FPaths::Combine(*BaseDir, TEXT("Lib/Android/arm64-v8a"));
+	LibraryPath = FPaths::Combine(*BaseDir, TEXT("Lib/Android/armeabi-v7a"));
 
 	m_Common = "libaws-c-common";
 	m_Checksums = "libaws-checksums";
 	m_Stream = "libaws-c-event-stream";
 	m_Core = "libaws-cpp-sdk-core";
 	m_DynamoDB = "libaws-cpp-sdk-dynamodb";
+#if PLATFORM_ANDROID_ARM64
+	LibraryPath = FPaths::Combine(*BaseDir, TEXT("Lib/Android/arm64-v8a"));
+#endif
 #endif
 
-	if (LibraryPath.Len() > 0)
+	if (!FAwsDynamoDBModule::LoadDependency(LibraryPath, m_Common, s_CommonLibs))
 	{
-		if (!FAwsDynamoDBModule::LoadDependency(LibraryPath, m_Common, s_CommonLibs))
-		{
-			FFormatNamedArguments Arguments;
-			Arguments.Add(TEXT("Name"), FText::FromString(m_Common));
-			FMessageDialog::Open(EAppMsgType::Ok, FText::Format(LOCTEXT("LoadDependencyError", "Failed to load {Name}. Plugin will not be functional"), Arguments));
-			FAwsDynamoDBModule::FreeDependency(s_CommonLibs);
-			return;
-		}
-
-		if (!FAwsDynamoDBModule::LoadDependency(LibraryPath, m_Checksums, s_ChecksumLibs))
-		{
-			FFormatNamedArguments Arguments;
-			Arguments.Add(TEXT("Name"), FText::FromString(m_Checksums));
-			FMessageDialog::Open(EAppMsgType::Ok, FText::Format(LOCTEXT("LoadDependencyError", "Failed to load {Name}. Plugin will not be functional"), Arguments));
-			FAwsDynamoDBModule::FreeDependency(s_ChecksumLibs);
-			return;
-		}
-
-		if (!FAwsDynamoDBModule::LoadDependency(LibraryPath, m_Stream, s_StreamLibs))
-		{
-			FFormatNamedArguments Arguments;
-			Arguments.Add(TEXT("Name"), FText::FromString(m_Stream));
-			FMessageDialog::Open(EAppMsgType::Ok, FText::Format(LOCTEXT("LoadDependencyError", "Failed to load {Name}. Plugin will not be functional"), Arguments));
-			FAwsDynamoDBModule::FreeDependency(s_StreamLibs);
-			return;
-		}
-
-		if (!FAwsDynamoDBModule::LoadDependency(LibraryPath, m_Core, s_CoreLibs))
-		{
-			FFormatNamedArguments Arguments;
-			Arguments.Add(TEXT("Name"), FText::FromString(m_Core));
-			FMessageDialog::Open(EAppMsgType::Ok, FText::Format(LOCTEXT("LoadDependencyError", "Failed to load {Name}. Plugin will not be functional"), Arguments));
-			FAwsDynamoDBModule::FreeDependency(s_CoreLibs);
-			return;
-		}
-
-		if (!FAwsDynamoDBModule::LoadDependency(LibraryPath, m_DynamoDB, s_DynamoDBLibs))
-		{
-			FFormatNamedArguments Arguments;
-			Arguments.Add(TEXT("Name"), FText::FromString(m_DynamoDB));
-			FMessageDialog::Open(EAppMsgType::Ok, FText::Format(LOCTEXT("LoadDependencyError", "Failed to load {Name}. Plugin will not be functional"), Arguments));
-			FAwsDynamoDBModule::FreeDependency(s_DynamoDBLibs);
-			return;
-		}
+		FFormatNamedArguments Arguments;
+		Arguments.Add(TEXT("Name"), FText::FromString(m_Common));
+		FMessageDialog::Open(EAppMsgType::Ok, FText::Format(LOCTEXT("LoadDependencyError", "Failed to load {Name}. Plugin will not be functional"), Arguments));
+		FAwsDynamoDBModule::FreeDependency(s_CommonLibs);
+		return;
 	}
-	
-	Aws::Utils::Logging::LogLevel LoggingLevel = Aws::Utils::Logging::LogLevel::Debug;
-	s_Options.loggingOptions.logLevel = LoggingLevel;
+
+	if (!FAwsDynamoDBModule::LoadDependency(LibraryPath, m_Checksums, s_ChecksumLibs))
+	{
+		FFormatNamedArguments Arguments;
+		Arguments.Add(TEXT("Name"), FText::FromString(m_Checksums));
+		FMessageDialog::Open(EAppMsgType::Ok, FText::Format(LOCTEXT("LoadDependencyError", "Failed to load {Name}. Plugin will not be functional"), Arguments));
+		FAwsDynamoDBModule::FreeDependency(s_ChecksumLibs);
+		return;
+	}
+
+	if (!FAwsDynamoDBModule::LoadDependency(LibraryPath, m_Stream, s_StreamLibs))
+	{
+		FFormatNamedArguments Arguments;
+		Arguments.Add(TEXT("Name"), FText::FromString(m_Stream));
+		FMessageDialog::Open(EAppMsgType::Ok, FText::Format(LOCTEXT("LoadDependencyError", "Failed to load {Name}. Plugin will not be functional"), Arguments));
+		FAwsDynamoDBModule::FreeDependency(s_StreamLibs);
+		return;
+	}
+
+	if (!FAwsDynamoDBModule::LoadDependency(LibraryPath, m_Core, s_CoreLibs))
+	{
+		FFormatNamedArguments Arguments;
+		Arguments.Add(TEXT("Name"), FText::FromString(m_Core));
+		FMessageDialog::Open(EAppMsgType::Ok, FText::Format(LOCTEXT("LoadDependencyError", "Failed to load {Name}. Plugin will not be functional"), Arguments));
+		FAwsDynamoDBModule::FreeDependency(s_CoreLibs);
+		return;
+	}
+
+	if (!FAwsDynamoDBModule::LoadDependency(LibraryPath, m_DynamoDB, s_DynamoDBLibs))
+	{
+		FFormatNamedArguments Arguments;
+		Arguments.Add(TEXT("Name"), FText::FromString(m_DynamoDB));
+		FMessageDialog::Open(EAppMsgType::Ok, FText::Format(LOCTEXT("LoadDependencyError", "Failed to load {Name}. Plugin will not be functional"), Arguments));
+		FAwsDynamoDBModule::FreeDependency(s_DynamoDBLibs);
+		return;
+	}
+
+	Aws::SDKOptions s_Options;
+
+	Aws::Utils::Logging::LogLevel m_LogLevel = Aws::Utils::Logging::LogLevel::Debug;
+	s_Options.loggingOptions.logLevel = m_LogLevel;
 
 #if PLATFORM_ANDROID
 	//Aws::Utils::Logging::InitializeAWSLogging(Aws::MakeShared<Aws::Utils::Logging::LogcatLogSystem>("AWS", Aws::Utils::Logging::LogLevel::Debug));
@@ -196,11 +194,11 @@ void FAwsDynamoDBModule::StartupModule()
 	jobject Obj = FAndroidApplication::GetGameActivityThis();
 	Aws::Platform::InitAndroid(Env, Obj);
 #else
-	//s_Options.loggingOptions.logger_create_fn = [LoggingLevel] { return std::make_shared<FDynamoDBConsoleLogger>(LoggingLevel); };
+	//s_Options.loggingOptions.logger_create_fn = [m_LogLevel] { return std::make_shared<FDynamoDBConsoleLogger>(m_LogLevel); };
 #endif
 
-	static FDynamoDBMemoryManager MemoryManager;
-	s_Options.memoryManagementOptions.memoryManager = &MemoryManager;
+	static FDynamoDBMemoryManager m_MemoryManager;
+	s_Options.memoryManagementOptions.memoryManager = &m_MemoryManager;
 	Aws::InitAPI(s_Options);
 #endif
 }
@@ -210,15 +208,11 @@ void FAwsDynamoDBModule::ShutdownModule()
 #if !DISABLE_DYNAMODB
 	LogVerbose("");
 
-#if !UE_EDITOR
-	Aws::ShutdownAPI(s_Options);
-#endif
-
-	/*FAwsDynamoDBModule::FreeDependency(s_CommonLibs);
+	FAwsDynamoDBModule::FreeDependency(s_CommonLibs);
 	FAwsDynamoDBModule::FreeDependency(s_ChecksumLibs);
 	FAwsDynamoDBModule::FreeDependency(s_StreamLibs);
 	FAwsDynamoDBModule::FreeDependency(s_CoreLibs);
-	FAwsDynamoDBModule::FreeDependency(s_DynamoDBLibs);*/
+	FAwsDynamoDBModule::FreeDependency(s_DynamoDBLibs);
 #endif
 }
 
@@ -226,28 +220,30 @@ bool FAwsDynamoDBModule::LoadDependency(const FString& path, const FString& file
 {
 	LogVerbose("");
 
-	FString FinalPath = FString::Printf(TEXT("%s/%s.dll"), *path, *fileName);
+	FString m_FinalPath = FString::Printf(TEXT("%s/%s.dll"), *path, *fileName);
 
 #if PLATFORM_ANDROID
-	FinalPath = FString::Printf(TEXT("%s.so"), *fileName);
+	m_FinalPath = FString::Printf(TEXT("%s.so"), *fileName);
 #endif
 #if PLATFORM_LINUX
-	FinalPath = FString::Printf(TEXT("%s/%s.so"), *path, *fileName);
+	m_FinalPath = FString::Printf(TEXT("%s/%s.so"), *path, *fileName);
 #endif
 #if PLATFORM_MAC
-	FinalPath = FString::Printf(TEXT("%s/%s.dylib"), *path, *fileName);
+	m_FinalPath = FString::Printf(TEXT("%s/%s.dylib"), *path, *fileName);
 #endif
 
-	handle = FPlatformProcess::GetDllHandle(*FinalPath);
+	handle = FPlatformProcess::GetDllHandle(*m_FinalPath);
 
 	if (handle == nullptr)
 	{
-		LogError(TEXT("Failed loading AwsDynamoDB %s"), *FinalPath);
+		LogError(TEXT("Failed loading AwsDynamoDB %s"), *m_FinalPath);
 
 		return false;
 	}
 
-	LogVerbose("Loaded %s", *FinalPath);
+	LogVerbose(TEXT("Loaded AwsDynamoDB %s"), *m_FinalPath);
+
+	UE_LOG(LogTemp, Warning, TEXT("%s Lib Loaded: %s "), *FString(__FUNCTION__), *m_FinalPath);
 
 	return true;
 }
