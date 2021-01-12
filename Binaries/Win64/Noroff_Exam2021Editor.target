@@ -172,6 +172,22 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/AwsDynamoDB/Binaries/Win64/UE4Editor-AwsDynamoDB.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AwsDynamoDB/Binaries/Win64/UE4Editor-AwsDynamoDB.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AsyncLoadingScreen/Binaries/Win64/UE4Editor-AsyncLoadingScreen.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AsyncLoadingScreen/Binaries/Win64/UE4Editor-AsyncLoadingScreen.pdb",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/SRombauts-UE4GitPlugin-2c11042/Binaries/Win64/UE4Editor-GitSourceControl.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -4492,6 +4508,14 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/AwsDynamoDB/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AsyncLoadingScreen/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/SRombauts-UE4GitPlugin-2c11042/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -4946,6 +4970,14 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/AwsDynamoDB/AwsDynamoDB.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AsyncLoadingScreen/AsyncLoadingScreen.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/SRombauts-UE4GitPlugin-2c11042/GitSourceControl.uplugin",
 			"Type": "UFS"
 		},
@@ -5360,6 +5392,30 @@
 		{
 			"Path": "$(EngineDir)/Plugins/XGEController/XGEController.uplugin",
 			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AwsDynamoDB/Source/ThirdParty/AwsDynamoDBLibrary/Bin/Win64/aws-c-common.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AwsDynamoDB/Source/ThirdParty/AwsDynamoDBLibrary/Bin/Win64/aws-c-event-stream.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AwsDynamoDB/Source/ThirdParty/AwsDynamoDBLibrary/Bin/Win64/aws-checksums.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AwsDynamoDB/Source/ThirdParty/AwsDynamoDBLibrary/Bin/Win64/aws-cpp-sdk-core.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AwsDynamoDB/Source/ThirdParty/AwsDynamoDBLibrary/Bin/Win64/aws-cpp-sdk-dynamodb.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AwsDynamoDB/Source/ThirdParty/AwsDynamoDBLibrary/Bin/Win64/aws-cpp-sdk-dynamodbstreams.dll",
+			"Type": "NonUFS"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/svn/Win64/apr_crypto_openssl-1.dll",

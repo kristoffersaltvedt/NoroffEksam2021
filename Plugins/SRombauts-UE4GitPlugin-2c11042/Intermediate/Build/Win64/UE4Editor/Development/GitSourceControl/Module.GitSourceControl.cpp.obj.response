@@ -31,7 +31,7 @@
 /wd4244
 /wd4838
 /I .
-/I C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private
+/I C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -232,7 +232,7 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AIModule
 /I Runtime\AIModule\Public
 /I Runtime\AIModule\Classes
-/I C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source
+/I C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -262,11 +262,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\PCH.GitSourceControl.h"
-/Yu"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\PCH.GitSourceControl.h"
-/Fp"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\PCH.GitSourceControl.h.pch"
-"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\Module.GitSourceControl.cpp"
-/Fo"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\Module.GitSourceControl.cpp.obj"
+/FI"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\PCH.GitSourceControl.h"
+/Yu"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\PCH.GitSourceControl.h"
+/Fp"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\PCH.GitSourceControl.h.pch"
+"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\Module.GitSourceControl.cpp"
+/Fo"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\Module.GitSourceControl.cpp.obj"
 /TP
 /GR-
 /W4

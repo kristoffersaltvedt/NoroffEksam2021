@@ -33,9 +33,9 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
-"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\PCH.GitSourceControl.h.obj"
-"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\Module.GitSourceControl.cpp.obj"
-"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\Default.rc2.res"
+"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\PCH.GitSourceControl.h.obj"
+"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\Module.GitSourceControl.cpp.obj"
+"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\Default.rc2.res"
 "C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
 "C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
 "C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\Slate\UE4Editor-Slate.lib"
@@ -70,8 +70,8 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Binaries\Win64\UE4Editor-GitSourceControl.dll"
-/IMPLIB:"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\UE4Editor-GitSourceControl.suppressed.lib"
-/PDB:"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Binaries\Win64\UE4Editor-GitSourceControl.pdb"
+/OUT:"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Binaries\Win64\UE4Editor-GitSourceControl.dll"
+/IMPLIB:"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Intermediate\Build\Win64\UE4Editor\Development\GitSourceControl\UE4Editor-GitSourceControl.suppressed.lib"
+/PDB:"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Binaries\Win64\UE4Editor-GitSourceControl.pdb"
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_GitSourceControl
