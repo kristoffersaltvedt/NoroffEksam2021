@@ -3,8 +3,6 @@
 .VC.db
 .VC.opendb
 
-WindowsNoEditor\
-
 \Build
 
 # Executables
@@ -24,7 +22,6 @@ WindowsNoEditor\
 *.sdf
 
 # Builds
-Build/
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build//
@@ -51,12 +48,6 @@ DerivedDataCache/
 
 SourceArt//.tga
 
-Intermediate/CachedAssetRegistry.bin
-Intermediate/
-
 plugins/SRombauts-UE4GitPlugin-2c11042
 *.log
 Binaries/Win64/Noroff_Exam2021.pdb
-WindowsNoEditor/Noroff_Exam2021/Content/Paks/Noroff_Exam2021-WindowsNoEditor.pak
-WindowsNoEditor/Noroff_Exam2021/Content/Paks/Noroff_Exam2021-WindowsNoEditor.pak
-WindowsNoEditor/

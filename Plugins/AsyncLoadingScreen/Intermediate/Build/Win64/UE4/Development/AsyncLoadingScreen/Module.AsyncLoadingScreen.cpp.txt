@@ -1,0 +1,50 @@
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Intermediate\Build\Win64\UE4\Development\AsyncLoadingScreen\Definitions.AsyncLoadingScreen.h
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/AsyncLoadingScreen/Source/AsyncLoadingScreen/Private/AsyncLoadingScreen.cpp
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Source\AsyncLoadingScreen\Public\AsyncLoadingScreen.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\MoviePlayer\Public\MoviePlayer.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Slate/SlateTextures.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Textures/SlateUpdatableTexture.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Source\AsyncLoadingScreen\Public\LoadingScreenSettings.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SScaleBox.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4\Inc\Slate\SScaleBox.generated.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Intermediate\Build\Win64\UE4\Inc\AsyncLoadingScreen\LoadingScreenSettings.generated.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Source\AsyncLoadingScreen\Public\SCenterLayout.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Source\AsyncLoadingScreen\Public\SLoadingScreenLayout.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Source\AsyncLoadingScreen\Public\SClassicLayout.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Source\AsyncLoadingScreen\Public\SLetterboxLayout.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Source\AsyncLoadingScreen\Public\SSidebarLayout.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Source\AsyncLoadingScreen\Public\SDualSidebarLayout.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Source\AsyncLoadingScreen\Public\AsyncLoadingScreenLibrary.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Intermediate\Build\Win64\UE4\Inc\AsyncLoadingScreen\AsyncLoadingScreenLibrary.generated.h
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/AsyncLoadingScreen/Source/AsyncLoadingScreen/Private/AsyncLoadingScreenLibrary.cpp
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/AsyncLoadingScreen/Source/AsyncLoadingScreen/Private/LoadingScreenSettings.cpp
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\FontImportOptions.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4\Inc\SlateCore\FontProviderInterface.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\Font.generated.h
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/AsyncLoadingScreen/Source/AsyncLoadingScreen/Private/SBackgroundWidget.cpp
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Source\AsyncLoadingScreen\Public\SBackgroundWidget.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Slate/DeferredCleanupSlateBrush.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\SlateCore\Public\Widgets/Images/SImage.h
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/AsyncLoadingScreen/Source/AsyncLoadingScreen/Private/SCenterLayout.cpp
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SSafeZone.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SDPIScaler.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Source\AsyncLoadingScreen\Public\SHorizontalLoadingWidget.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Source\AsyncLoadingScreen\Public\SLoadingWidget.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Widgets/Images/SThrobber.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Source\AsyncLoadingScreen\Public\SVerticalLoadingWidget.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Source\AsyncLoadingScreen\Public\STipWidget.h
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/AsyncLoadingScreen/Source/AsyncLoadingScreen/Private/SClassicLayout.cpp
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SSpacer.h
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/AsyncLoadingScreen/Source/AsyncLoadingScreen/Private/SDualSidebarLayout.cpp
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/AsyncLoadingScreen/Source/AsyncLoadingScreen/Private/SHorizontalLoadingWidget.cpp
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/AsyncLoadingScreen/Source/AsyncLoadingScreen/Private/SLetterboxLayout.cpp
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/AsyncLoadingScreen/Source/AsyncLoadingScreen/Private/SLoadingScreenLayout.cpp
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/UserInterfaceSettings.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\UserInterfaceSettings.generated.h
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/AsyncLoadingScreen/Source/AsyncLoadingScreen/Private/SLoadingWidget.cpp
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/AsyncLoadingScreen/Source/AsyncLoadingScreen/Private/SSidebarLayout.cpp
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/AsyncLoadingScreen/Source/AsyncLoadingScreen/Private/STipWidget.cpp
+C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/AsyncLoadingScreen/Source/AsyncLoadingScreen/Private/SVerticalLoadingWidget.cpp
