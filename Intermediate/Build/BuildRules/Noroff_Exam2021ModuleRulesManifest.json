@@ -1,9 +1,12 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffEksam2021\\Source\\Noroff_Exam2021\\Noroff_Exam2021.Build.cs",
-		"C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffEksam2021\\Plugins\\SRombauts-UE4GitPlugin-2c11042\\Source\\GitSourceControl\\GitSourceControl.Build.cs",
-		"C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffEksam2021\\Source\\Noroff_Exam2021.Target.cs",
-		"C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffEksam2021\\Source\\Noroff_Exam2021Editor.Target.cs"
+		"C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffExam2021\\Source\\Noroff_Exam2021\\Noroff_Exam2021.Build.cs",
+		"C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffExam2021\\Plugins\\AsyncLoadingScreen\\Source\\AsyncLoadingScreen\\AsyncLoadingScreen.Build.cs",
+		"C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffExam2021\\Plugins\\AwsDynamoDB\\Source\\AwsDynamoDB\\AwsDynamoDB.Build.cs",
+		"C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffExam2021\\Plugins\\AwsDynamoDB\\Source\\ThirdParty\\AwsDynamoDBLibrary.Build.cs",
+		"C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffExam2021\\Plugins\\SRombauts-UE4GitPlugin-2c11042\\Source\\GitSourceControl\\GitSourceControl.Build.cs",
+		"C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffExam2021\\Source\\Noroff_Exam2021.Target.cs",
+		"C:\\Users\\krist\\OneDrive\\Dokumenter\\GitHub\\NoroffExam2021\\Source\\Noroff_Exam2021Editor.Target.cs"
 	],
 	"EngineVersion": "4.26.0"
 }

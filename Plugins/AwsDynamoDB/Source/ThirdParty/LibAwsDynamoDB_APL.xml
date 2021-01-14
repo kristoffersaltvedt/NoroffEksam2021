@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--LibAwsDynamoDB plugin additions-->
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+  <init>
+    <log text="LibAwsDynamoDB init"/>
+    <setBool result="bSupported" value="false"/>
+    <isArch arch="armeabi-v7a">
+      <setBool result="bSupported" value="true"/>
+    </isArch>
+    <isArch arch="arm64-v8a">
+      <setBool result="bSupported" value="true"/>
+    </isArch>
+  </init>
+
+  <resourceCopies>
+    <isArch arch="armeabi-v7a">
+      <log text="Copying libaws-c-common.so"/>
+      <copyFile src="$S(PluginDir)/AwsDynamoDBLibrary/Lib/Android/armeabi-v7a/libaws-c-common.so" dst="$S(BuildDir)/libs/armeabi-v7a/libaws-c-common.so" />
+      <log text="Copying libaws-c-event-stream.so"/>
+      <copyFile src="$S(PluginDir)/AwsDynamoDBLibrary/Lib/Android/armeabi-v7a/libaws-c-event-stream.so" dst="$S(BuildDir)/libs/armeabi-v7a/libaws-c-event-stream.so" />
+      <log text="Copying libaws-checksums.so"/>
+      <copyFile src="$S(PluginDir)/AwsDynamoDBLibrary/Lib/Android/armeabi-v7a/libaws-checksums.so" dst="$S(BuildDir)/libs/armeabi-v7a/libaws-checksums.so" />
+      <log text="Copying libaws-cpp-sdk-core.so"/>
+      <copyFile src="$S(PluginDir)/AwsDynamoDBLibrary/Lib/Android/armeabi-v7a/libaws-cpp-sdk-core.so" dst="$S(BuildDir)/libs/armeabi-v7a/libaws-cpp-sdk-core.so" />
+      <log text="Copying libaws-cpp-sdk-dynamodb"/>
+      <copyFile src="$S(PluginDir)/AwsDynamoDBLibrary/Lib/Android/armeabi-v7a/libaws-cpp-sdk-dynamodb.so" dst="$S(BuildDir)/libs/armeabi-v7a/libaws-cpp-sdk-dynamodb.so" />
+      <log text="Copying libaws-cpp-sdk-dynamodbstreams.so"/>
+      <copyFile src="$S(PluginDir)/AwsDynamoDBLibrary/Lib/Android/armeabi-v7a/libaws-cpp-sdk-dynamodbstreams.so" dst="$S(BuildDir)/libs/armeabi-v7a/libaws-cpp-sdk-dynamodbstreams.so" />
+    </isArch>
+    <isArch arch="arm64-v8a">
+      <log text="Copying libaws-c-common.so"/>
+      <copyFile src="$S(PluginDir)/AwsDynamoDBLibrary/Lib/Android/arm64-v8a/libaws-c-common.so" dst="$S(BuildDir)/libs/arm64-v8a/libaws-c-common.so" />
+      <log text="Copying libaws-c-event-stream.so"/>
+      <copyFile src="$S(PluginDir)/AwsDynamoDBLibrary/Lib/Android/arm64-v8a/libaws-c-event-stream.so" dst="$S(BuildDir)/libs/arm64-v8a/libaws-c-event-stream.so" />
+      <log text="Copying libaws-checksums.so"/>
+      <copyFile src="$S(PluginDir)/AwsDynamoDBLibrary/Lib/Android/arm64-v8a/libaws-checksums.so" dst="$S(BuildDir)/libs/arm64-v8a/libaws-checksums.so" />
+      <log text="Copying libaws-cpp-sdk-core.so"/>
+      <copyFile src="$S(PluginDir)/AwsDynamoDBLibrary/Lib/Android/arm64-v8a/libaws-cpp-sdk-core.so" dst="$S(BuildDir)/libs/arm64-v8a/libaws-cpp-sdk-core.so" />
+      <log text="Copying libaws-cpp-sdk-dynamodb.so"/>
+      <copyFile src="$S(PluginDir)/AwsDynamoDBLibrary/Lib/Android/arm64-v8a/libaws-cpp-sdk-dynamodb.so" dst="$S(BuildDir)/libs/arm64-v8a/libaws-cpp-sdk-dynamodb.so" />
+      <log text="Copying libaws-cpp-sdk-dynamodbstreams.so"/>
+      <copyFile src="$S(PluginDir)/AwsDynamoDBLibrary/Lib/Android/arm64-v8a/libaws-cpp-sdk-dynamodbstreams.so" dst="$S(BuildDir)/libs/arm64-v8a/libaws-cpp-sdk-dynamodbstreams.so" />
+    </isArch>
+    <log text="Copying cacert.pem"/>
+    <copyFile src="$S(PluginDir)/cacert.pem" dst="$S(BuildDir)/cacert.pem" />
+  </resourceCopies>
+
+  <proguardAdditions>
+    <insert>
+      -dontwarn com.eelDev.**
+      -keep class com.eelDev.** { *; }
+      -keep interface com.eelDev.** { *; }
+
+      -dontwarn androidx.**
+      -keep class androidx.** { *; }
+      -keep interface androidx.** { *; }
+    </insert>
+  </proguardAdditions>
+
+  <baseBuildGradleAdditions>
+    <if condition="bSupported">
+      <true>
+        <insert>
+          allprojects {
+          repositories {
+          repositories {
+          flatDir {
+        </insert>
+        <insertValue value="dirs '$S(PluginDir)/Bin'"/>
+        <insertNewline/>
+        <insert>
+          }
+          }
+          }
+          }
+        </insert>
+      </true>
+    </if>
+  </baseBuildGradleAdditions>
+
+  <androidManifestUpdates>
+    <addPermission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <addPermission android:name="android.permission.INTERNET"/>
+    <addPermission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  </androidManifestUpdates>
+
+  <soLoadLibrary>
+    <if condition="bSupported">
+      <true>
+        <loadLibrary name="aws-c-common" failmsg="aws-c-common library not loaded!" />
+        <loadLibrary name="aws-c-event-stream" failmsg="aws-c-event-stream library not loaded!" />
+        <loadLibrary name="aws-checksums" failmsg="aws-checksums library not loaded!" />
+        <loadLibrary name="aws-cpp-sdk-core" failmsg="aws-cpp-sdk-core library not loaded!" />
+        <loadLibrary name="aws-cpp-sdk-dynamodb" failmsg="aws-cpp-sdk-dynamodb library not loaded!" />
+        <loadLibrary name="aws-cpp-sdk-dynamodbsteams" failmsg="aws-cpp-sdk-dynamodbsteams library not loaded!" />
+      </true>
+    </if>
+  </soLoadLibrary>
+</root>
