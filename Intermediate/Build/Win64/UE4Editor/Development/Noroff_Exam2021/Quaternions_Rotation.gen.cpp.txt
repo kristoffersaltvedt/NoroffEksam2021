@@ -1,5 +1,0 @@
-C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Intermediate\Build\Win64\UE4Editor\Development\Noroff_Exam2021\Definitions.Noroff_Exam2021.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Source\Noroff_Exam2021/Public/Quaternions_Rotation.h
-C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Intermediate\Build\Win64\UE4Editor\Inc\Noroff_Exam2021\Quaternions_Rotation.generated.h
