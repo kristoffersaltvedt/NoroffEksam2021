@@ -1,0 +1,2 @@
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Intermediate\Build\Win64\UE4Editor\Development\Noroff_Exam2021\Definitions.Noroff_Exam2021.h
+C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Source\Noroff_Exam2021\Noroff_Exam2021.h
