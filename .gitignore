@@ -22,7 +22,6 @@
 *.sdf
 
 # Builds
-Build/
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build//
@@ -49,9 +48,12 @@ DerivedDataCache/
 
 SourceArt//.tga
 
+<<<<<<< HEAD
 Intermediate/CachedAssetRegistry.bin
 Intermediate/
 
+=======
+>>>>>>> Kriss-V5
 plugins/SRombauts-UE4GitPlugin-2c11042
 *.log
 Binaries/Win64/Noroff_Exam2021.pdb

@@ -1,4 +1,4 @@
-// PCH for C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffEksam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlPrivatePCH.h
+// PCH for C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\SRombauts-UE4GitPlugin-2c11042\Source\GitSourceControl\Private\GitSourceControlPrivatePCH.h
 #define IS_PROGRAM 0
 #define UE_EDITOR 1
 #define ENABLE_PGO_PROFILE 0
@@ -278,4 +278,4 @@
 #define WITH_GAMEPLAY_DEBUGGER 1
 #define AIMODULE_API DLLIMPORT
 #define GITSOURCECONTROL_API DLLEXPORT
-#include "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffEksam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlPrivatePCH.h"
+#include "C:/Users/krist/OneDrive/Dokumenter/GitHub/NoroffExam2021/Plugins/SRombauts-UE4GitPlugin-2c11042/Source/GitSourceControl/Private/GitSourceControlPrivatePCH.h"

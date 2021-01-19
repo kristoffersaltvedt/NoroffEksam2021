@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-AsyncLoadingScreen.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Intermediate\Build\Win64\Noroff_Exam2021Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Intermediate\Build\Win64\UE4Editor\Development\AsyncLoadingScreen\Module.AsyncLoadingScreen.cpp.obj"
+"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Intermediate\Build\Win64\UE4Editor\Development\AsyncLoadingScreen\Module.AsyncLoadingScreen.gen.cpp.obj"
+"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Intermediate\Build\Win64\UE4Editor\Development\AsyncLoadingScreen\Default.rc2.res"
+/OUT:"C:\Users\krist\OneDrive\Dokumenter\GitHub\NoroffExam2021\Plugins\AsyncLoadingScreen\Intermediate\Build\Win64\UE4Editor\Development\AsyncLoadingScreen\UE4Editor-AsyncLoadingScreen.lib"
+/INCLUDE:IMPLEMENT_MODULE_AsyncLoadingScreen
